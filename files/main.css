@@ -409,7 +409,8 @@ a {
    }
 
    .first_main_column {width: 100%;}
-   .third_main_column {margin: 0 auto;}
+   .third_main_column {margin: 0 auto; max-width: 400px;}
+   .table {margin-left: auto; margin-right: auto; margin-top: 0;}
 
    .char__mod {
       flex-direction: column;
