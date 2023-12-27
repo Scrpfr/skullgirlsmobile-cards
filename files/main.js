@@ -887,6 +887,7 @@ function pageGenerator() {
       <h2 class="head head_mt">Дополнительная информация</h2>
    `;
    skullgirls.insertAdjacentHTML('beforeend', page);
+   closer();
 };
 supports_all()
 function supports_all() {
@@ -903,7 +904,9 @@ function opener() {
    aside.classList.add('btn_active');
 }
 function closer() {
-   aside.classList.remove('btn_active');
+   if (innerWidth < 1340) {
+      aside.classList.remove('btn_active');
+   }
 }
 function supports() {
    let p = `<p style="text-align: center;">Подходящие саппорты</p><div id="supp_ntfc"></div>`;
