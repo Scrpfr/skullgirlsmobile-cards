@@ -124,9 +124,10 @@ a {
    display: grid;
    grid-template-areas: "a b c d";
 }
-.first_main_column {max-width: 400px;}
-.second_main_column {max-width: 500px;}
-.third_main_column {max-width: 260px;}
+.first_main_column {grid-area: a; max-width: 400px;}
+.second_main_column {grid-area: b; max-width: 500px;}
+.third_main_column {grid-area: c; max-width: 260px;}
+.card_img {grid-area: d;}
 
 .indent p {text-indent: 14px;}
 
