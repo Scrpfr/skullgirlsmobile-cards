@@ -388,7 +388,7 @@ a {
    .build__column {
       width: auto;
       flex-wrap: nowrap;
-      align-items: center;
+      align-items: start;
    }
 
    .head_mt {
