@@ -183,8 +183,8 @@ list = `
          <li onclick="()" class="empty">Жуткая пятница</li>
          <li onclick="firefly()">Светлячок</li>
          <li onclick="biting_cold()">Кусачий мороз</li>
-         <li onclick="()" class="empty">Пчёлы-убийцы</li>
-         <li onclick="()" class="empty">Оголённый нерв</li>
+         <li onclick="buzzkill()">Пчёлы-убийцы</li>
+         <li onclick="raw_nerv()">Оголённый нерв</li>
          <li onclick="()" class="empty">Мрачное фанданго</li>
          <li onclick="()" class="empty">Паутинник</li>
          <li onclick="()" class="empty">Мухоловка</li>
