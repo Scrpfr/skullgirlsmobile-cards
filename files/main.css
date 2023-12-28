@@ -433,7 +433,7 @@ a {
 @media (max-width: 450px) {
    .second_main_column {width: auto;}
    .stats__column {width: auto;}
-   .stats {flex-direction: column;}
+   .stats {flex-direction: column;  row-gap: 20px;}
    .build__list {width: auto;}
    .supp_card {width: 100%;}
 }
