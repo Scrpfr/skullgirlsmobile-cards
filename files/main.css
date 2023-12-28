@@ -128,6 +128,7 @@ a {
 .second_main_column {grid-area: b; max-width: 500px;}
 .third_main_column {grid-area: c; max-width: 260px;}
 .card_img {grid-area: d;}
+.second_main_column p:last-child {margin-top: 10px;}
 
 .indent p {text-indent: 14px;}
 
