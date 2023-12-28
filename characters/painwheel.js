@@ -108,3 +108,55 @@ function biting_cold() {
    skullgirls.replaceChildren();
    pageGenerator();
 }
+function buzzkill() {
+   person.card_name = 'Пчёлы-убийцы';
+   person.aka = 'Пчела';
+   person.card_src = 'Buzzkill.png';
+   person.description = 'Красивая палитра и слабая абилка. Раньше использовалась из-за сильного кровотечения, которое стакается с обычным от приёмов, и буста урона. Но Пятница переиграла пчелу в полезности, а с выходом военного преступника (георгин), которая позволяет просто находясь в команде накладывать сильное кровотечение любым активным персонажем, пчела полностью забылась и никому не нужна.';
+   person.ability = 'При ударе шанс 10% наложить сильное кровотечение на 10 сек, а когда здоровье противника опускается ниже 25%, получает постоянное бешенство.';
+   person.marquee1 = `${painwheel.marquee1}`;
+   person.marquee2 = `${painwheel.marquee2} Основной выбор`;
+   person.prestige_description = `${painwheel.prestige}`;
+   person.prestige_activation = `${painwheel.p_active}`;
+   person.at = '14,343';
+   person.hp = '41,165';
+   person.atk_stats = ['Точность', 'Атака', 'Проницание', 'Криты'];
+   person.def_stats = ['В дд статах'];
+   person.build_1_img = 'painwheel/Pinion_Dash.png';
+   person.build_2_img = 'painwheel/Gae_Bolga_Stinger.png';
+   person.build_3_img = 'painwheel/Death_Crawl.png';
+   person.build_4_img = 'painwheel/Fracture_Reaper.png';
+   person.build_1_desc = 'Мета приём.';
+   person.build_2_desc = 'Используется для комбинаций.';
+   person.build_3_desc = 'Может наложить кровотоки.';
+   person.build_4_desc = 'Может наложить метку смерти.';
+   person.supps = ['joy', 'honormaid', 'persona'];
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+}
+function raw_nerv() {
+   person.card_name = 'Оголённый нерв';
+   person.aka = 'Нерв';
+   person.card_src = 'Raw_Nerv.png';
+   person.description = 'Очередная бесполезная вариация. Единственный плюс - это возможность наложить постоянную (несъемную) метку смерти, но за счёт здоровья (или жизни) нерва, к тому же напрасно если у врага иммунитет или сработает сопротивление. Да и метка смерти не стоит таких действий, хотя перманентная и временная складываются. Прокачивать не стоит эту вариацию.';
+   person.ability = 'Когда здоровье становится ниже 50%, получает постоянные бешенство и ускорение. Когда здоровье становится ниже 25%, накладывает постоянную метку смерти противнику.';
+   person.marquee1 = `${painwheel.marquee1}`;
+   person.marquee2 = `${painwheel.marquee2}`;
+   person.prestige_description = `${painwheel.prestige}`;
+   person.prestige_activation = `${painwheel.p_active}`;
+   person.at = '12,480';
+   person.hp = '45,716';
+   person.atk_stats = ['Только саппорт'];
+   person.def_stats = ['Только саппорт'];
+   person.build_1_img = 'painwheel/Buer_Overdrive.png';
+   person.build_2_img = 'painwheel/Pinion_Dash.png';
+   person.build_3_img = 'painwheel/Buer_Thresher.png';
+   person.build_4_img = 'painwheel/Fracture_Reaper.png';
+   person.build_1_desc = 'Снижает шкалу блокбастеров врага.';
+   person.build_2_desc = 'Мета приём.';
+   person.build_3_desc = 'Резкая контратака.';
+   person.build_4_desc = 'Может наложить метку смерти.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
