@@ -361,7 +361,7 @@ a {
 
    .aside ul li ul.nav_active {
       position: absolute;
-      top: 20rem;
+      top: 24rem;
       right: 4px;
       text-align: right;
    }
@@ -425,6 +425,7 @@ a {
    .card .head {padding-top: 50px;}
    .aside {
       width: 100%;
+      overflow: overlay;
       background-color: var(--aside-bg);
    }
 }
