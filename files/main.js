@@ -826,7 +826,8 @@ let supports_list = [
 ];
 function atkList() {return person.atk_stats.map(item => `<li>${item}</li>`)}
 function defList() {return person.def_stats.map(item => `<li>${item}</li>`)}
-pageGenerator()
+pageGenerator();
+hideNeedless();
 function pageGenerator() {
    const page = `
    <h2 class="head">${person.card_name} <span class="aka">a.k.a. ${person.aka}</span></h2>
@@ -889,6 +890,17 @@ function pageGenerator() {
    skullgirls.insertAdjacentHTML('beforeend', page);
    closer();
 };
+
+function hideNeedless() {
+   if (innerWidth < 671) {
+      document.querySelector('.head').replaceChildren();
+      document.querySelector('.second_main_column').replaceChildren();
+      document.querySelector('.third_main_column').replaceChildren();
+      document.querySelector('.card_img').replaceChildren();
+      document.querySelector('.stats__column').replaceChildren();
+   }
+}
+
 supports_all()
 function supports_all() {
    let a = `<p style="text-align: center;">Все саппорты в игре</p><div id="supp_ntfc"></div>`;
