@@ -150,7 +150,7 @@ list = `
          <li onclick="()" class="empty">Угрюмая колдунья</li>
          <li onclick="()" class="empty">Призрачная пастушка</li>
          <li onclick="()" class="empty">Змея-заклинательница</li>
-         <li onclick="()" class="empty">Рыцарь-горничная</li>
+         <li onclick="maid_of_honor()">Рыцарь-горничная</li>
          <li onclick="()" class="empty">Октоплазма</li>
          <li onclick="()" class="empty">Охотница с пылесосом</li>
          <li onclick="()" class="empty">Тёмная лошадка</li>
