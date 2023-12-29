@@ -25,7 +25,7 @@ function denile() {
    person.build_4_img = 'eliza/Chaos_Banish.png';
    person.build_1_desc = 'Сехмет с шансом дать проклятье.';
    person.build_2_desc = 'Сехмет с шансом получить бешенство.';
-   person.build_3_desc = 'Сехмет с шансом дать кровотечение и блок исцеления..';
+   person.build_3_desc = 'Сехмет с шансом дать кровотечение и блок исцеления.';
    person.build_4_desc = 'Снимает все положительные эффекты врага.';
    skullgirls.replaceChildren();
    pageGenerator();
@@ -51,7 +51,7 @@ function decrypted() {
    person.build_4_img = 'eliza/Chaos_Banish.png';
    person.build_1_desc = 'Сехмет с шансом дать проклятье.';
    person.build_2_desc = 'Сехмет с шансом получить бешенство.';
-   person.build_3_desc = 'Сехмет с шансом дать кровотечение и блок исцеления..';
+   person.build_3_desc = 'Сехмет с шансом дать кровотечение и блок исцеления.';
    person.build_4_desc = 'Снимает все положительные эффекты врага.';
    skullgirls.replaceChildren();
    pageGenerator();
