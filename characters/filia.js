@@ -162,7 +162,7 @@ function class_cutter() {
    person.build_2_desc = 'Подбрасывает и наносит раскол брони.';
    person.build_3_desc = 'Мета приём.';
    person.build_4_desc = 'Атака вперёд.';
-   person.supps = ['peashooter', 'harlequin', 'surgeon'];
+   person.supps = ['peashooter', 'harlequin', 'horse'];
    person.build_form_name1 = 'Основной билд для МК';
    person.build_form_path1 = '<img src="files/moves/filia/build1_class_cutter.jpg">';
    person.build_form_name2 = 'Фановый билд для МК';
