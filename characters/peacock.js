@@ -58,7 +58,7 @@ function sketchy() {
 
 function inkling() {
    person.card_name = 'Чернильница';
-   person.aka = 'Чернила';
+   person.aka = 'Инк';
    person.card_src = 'Inkling.png';
    person.description = 'Огромный урон и неблокируемые атаки, эта карточка точно стоит прокачки. В основном, требует хорошую прокачку статов, желательно максимальные 50% перезарядки приёмов, но для новичков тоже подойдёт.';
    person.ability = 'Бонус 25% к урону за каждого живого союзника, особые приёмы с шансом 25% неблокируемы пока живы союзники.';
@@ -78,7 +78,7 @@ function inkling() {
    person.build_2_desc = '3 нажатия = 3 выстрела.';
    person.build_3_desc = 'Медленная бомбочка.';
    person.build_4_desc = 'Быстрая бомбочка с края карты.';
-   person.supps = ['joy', 'peashooter', 'harlequin'];
+   person.supps = ['horse', 'peashooter', 'harlequin'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
@@ -106,7 +106,7 @@ function mean_one() {
    person.build_2_desc = 'Может оглушить противника.';
    person.build_3_desc = 'Может снять с противника все положительные эффекты.';
    person.build_4_desc = 'Выпустить бомбочку.';
-   person.supps = ['surgeon', 'peashooter', 'evergreen'];
+   person.supps = ['seraph', 'peashooter', 'evergreen'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
