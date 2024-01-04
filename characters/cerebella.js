@@ -142,7 +142,7 @@ function harlequin() {
    person.card_name = 'Арлекин';
    person.aka = 'Арля';
    person.card_src = 'Harlequin.png';
-   person.description = 'Самая популярная карточка Церебеллы, используется и как атакующая, и как саппорт. Алмазить точно стоит.';
+   person.description = 'Самая популярная карточка Церебеллы, используется и как атакующая, и как саппорт. Можно гарантированно получить в быстрых играх церебеллы, в золоте набрав 10 миллионов очков, в алмазе 30 миллионов. Алмазить точно стоит.';
    person.ability = 'Для себя и для всех союзников увеличивает урон особых приёмов на 20% и их перезарядку на 35%';
    person.marquee1 = `${cerebella.marquee1} ЛУЧШИЙ выбор.`;
    person.marquee2 = `${cerebella.marquee2}`;
@@ -169,7 +169,7 @@ function brain_freeze() {
    person.card_name = 'Отмороженная';
    person.aka = 'Отморозок';
    person.card_src = 'Brain_Freeze.png';
-   person.description = 'В золоте - вполне хороший персонаж, универсальный. Но в алмазе слабая и нет применения, не рекомендуется алмазить.';
+   person.description = 'В золоте - вполне хороший персонаж, универсальный. Но в алмазе слабая и нет применения, не рекомендуется качать.';
    person.ability = 'Урон повышается на 3% от текущего здоровья. Урон противника снижается на 3% за каждое комбо.';
    person.marquee1 = `${cerebella.marquee1}`;
    person.marquee2 = `${cerebella.marquee2}`;
@@ -177,7 +177,7 @@ function brain_freeze() {
    person.prestige_activation = `${cerebella.p_active}`;
    person.at = '11,271';
    person.hp = '68,602';
-   person.atk_stats = ['Здоровье', 'Атака', 'Проницание', 'Криты'];
+   person.atk_stats = ['Здоровье', 'Атака', 'Проницание', 'Прирост шкалы'];
    person.def_stats = ['Здоровье', 'Защита', 'Атака', 'Сопрот криту'];
    person.build_1_img = 'cerebella/Battle_Butt.png';
    person.build_2_img = 'cerebella/Lock_n_Load.png';
@@ -198,8 +198,8 @@ function armed_forces() {
    person.card_src = 'Armed_Forces.png';
    person.description = 'Очень сильный защитный золотой персонаж, в алмазе не самый шикарный деф, легко контрится. Но алмазить можно.';
    person.ability = 'Шанс 10% получить броню и непоколебимость при получении или нанесении удара (включая блок). И шанс перенести 1 отрицательный эффект на противника при получении положительного.';
-   person.marquee1 = `${cerebella.marquee1}`;
-   person.marquee2 = `${cerebella.marquee2} Не рекомендуется прокачивать.`;
+   person.marquee1 = `${cerebella.marquee1} Основной выбор.`;
+   person.marquee2 = `${cerebella.marquee2}`;
    person.prestige_description = `${cerebella.prestige}`;
    person.prestige_activation = `${cerebella.p_active}`;
    person.at = '9,581';
@@ -223,10 +223,10 @@ function criminal_mind() {
    person.card_name = 'Преступный умысел';
    person.aka = 'Кумыс';
    person.card_src = 'Criminal_Mind.png';
-   person.description = 'Весьма сильная карточка из церебелл в плане урона, прокачивают с упором на шанс крита, а из-за него не стоит играть против пейнвил и далий. Хорошо себя чувствует в быстрых играх на 30-50 рядах, также может быть на защите из-за хорошего запаса здоровья и шипов. Не для новичков, так как требует высоких, прокачанных статов.';
+   person.description = 'Весьма сильная карточка из церебелл в плане урона, прокачивают с упором на шанс крита, а из-за него не стоит играть против пейнвил и далий. Хорошо себя чувствует в быстрых играх до 40 рядов, также может быть на защите из-за хорошего запаса здоровья и шипов. Не для новичков, так как требует высоких, прокачанных статов.';
    person.ability = 'Когда любой персонаж отнимает не менее 10% макс здоровья одним ударом, дает вам шипы на 10 сек и метку смерти на противника, а также накладывает им кровотечение на 5 секунд при отскоке под действием метки смерти.';
-   person.marquee1 = `${cerebella.marquee1}`;
-   person.marquee2 = `${cerebella.marquee2} Не рекомендуется прокачивать.`;
+   person.marquee1 = `${cerebella.marquee1} Основной выбор.`;
+   person.marquee2 = `${cerebella.marquee2}`;
    person.prestige_description = `${cerebella.prestige}`;
    person.prestige_activation = `${cerebella.p_active}`;
    person.at = '12,960';
@@ -257,8 +257,8 @@ function blitz_glamour() {
    person.card_src = 'Blitz_Glamour.png';
    person.description = 'Очень крутая карточка если вам нужен постоянный иммунитет и накладывать полярность. Играть можно как преступным умыслом - давить уроном, а можно накладывать полярность и ждать когда регенерация врага убьёт его (хорошая тактика против валентайн - жадность убийцы).';
    person.ability = 'На своей стороне, каждые 5 сек снимает все отрицательные эффекты и получает постоянные иммунитет и регенерацию, снимаются при нокдауне. На стороне противника, при ударе шанс 15% наложить обратную полярность и раскол брони на 10 сек.';
-   person.marquee1 = `${cerebella.marquee1}`;
-   person.marquee2 = `${cerebella.marquee2} Не рекомендуется прокачивать.`;
+   person.marquee1 = `${cerebella.marquee1} Основной выбор.`;
+   person.marquee2 = `${cerebella.marquee2}`;
    person.prestige_description = `${cerebella.prestige}`;
    person.prestige_activation = `${cerebella.p_active}`;
    person.at = '11,271';
@@ -283,7 +283,7 @@ function heavy_handed() {
    person.card_name = 'Тяжёлая рука';
    person.aka = 'Рука';
    person.card_src = 'Heay_Handed.png';
-   person.description = 'Задуманная как атакующая алмазная Церебелла, очень плохо себя проявляет и не рекомендуется прокачивать. Но если сильно хочется, можно прокачать в защиту. Иногда даёт попотеть против себя.';
+   person.description = 'Задуманная как атакующая алмазная Церебелла, очень плохо себя проявляет и не рекомендуется прокачивать. Как исключение, можно поставить в защиту с 3 таранами и 2 взрывами, иногда даёт попотеть против себя.';
    person.ability = 'В заряженном состоянии каждые 0,1 сек дает безвременные баффы бешенства, а при достижении 5 стаков получает непоколебимость на 10 сек. Эти эффекты снимаются при нанесении удара.';
    person.marquee1 = `${cerebella.marquee1}`;
    person.marquee2 = `${cerebella.marquee2}`;
@@ -308,7 +308,7 @@ function star_spangled() {
    person.card_name = 'Звёзды и полосы';
    person.aka = 'Полоска';
    person.card_src = 'Star-Spangled.png';
-   person.description = 'Достаточно странная карточка: атакующая абилка и большое здоровье. Но абилку реализовать сложно и здоровье ей не помогает держать защиту. Не рекомендуется прокачивать, очень слабый персонаж.';
+   person.description = 'Весьма странная карточка: атакующая абилка и большое здоровье. Но абилку реализовать сложно и здоровье ей не помогает держать защиту. Не рекомендуется прокачивать, очень слабый персонаж.';
    person.ability = 'Когда любой персонаж прерывает захват, дает врагу раскол брони на 15 сек. Под расколом, и если враг в воздухе, шанс 15% при ударе оглушить врага на 5 сек.';
    person.marquee1 = `${cerebella.marquee1}`;
    person.marquee2 = `${cerebella.marquee2}`;
