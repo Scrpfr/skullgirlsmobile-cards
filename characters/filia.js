@@ -87,11 +87,43 @@ function ms_frosty() {
    pageGenerator();
 }
 
+function parasite_weave() {
+   person.card_name = 'Паразит';
+   person.aka = 'Паразитка';
+   person.card_src = 'Parasite_Weave.png';
+   person.description = 'Усиленная трава: больше урон, замедления, оглушения. Требует хороший билд: шанс крита почти 100%, чтобы активировалась абилка. В таком случае не получится сражаться против Далий и Пейнвил.';
+   person.ability = 'Критический удар с шансом 50% наложит противнику замедление на 10 сек и оглушение на 3 сек, если еще нет замедления. По оглушённому врагу удар с шансом 15% наложит кровотечение на 5 сек.';
+   person.marquee1 = `${filia.marquee1}`;
+   person.marquee2 = `${filia.marquee2} Основной выбор.`;
+   person.prestige_description = `${filia.prestige}`;
+   person.prestige_activation = `${filia.p_active}`;
+   person.at = '10,100';
+   person.hp = '53,357';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'filia/Drill_Tempered.png';
+   person.build_2_img = 'filia/Widows_Peak.png';
+   person.build_3_img = 'filia/Ringlet_Spike.png';
+   person.build_4_img = 'filia/Gregor_Samson.png';
+   person.build_1_desc = 'Шанс снять все положительные эффекты.';
+   person.build_2_desc = 'Подбрасывает и наносит раскол брони.';
+   person.build_3_desc = 'Мета приём.';
+   person.build_4_desc = 'Атака вперёд.';
+   person.supps = ['peashooter', 'harlequin', 'seraph'];
+   person.build_form_name1 = 'Финальный билд для Филии, к которому стоит стремиться';
+   person.build_form_path1 = '<img src="files/moves/filia/build1_class_cutter.jpg">';
+   person.build_form_name2 = 'Видеоурок как пользоваться шипами';
+   person.build_form_path2 = '<iframe width="560" height="315" src="https://www.youtube.com/embed/Gucp2ss3YSE?si=1Z2nqpn9sNPfQoVj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+   buildLoad();
+}
 function dreadlocks() {
    person.card_name = 'Локоны-убийцы';
    person.aka = 'Дрэд';
    person.card_src = 'Dread_Locks.png';
-   person.description = 'Это защитный персонаж, основанный на отражении урона. В рифтах стоит поставить под катализаторы "Светлое начало" и "Последнее слово". Не рекомендуют прокачивать: достаточно низкий запас здоровья и контрится любой валей с битом.';
+   person.description = 'Это защитный персонаж, основанный на отражении урона. В рифтах стоит поставить под катализаторы "Светлое начало" и "Последнее слово". Не рекомендуют прокачивать: достаточно низкий запас здоровья и контрится любой Валей с битом.';
    person.ability = 'Отражает 35% урона. Если противник совершает критический удар, то получает сильное кровотечение на 10 сек.';
    person.marquee1 = `${filia.marquee1} Основной выбор.`;
    person.marquee2 = `${filia.marquee2}`;
