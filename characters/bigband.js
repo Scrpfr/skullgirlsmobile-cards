@@ -91,7 +91,7 @@ function treble_maker() {
    person.card_name = 'Бравурный бит';
    person.aka = 'Бравур';
    person.card_src = 'Treble_Maker.png';
-   person.description = 'Как серебрянный танк - впечатляет. Но в алмазе нет ни здоровья, ни урона, множество персонажей контрят абилку. Не рекомендуется прокачивать.';
+   person.description = 'Как серебрянный танк - впечатляет. Но в алмазе нет ни здоровья, ни урона, множество персонажей контрят абилку меткостью или порчей. Не рекомендуется прокачивать.';
    person.ability = 'Каждые полученные 10 комбо ударов восстанавливают 10% здоровья. Если здоровье выше 50%, отражает 35% получаемого урона.';
    person.marquee1 = `${bigband.marquee1}`;
    person.marquee2 = `${bigband.marquee2}`;
@@ -118,7 +118,7 @@ function virtuoso() {
    person.card_name = 'Классика виртуоза';
    person.aka = 'Виртуоз';
    person.card_src = 'Vintage_Virtuoso.png';
-   person.description = 'Для новичков желающих поиграть за дд Бенда - лучший выбор. Очень сильный для серебра, пробивание блоков, оглушения и длинное комбо... Шикарный Биг Бенд, однако в алмазе урона уже не хватает. Алмазить можно, но далеко не в первую очередь.';
+   person.description = 'Для новичков желающих поиграть за дд Бенда - лучший выбор. Очень сильный для серебра, пробивание блоков, оглушения и длинное комбо... Шикарный Биг Бенд, однако в алмазе урона уже не хватает. Алмазить можно только если вы любитель Биг Бенда.';
    person.ability = 'Каждые 10 комбо получает 1 точность. Точные удары дают бешенство и накладывают раскол брони на 10 сек.';
    person.marquee1 = `${bigband.marquee1}`;
    person.marquee2 = `${bigband.marquee2}`;
@@ -167,6 +167,87 @@ function robocopy() {
    pageGenerator();
 }
 
+function private_dick() {
+   person.card_name = 'Рядовой дик';
+   person.aka = 'Дик';
+   person.card_src = 'Private_Dick.png';
+   person.description = 'Интересный универсальный огненный Биг Бенд, теоретически который должен бы держать цель под оглушениями и быть хорошо защищённым от дебаффов. Но увы, для атаки не хватает урона, для защиты - здоровья. Не качаем.';
+   person.ability = 'При нанесении удара есть шанс 5% оглушить цель на 3 сек. Получает +50% к сопротивлению отрицательным эффектам.';
+   person.marquee1 = `${bigband.marquee1}`;
+   person.marquee2 = `${bigband.marquee2}`;
+   person.prestige_description = `${bigband.prestige}`;
+   person.prestige_activation = `${bigband.p_active}`;
+   person.at = '8,852';
+   person.hp = '76,205';
+   person.atk_stats = ['Атака', 'Проницание', 'Прирост шкалы', 'Точность'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Сопрот криту'];
+   person.build_1_img = 'bigband/Beat_Extend.png';
+   person.build_2_img = 'bigband/Cymbal_Clash.png';
+   person.build_3_img = 'bigband/Super-Sonic_Jazz.png';
+   person.build_4_img = 'bigband/Tympani_Drive.png';
+   person.build_1_desc = 'Мета приём.';
+   person.build_2_desc = 'Шанс оглушить и часть комбо.';
+   person.build_3_desc = 'Мета приём.';
+   person.build_4_desc = 'Увеличенный урон по оглушённому противнику.';
+   person.supps = ['joy', 'rosetin', 'martial_outlaw'];
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+}
+function jazz() {
+   person.card_name = 'Солдат джаз';
+   person.aka = 'Джаз';
+   person.card_src = 'G.I._Jazz.png';
+   person.description = 'Хороший запас здоровья, но увы, хорошим танком ему не стать. Абилка очень легко контрится: порча, проклятье или просто снять баффы. Не качаем.';
+   person.ability = 'Раз за бой при здоровье ниже 25% получает 5 регенераций и 3 брони на 10 секунд.';
+   person.marquee1 = `${bigband.marquee1}`;
+   person.marquee2 = `${bigband.marquee2}`;
+   person.prestige_description = `${bigband.prestige}`;
+   person.prestige_activation = `${bigband.p_active}`;
+   person.at = '7,527';
+   person.hp = '83,847';
+   person.atk_stats = ['Не атакующий'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Сопрот криту'];
+   person.build_1_img = 'bigband/Tuba_Tuba.png';
+   person.build_2_img = 'bigband/Cymbal_Clash.png';
+   person.build_3_img = 'bigband/A_Train.png';
+   person.build_4_img = 'bigband/Big_Band_Burst.png';
+   person.build_1_desc = 'Имеет шанс оглушить.';
+   person.build_2_desc = 'Шанс оглушить и отскок назад.';
+   person.build_3_desc = 'Может дать брони.';
+   person.build_4_desc = 'Прервать атаку противника.';
+   person.supps = ['starlight', 'rosetin', 'model'];
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+}
+function megasonic() {
+   person.card_name = 'Мегасоник';
+   person.aka = 'Соник';
+   person.card_src = 'Megasonic.png';
+   person.description = 'Очень хороший дд вариант, получить можно только из ивентовых реликвий тьмы. Немного уступает сакс гаю, зато может использоваться в рифтах из-за хилла и постоять в защите из-за шипов и хилла.';
+   person.ability = 'При блоке удара снижает получаемый урон на 75% и получает бешенство и шипы на 10 сек. Каждый один ур бешенства снимается при нанесении удара. Под бешенством, 50% наносимого урона возвращается в здоровье.';
+   person.marquee1 = `${bigband.marquee1}`;
+   person.marquee2 = `${bigband.marquee2}`;
+   person.prestige_description = `${bigband.prestige}`;
+   person.prestige_activation = `${bigband.p_active}`;
+   person.at = '10,157';
+   person.hp = '68,602';
+   person.atk_stats = ['Атака', 'Проницание', 'Прирост шкалы', 'Криты'];
+   person.def_stats = ['Здоровье', 'Защита', 'Атака'];
+   person.build_1_img = 'bigband/Beat_Extend.png';
+   person.build_2_img = 'bigband/Cymbal_Clash.png';
+   person.build_3_img = 'bigband/Super-Sonic_Jazz.png';
+   person.build_4_img = 'bigband/Tympani_Drive.png';
+   person.build_1_desc = 'Мета приём.';
+   person.build_2_desc = 'Шанс оглушить и часть комбо.';
+   person.build_3_desc = 'Мета приём.';
+   person.build_4_desc = 'Увеличенный урон по оглушённому противнику.';
+   person.supps = ['honormaid', 'inner', 'martial_outlaw'];
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+}
 function epic_sax() {
    person.card_name = 'Эпик Сакс Гай';
    person.aka = 'Сакс';
