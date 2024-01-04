@@ -120,7 +120,7 @@ list = `
          <li onclick="ms_frosty()">Снеговичок</li>
          <li onclick="()" class="empty">Локон медичи</li>
          <li onclick="()" class="empty">Звезда вселенной</li>
-         <li onclick="()" class="empty">Паразит</li>
+         <li onclick="parasite_weave()">Паразит</li>
          <li onclick="()" class="empty">Звёздная угроза</li>
          <li onclick="()" class="empty">Волосы на ветру</li>
          <li onclick="dreadlocks()">Локоны-убийцы</li>
