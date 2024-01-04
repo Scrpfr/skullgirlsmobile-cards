@@ -38,15 +38,15 @@ list = `
       </ul></li>
    <li><span>Биг Бенд</span>
       <ul type="none">
-         <li onclick="()" class="empty">Линия басов</li>
-         <li onclick="()" class="empty">Битбокс</li>
+         <li onclick="bassline()">Линия басов</li>
+         <li onclick="beat_box()">Битбокс</li>
          <li onclick="virtuoso()">Классика виртуоза</li>
          <li onclick="()" class="empty">Робокопия</li>
          <li onclick="resonant_evil()">Симфония зла</li>
          <li onclick="treble_maker()">Бравурный бит</li>
-         <li onclick="()" class="empty">Рядовой дик</li>
-         <li onclick="()" class="empty">Солдат джаз</li>
-         <li onclick="()" class="empty">Мегасоник</li>
+         <li onclick="private_dick()">Рядовой дик</li>
+         <li onclick="jazz()">Солдат джаз</li>
+         <li onclick="megasonic()">Мегасоник</li>
          <li onclick="epic_sax()">Эпик сакс гай</li>
          <li onclick="()" class="empty">Хэви-метал</li>
          <li onclick="()" class="empty">Звёздный состав</li>
