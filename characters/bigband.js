@@ -5,6 +5,61 @@ const bigband = {
    p_active: '17% за каждые 10 комбо.'
 }
 
+function bassline() {
+   person.card_name = 'Линия басов';
+   person.aka = 'Бас';
+   person.card_src = 'Bassline.png';
+   person.description = 'Бронзовый танк в игре, самый слабый персонаж среди всех персонажей. Не прокачивайте.';
+   person.ability = 'При призыве, получает мощную регенерацию и броню на 10 сек, а также +35% к шкале блокбастеров.';
+   person.marquee1 = `${bigband.marquee1}`;
+   person.marquee2 = `${bigband.marquee2}`;
+   person.prestige_description = `${bigband.prestige}`;
+   person.prestige_activation = `${bigband.p_active}`;
+   person.at = '6,490';
+   person.hp = '55,988';
+   person.atk_stats = ['Атака', 'Проницание', 'Прирост шкалы', 'Криты'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Сопрот криту'];
+   person.build_1_img = 'bigband/Tuba_Tuba.png';
+   person.build_2_img = 'bigband/Cymbal_Clash.png';
+   person.build_3_img = 'bigband/Beat_Extend.png';
+   person.build_4_img = 'bigband/Big_Band_Burst.png';
+   person.build_1_desc = 'Имеет шанс оглушить.';
+   person.build_2_desc = 'Шанс оглушить и отскок назад.';
+   person.build_3_desc = 'Мета приём.';
+   person.build_4_desc = 'Прервать атаку противника.';
+   person.supps = ['joy', 'rosetin', 'sketchy'];
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+}
+function beat_box() {
+   person.card_name = 'Бит-бокс';
+   person.aka = 'Битбокс';
+   person.card_src = 'Beat_Box.png';
+   person.description = 'Хорошая карточка. Имба для бронзы, но в алмазе уже не потянет. Очень простой в использовании: зарядить ульту особыми приёмами и жахнуть. Прокачивать можно.';
+   person.ability = 'Использование особого приёма даёт бешенство на 5 сек и +25% к шкале блокбастера.';
+   person.marquee1 = `${bigband.marquee1}`;
+   person.marquee2 = `${bigband.marquee2}`;
+   person.prestige_description = `${bigband.prestige}`;
+   person.prestige_activation = `${bigband.p_active}`;
+   person.at = '8,180';
+   person.hp = '55,431';
+   person.atk_stats = ['Атака', 'Проницание', 'Перез приёмов', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'bigband/Beat_Extend.png';
+   person.build_2_img = 'bigband/Cymbal_Clash.png';
+   person.build_3_img = 'bigband/Super-Sonic_Jazz.png';
+   person.build_4_img = 'bigband/Strike_Up_the_Band.png';
+   person.build_1_desc = 'Мета приём.';
+   person.build_2_desc = 'Шанс оглушить и часть комбо.';
+   person.build_3_desc = 'Мета приём.';
+   person.build_4_desc = 'Восстановит часть шкалы бб при убийстве.';
+   person.supps = ['evergreen', 'peashooter', 'prisma'];
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+}
+
 function resonant_evil() {
    person.card_name = 'Симфония зла';
    person.aka = 'Симфа';
@@ -85,6 +140,31 @@ function virtuoso() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+}
+function robocopy() {
+   person.card_name = 'Робокопия';
+   person.aka = 'Робокоп';
+   person.card_src = 'Robocopy.png';
+   person.description = 'Интересный и неплохой вариант дд Биг Бенда, но слабее Виртуоза. Не рекомендуется прокачивать: нет применения.';
+   person.ability = 'Любой призыв отключает блокбастеры противника на 20 сек, но эффект снимается если противник использует особый приём. Пока блокбастеры противника отключены, каждые 3 сек получает бешенство и барьер на 10 сек.';
+   person.marquee1 = `${bigband.marquee1}`;
+   person.marquee2 = `${bigband.marquee2}`;
+   person.prestige_description = `${bigband.prestige}`;
+   person.prestige_activation = `${bigband.p_active}`;
+   person.at = '???';
+   person.hp = '???';
+   person.atk_stats = ['Атака', 'Проницание', 'Прирост шкалы', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'bigband/Beat_Extend.png';
+   person.build_2_img = 'bigband/Cymbal_Clash.png';
+   person.build_3_img = 'bigband/Super-Sonic_Jazz.png';
+   person.build_4_img = 'bigband/Tympani_Drive.png';
+   person.build_1_desc = 'Мета приём.';
+   person.build_2_desc = 'Шанс оглушить и часть комбо.';
+   person.build_3_desc = 'Мета приём.';
+   person.build_4_desc = 'Увеличенный урон по оглушённому противнику.';
+   skullgirls.replaceChildren();
+   pageGenerator();
 }
 
 function epic_sax() {
