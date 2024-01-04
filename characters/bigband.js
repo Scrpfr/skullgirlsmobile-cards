@@ -151,8 +151,8 @@ function robocopy() {
    person.marquee2 = `${bigband.marquee2}`;
    person.prestige_description = `${bigband.prestige}`;
    person.prestige_activation = `${bigband.p_active}`;
-   person.at = '???';
-   person.hp = '???';
+   person.at = '8,717';
+   person.hp = '58,791';
    person.atk_stats = ['Атака', 'Проницание', 'Прирост шкалы', 'Криты'];
    person.def_stats = ['Не защитник'];
    person.build_1_img = 'bigband/Beat_Extend.png';
