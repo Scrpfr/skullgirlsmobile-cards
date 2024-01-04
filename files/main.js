@@ -41,7 +41,7 @@ list = `
          <li onclick="bassline()">Линия басов</li>
          <li onclick="beat_box()">Битбокс</li>
          <li onclick="virtuoso()">Классика виртуоза</li>
-         <li onclick="()" class="empty">Робокопия</li>
+         <li onclick="robocopy()">Робокопия</li>
          <li onclick="resonant_evil()">Симфония зла</li>
          <li onclick="treble_maker()">Бравурный бит</li>
          <li onclick="private_dick()">Рядовой дик</li>
