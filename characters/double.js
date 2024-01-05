@@ -5,6 +5,107 @@ const double = {
    p_active: '13% за каждую трансмутацию.'
 }
 
+function nunsense() {
+   person.card_name = 'Ересь';
+   person.aka = 'Ересь';
+   person.card_src = 'Nunsense.png';
+   person.description = 'Лучшая вариация для новичков для ознакомления с Дабл. Можно смело качать, хотя в алмазе ей будет тяжело. До золота точно можно качать, затем пересесть на Мор.';
+   person.ability = 'Когда противник получает положительный эффект, получает 3 случайных баффа на 10 сек. При получении отрицательного эффекта, накладывает 3 случайных дебаффа противнику. Работает только при преимуществе стихии.';
+   person.marquee1 = `${double.marquee1} Качайте Только Хаос.`;
+   person.marquee2 = `${double.marquee2}`;
+   person.prestige_description = `${double.prestige}`;
+   person.prestige_activation = `${double.p_active}`;
+   person.at = '8,295';
+   person.hp = '33,600';
+   person.atk_stats = ['Атака', 'Проницание', 'Стихийный бонус', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'double/Cilia_Slide.png';
+   person.build_2_img = 'double/Bogus_Buzzard.png';
+   person.build_3_img = 'double/Hornet_Bomber.png';
+   person.build_4_img = 'double/Bandwagon_Rushdown.png';
+   person.build_1_desc = 'Резкая атака, накладывает замедление.';
+   person.build_2_desc = 'Наложит блок исцеления, используют после слайда.';
+   person.build_3_desc = 'Используют в комбо.';
+   person.build_4_desc = 'Наложит порчу.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function sundae_school() {
+   person.card_name = 'Мороженные мощи';
+   person.aka = 'Мороженка';
+   person.card_src = 'Sundae_School.png';
+   person.description = 'Если играть персонажем накладывающим отрицательные эффекты, эта вариация будучи в команде будет продлевать их действие на 3 секунды. Не сказать что бесполезный саппорт, но 3 секунды это уж слишком мало, хотя 2 мороженки продлят уже на 6 секунд. Не сильно полезен, проще не качать.';
+   person.ability = 'Продлевает время действия отрицательного эффекта для противника на 3 сек, а для союзника сокращает это время. Исключение - оглушение.';
+   person.marquee1 = `${double.marquee1}`;
+   person.marquee2 = `${double.marquee2}`;
+   person.prestige_description = `${double.prestige}`;
+   person.prestige_activation = `${double.p_active}`;
+   person.at = '7,738';
+   person.hp = '40,647';
+   person.atk_stats = ['Только саппорт'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'double/Cilia_Slide.png';
+   person.build_2_img = 'double/Bogus_Buzzard.png';
+   person.build_3_img = 'double/Hornet_Bomber.png';
+   person.build_4_img = 'double/Bandwagon_Rushdown.png';
+   person.build_1_desc = 'Резкая атака, накладывает замедление.';
+   person.build_2_desc = 'Наложит блок исцеления, используют после слайда.';
+   person.build_3_desc = 'Используют в комбо.';
+   person.build_4_desc = 'Наложит порчу.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+
+function myst_match() {
+   person.card_name = 'Мистика';
+   person.aka = 'Мистик';
+   person.card_src = 'Myst-Match.png';
+   person.description = 'Интересная абилка и хороший урон. Но качать её не стоит. Также как и играть против забаффанных противников.';
+   person.ability = 'Если стихия совпадает со стихией противника, копирует его положительные эффекты. Когда время действия положительного эффекта закончится, получает 3 точности.';
+   person.marquee1 = `${double.marquee1} Качайте Только Хаос.`;
+   person.marquee2 = `${double.marquee2}`;
+   person.prestige_description = `${double.prestige}`;
+   person.prestige_activation = `${double.p_active}`;
+   person.at = '11,079';
+   person.hp = '35,271';
+   person.atk_stats = ['Атака', 'Проницание', 'Стихийный бонус', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'double/Cilia_Slide.png';
+   person.build_2_img = 'double/Bogus_Buzzard.png';
+   person.build_3_img = 'double/Hornet_Bomber.png';
+   person.build_4_img = 'double/Bandwagon_Rushdown.png';
+   person.build_1_desc = 'Резкая атака, накладывает замедление.';
+   person.build_2_desc = 'Наложит блок исцеления, используют после слайда.';
+   person.build_3_desc = 'Используют в комбо.';
+   person.build_4_desc = 'Наложит порчу.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function temple_tyrant() {
+   person.card_name = 'Тиран из храма';
+   person.aka = 'Тиран';
+   person.card_src = 'Temple_Tyrant.png';
+   person.description = 'Возможно задуманный как защитный вариант, ужасно справляется с такой задачей. Можно использовать как атакующую, превращая часть своих дебаффов в регенерацию и броню. В таком случае, может подойти только против наложения дебаффов, и то слабовато. В общем, не качайте.';
+   person.ability = 'При трансмутации в выгодную стихию, восстанавливает 25% здоровья. При выгодной стихии, шанс 50% превратить полученный дебафф в броню и регенерацию на 10 сек.';
+   person.marquee1 = `${double.marquee1} Качайте Только Хаос.`;
+   person.marquee2 = `${double.marquee2}`;
+   person.prestige_description = `${double.prestige}`;
+   person.prestige_activation = `${double.p_active}`;
+   person.at = '8,218';
+   person.hp = '43,104';
+   person.atk_stats = ['Атака', 'Проницание', 'Стихийный бонус', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'double/Cilia_Slide.png';
+   person.build_2_img = 'double/Bogus_Buzzard.png';
+   person.build_3_img = 'double/Hornet_Bomber.png';
+   person.build_4_img = 'double/Bandwagon_Rushdown.png';
+   person.build_1_desc = 'Резкая атака, накладывает замедление.';
+   person.build_2_desc = 'Наложит блок исцеления, используют после слайда.';
+   person.build_3_desc = 'Используют в комбо.';
+   person.build_4_desc = 'Наложит порчу.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
 function doublicious() {
    person.card_name = 'Двойная мята';
    person.aka = 'Мята';
@@ -36,7 +137,7 @@ function evergreen_evil() {
    person.aka = 'Ёлка';
    person.card_src = 'Evergreen_Evil.png';
    person.description = 'Полу-саппорт полу-деф, в основном используется как саппорт продливающий все баффы на 5 сек, иногда также качают вторую ёлку ведь их абилки складываются и продляет уже на 10 сек. В защите может быть грозным врагом, постоянно отражающий урон и при этом регенящий своё здоровье. Но как деф уже потеряла свою актуальность: легко контрится. Можно поставить в защиту только если больше нечего поставить.';
-   person.ability = 'При невыгодной стихии при получении удара шанс 10% снять все дебаффы и получить реген и шипы на 5 сек. Когда Дабл или её союзник получает бафф, продляет его действие на 5 сек, а Дабл также получает 5% шкалы блокбастера.';
+   person.ability = 'Если нет выгодной стихии, при получении удара шанс 10% снять все дебаффы и получить реген и шипы на 5 сек. Когда Дабл или её союзник получает бафф, продляет его действие на 5 сек, а Дабл также получает 5% шкалы блокбастера.';
    person.marquee1 = `${double.marquee1}`;
    person.marquee2 = `${double.marquee2} ТОЛЬКО Непостоянство.`;
    person.prestige_description = `${double.prestige} НЕ КАЧАЙТЕ престиж ёлке.`;
