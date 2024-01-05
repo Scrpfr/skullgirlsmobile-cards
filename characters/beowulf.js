@@ -35,7 +35,82 @@ function cold_stones() {
    pageGenerator();
    buildLoad();
 }
+function underdog() {
+   person.card_name = 'Волк отпущения';
+   person.aka = 'Опущенец';
+   person.card_src = 'Underdog.png';
+   person.description = 'Будет снижать получаемый урон из-за негативных эффектов на себе, 5 брони даст 100% защиту и 0 входящего урона. В целом, очень слабый вариант: раскол брони сбросит стаки брони, кровоток также снижает здоровье, да и просто прокачав проницание часть брони игнорируется. Не качаем.';
+   person.ability = 'При получении отрицательного эффекта, получает броню и ускорение на 15 секунд.';
+   person.marquee1 = `${beowulf.marquee1}`;
+   person.marquee2 = `${beowulf.marquee2}`;
+   person.prestige_description = `${beowulf.prestige}`;
+   person.prestige_activation = `${beowulf.p_active}`;
+   person.at = '8,295';
+   person.hp = '44,794';
+   person.atk_stats = ['Атака', 'Проницание', 'Перез. приёмов'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопрот криту'];
+   person.build_1_img = 'beowulf/WulfShoot.png';
+   person.build_2_img = 'beowulf/HurtingHurdle.png';
+   person.build_3_img = 'beowulf/LupinePummel.png';
+   person.build_4_img = 'beowulf/GeatishTrepak.png';
+   person.build_1_desc = 'Основное оружие волка.';
+   person.build_2_desc = 'Резкий подбрасывающий удар.';
+   person.build_3_desc = 'Шанс дать увечье и замедление.';
+   person.build_4_desc = 'Много ударов под хайпом.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
 
+function number_one() {
+   person.card_name = 'Первый';
+   person.aka = 'Намба ван';
+   person.card_src = 'Number_One.png';
+   person.description = 'Вполне хороший вариант для серебра. Играть можно от блокбастеров-захватов и комбо. Качать можно если вы фанат Беовульфа.';
+   person.ability = 'При активации режима Хайпа, получает ускорение на 15 сек. При активном ускорении, шанс 20% при ударе активировать бешенство на 10 сек.';
+   person.marquee1 = `${beowulf.marquee1}`;
+   person.marquee2 = `${beowulf.marquee2} Основной выбор.`;
+   person.prestige_description = `${beowulf.prestige}`;
+   person.prestige_activation = `${beowulf.p_active}`;
+   person.at = '8,218';
+   person.hp = '57,485';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'beowulf/WulfShoot.png';
+   person.build_2_img = 'beowulf/GiganticArm.png';
+   person.build_3_img = 'beowulf/LupinePummel.png';
+   person.build_4_img = 'beowulf/GeatishTrepak.png';
+   person.build_1_desc = 'Основное оружие волка.';
+   person.build_2_desc = 'Шанс оглушить противника.';
+   person.build_3_desc = 'Шанс дать увечье и замедление.';
+   person.build_4_desc = 'Много ударов под хайпом.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function hype_man() {
+   person.card_name = 'Показушник';
+   person.aka = 'Хайпман';
+   person.card_src = 'Hype_Man.png';
+   person.description = 'Крутой полу-саппорт, отбирающий шкалу бб врага и дающий её себе и союзникам. Играть можно от блокбастеров-захватов. Вполне хайповый вариант, прокачивать стоит.';
+   person.ability = 'При активации режима Хайпа, союзники в запасе получают +50% к шкале блокбастеров. В режиме хайпа, каждый нанесённый удар забирает 10% шкалы блокбастеров противника.';
+   person.marquee1 = `${beowulf.marquee1}`;
+   person.marquee2 = `${beowulf.marquee2} Основной выбор.`;
+   person.prestige_description = `${beowulf.prestige}`;
+   person.prestige_activation = `${beowulf.p_active}`;
+   person.at = '9,639';
+   person.hp = '52,263';
+   person.atk_stats = ['Атака', 'Проницание', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'beowulf/WulfShoot.png';
+   person.build_2_img = 'beowulf/Airwulf.png';
+   person.build_3_img = 'beowulf/LupinePummel.png';
+   person.build_4_img = 'beowulf/GeatishTrepak.png';
+   person.build_1_desc = 'Основное оружие волка.';
+   person.build_2_desc = 'Блокируемый, но добавит 1 заряд хайпа.';
+   person.build_3_desc = 'Шанс дать увечье и замедление.';
+   person.build_4_desc = 'Много ударов под хайпом.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
 function wrestler() {
    person.card_name = 'Рестлер Х';
    person.aka = 'Рестлер';
