@@ -84,13 +84,13 @@ list = `
       </ul></li>
    <li><span>Дабл</span>
       <ul type="none">
-         <li onclick="()" class="empty">Ересь</li>
-         <li onclick="()" class="empty">Мороженные мощи</li>
-         <li onclick="()" class="empty">Тиран из храма</li>
-         <li onclick="()" class="empty">Мистика</li>
+         <li onclick="nunsense()">Ересь</li>
+         <li onclick="sundae_school()">Мороженные мощи</li>
+         <li onclick="temple_tyrant()">Тиран из храма</li>
+         <li onclick="myst_match()">Мистика</li>
          <li onclick="doublicious()">Двойная мята</li>
          <li onclick="rainbow_blight()">Радужный мор</li>
-         <li onclick="()" class="empty">Аморальные устои</li>
+         <li onclick="immoral_fiber()">Аморальные устои</li>
          <li onclick="evergreen_evil()">Вечнозеленое зло</li>
          <li onclick="xenomorph()">Ксеноморф</li>
          <li onclick="()" class="empty">Порождение привычки</li>
