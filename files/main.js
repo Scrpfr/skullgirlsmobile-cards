@@ -21,10 +21,10 @@ list = `
       </ul></li>
    <li><span>Беовульф</span>
       <ul type="none">
-         <li onclick="()" class="empty">Волк отпущения</li>
+         <li onclick="underdog()">Волк отпущения</li>
          <li onclick="cold_stones()">Ледяная глыба</li>
-         <li onclick="()" class="empty">Первый</li>
-         <li onclick="()" class="empty">Показушник</li>
+         <li onclick="number_one()">Первый</li>
+         <li onclick="hype_man()">Показушник</li>
          <li onclick="wrestler()">Рестлер Х</li>
          <li onclick="()" class="empty">Любимец публики</li>
          <li onclick="()" class="empty">Кулак дракона</li>
