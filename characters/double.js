@@ -136,7 +136,7 @@ function evergreen_evil() {
    person.card_name = 'Вечнозелёное зло';
    person.aka = 'Ёлка';
    person.card_src = 'Evergreen_Evil.png';
-   person.description = 'Полу-саппорт полу-деф, в основном используется как саппорт продливающий все баффы на 5 сек, иногда также качают вторую ёлку ведь их абилки складываются и продляет уже на 10 сек. В защите может быть грозным врагом, постоянно отражающий урон и при этом регенящий своё здоровье. Но как деф уже потеряла свою актуальность: легко контрится. Можно поставить в защиту только если больше нечего поставить.';
+   person.description = 'Полу-саппорт полу-деф, в основном используется как саппорт продливающий все баффы на 5 сек, иногда также качают вторую ёлку ведь их абилки складываются и продляет уже на 10 сек. В защите может быть грозным врагом, постоянно отражающий урон и при этом регенящий своё здоровье, в рифтах обязательно под катализатор "Агрессивная стихия". Контрится порчей или точностью, проклятье и снятие баффов не помогут.';
    person.ability = 'Если нет выгодной стихии, при получении удара шанс 10% снять все дебаффы и получить реген и шипы на 5 сек. Когда Дабл или её союзник получает бафф, продляет его действие на 5 сек, а Дабл также получает 5% шкалы блокбастера.';
    person.marquee1 = `${double.marquee1}`;
    person.marquee2 = `${double.marquee2} ТОЛЬКО Непостоянство.`;
@@ -146,6 +146,31 @@ function evergreen_evil() {
    person.hp = '50,285';
    person.atk_stats = ['Только саппорт'];
    person.def_stats = ['Здоровье', 'Защита', 'Точность', 'Сопрот криту'];
+   person.build_1_img = 'double/Megalith_Array.png';
+   person.build_2_img = 'double/Double_Burst.png';
+   person.build_3_img = 'double/Cilia_Slide.png';
+   person.build_4_img = 'double/Luger_Replica.png';
+   person.build_1_desc = 'Снижает шкалу блокбастера врага при нанесении ударов.';
+   person.build_2_desc = 'Прерывает атаку противника.';
+   person.build_3_desc = 'Резкая атака, накладывает замедление.';
+   person.build_4_desc = 'Резкая атака, накладывающая рандомный дебафф.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function immoral_fiber() {
+   person.card_name = 'Аморальные устои';
+   person.aka = 'Аморалка';
+   person.card_src = 'Immoral_Fiber.png';
+   person.description = 'Не обладает большим запасом здоровья, но популярно ставят в защиту рифтов с катализатором "Агрессивная стихия", обычно в тройные ноды. Контрится порчей или убийством под баффом точности.';
+   person.ability = 'При смерти, 50% от максимального запаса здоровья восстанавливается союзникам и наносится активному противнику.';
+   person.marquee1 = `${double.marquee1}`;
+   person.marquee2 = `${double.marquee2} ТОЛЬКО Непостоянство.`;
+   person.prestige_description = `${double.prestige}`;
+   person.prestige_activation = `${double.p_active}`;
+   person.at = '10,272';
+   person.hp = '50,285';
+   person.atk_stats = ['Не атакующий'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Сопрот криту'];
    person.build_1_img = 'double/Megalith_Array.png';
    person.build_2_img = 'double/Double_Burst.png';
    person.build_3_img = 'double/Cilia_Slide.png';
