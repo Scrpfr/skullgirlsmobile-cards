@@ -258,10 +258,10 @@ list = `
       </ul></li>
    <li><span>Амбрелла</span>
       <ul type="none">
-         <li onclick="()" class="empty">Соль и душевная боль</li>
-         <li onclick="()" class="empty">Знатный ветер</li>
+         <li onclick="salty()">Соль и душевная боль</li>
+         <li onclick="fresh_heir()">Знатный ветер</li>
          <li onclick="rose_tinted()">Розовая звезда</li>
-         <li onclick="()" class="empty">Пират-лужеход</li>
+         <li onclick="puddle_pirate()">Пират-лужеход</li>
          <li onclick="candy_crusher()">Конфетный бой</li>
          <li onclick="()" class="empty">Сорвиголова</li>
          <li onclick="()" class="empty">Вундеркинд</li>
