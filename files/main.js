@@ -132,9 +132,9 @@ list = `
       <ul type="none">
          <li onclick="rough_copy()">Неточная копия</li>
          <li onclick="infernal_twin()">Двойник из пекла</li>
-         <li onclick="()" class="empty">Сестра по духу</li>
-         <li onclick="()" class="empty">Грозовая тень</li>
-         <li onclick="()" class="empty">Ящерица спок</li>
+         <li onclick="souls_sister()">Сестра по духу</li>
+         <li onclick="rain_shadow()">Грозовая тень</li>
+         <li onclick="chameleon_twist()">Ящерица спок</li>
          <li onclick="()" class="empty">Соколиные крылья</li>
          <li onclick="()" class="empty">Милая меломанка</li>
          <li onclick="()" class="empty">Ночной кошмар</li>
@@ -178,8 +178,8 @@ list = `
       <ul type="none">
          <li onclick="rusty()">Ржавый</li>
          <li onclick="twisted_mettle()">Металлопрокат</li>
-         <li onclick="()" class="empty">Сестра крови</li>
-         <li onclick="()" class="empty">Подростковый</li>
+         <li onclick="blood_drive()">Сестра крови</li>
+         <li onclick="rage_appropriate()">Подростковый</li>
          <li onclick="()" class="empty">Жуткая пятница</li>
          <li onclick="firefly()">Светлячок</li>
          <li onclick="biting_cold()">Кусачий мороз</li>
@@ -242,12 +242,12 @@ list = `
       </ul></li>
    <li><span>Сквигли</span>
       <ul type="none">
-         <li onclick="()" class="empty">Боязнь сцены</li>
-         <li onclick="()" class="empty">Страх и паралич</li>
-         <li onclick="()" class="empty">Мёртвый огонь</li>
-         <li onclick="()" class="empty">Бандитский зелёный</li>
-         <li onclick="()" class="empty">Почти ушедшая</li>
-         <li onclick="()" class="empty">Некробрейкер</li>
+         <li onclick="stage_fright()">Боязнь сцены</li>
+         <li onclick="scared_stiff()">Страх и паралич</li>
+         <li onclick="dead_heat()">Мёртвый огонь</li>
+         <li onclick="gang_green()">Бандитский зелёный</li>
+         <li onclick="nearly_departed()">Почти ушедшая</li>
+         <li onclick="necrobreaker()">Некробрейкер</li>
          <li onclick="()" class="empty">Героиня триллера</li>
          <li onclick="()" class="empty">Холодная смерть</li>
          <li onclick="()" class="empty">Призрачный порыв</li>
