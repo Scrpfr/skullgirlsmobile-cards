@@ -58,6 +58,57 @@ function twisted_mettle() {
    pageGenerator();
 }
 
+function blood_drive() {
+   person.card_name = 'Сестра крови';
+   person.aka = 'Сестра';
+   person.card_src = 'Blood_Drive.png';
+   person.description = 'Вполне хороший вариант, но сложный, не для новичков. Но пятница всё-таки лучше и проще, и преступник также делает эту Пэйнвил ненужной. Не качаем.';
+   person.ability = 'При ударе шанс 15% дать себе кровотечение и врагу сильное кровотечение на 10 сек. Блокбастеры и ос приёмы превращают все свои кровотечения в бешенства на 10 сек.';
+   person.marquee1 = `${painwheel.marquee1}`;
+   person.marquee2 = `${painwheel.marquee2} Основной выбор.`;
+   person.prestige_description = `${painwheel.prestige}`;
+   person.prestige_activation = `${painwheel.p_active}`;
+   person.at = '10,695';
+   person.hp = '39,188';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'painwheel/Pinion_Dash.png';
+   person.build_2_img = 'painwheel/Gae_Bolga_Stinger.png';
+   person.build_3_img = 'painwheel/Death_Crawl.png';
+   person.build_4_img = 'painwheel/Fracture_Reaper.png';
+   person.build_1_desc = 'Мета приём.';
+   person.build_2_desc = 'Используется для комбинаций.';
+   person.build_3_desc = 'Может наложить кровотоки.';
+   person.build_4_desc = 'Может наложить метку смерти.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function rage_appropriate() {
+   person.card_name = 'Подростковый';
+   person.aka = 'Подросток';
+   person.card_src = 'Rage_Appropriate.png';
+   person.description = 'Гибридный вариант Пэйнвил. В защиту только под катализатор Пэйнвил и ледяную броню. В атаку только под саппорт с неупал. В целом, прокачивать не стоит, балансно очень слабая.';
+   person.ability = 'Активирует постоянное бешенство за потерю более 10% здоровья. Один раз за бой получит мощную регенерацию и 2 брони на 10 сек, когда здоровье опустится ниже 50%.';
+   person.marquee1 = `${painwheel.marquee1} Основной выбор.`;
+   person.marquee2 = `${painwheel.marquee2}`;
+   person.prestige_description = `${painwheel.prestige}`;
+   person.prestige_activation = `${painwheel.p_active}`;
+   person.at = '9,082';
+   person.hp = '43,104';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Здоровье', 'Защита', 'Атака', 'Сопротивление'];
+   person.build_1_img = 'painwheel/Buer_Overdrive.png';
+   person.build_2_img = 'painwheel/Pinion_Dash.png';
+   person.build_3_img = 'painwheel/Buer_Thresher.png';
+   person.build_4_img = 'painwheel/Fracture_Reaper.png';
+   person.build_1_desc = 'Снижает шкалу блокбастеров врага.';
+   person.build_2_desc = 'Мета приём.';
+   person.build_3_desc = 'Резкая контратака.';
+   person.build_4_desc = 'Может наложить метку смерти.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+
 function firefly() {
    person.card_name = 'Светлячок';
    person.aka = 'Светляк';
