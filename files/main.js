@@ -276,10 +276,10 @@ list = `
       <ul type="none">
          <li onclick="scrub()">Интерн</li>
          <li onclick="icy_hot()">Горячий лёд</li>
-         <li onclick="()" class="empty">Мэйдэй!</li>
-         <li onclick="()" class="empty">В морге</li>
-         <li onclick="()" class="empty">Смерть джой</li>
-         <li onclick="()" class="empty">Пиро-техника</li>
+         <li onclick="oh_mai()">Мэйдэй!</li>
+         <li onclick="graveyard_shift()">В морге</li>
+         <li onclick="kill_joy()">Смерть джой</li>
+         <li onclick="pyro_technique()">Пиро-техника</li>
          <li onclick="silent_kill()">Сайлент килл</li>
          <li onclick="()" class="empty">Генерал-хирург</li>
          <li onclick="last_hope()">Надежда</li>
@@ -399,7 +399,8 @@ let supports_list = [
         </div>
         <div class="card_desc">
             <h3>Мороженные мощи</h3>
-            <p>Продлевает баффы союзника и дебаффы противника на 3 сек</p>
+            <p>-3 сек дебаффам союзника</p>
+            <p>+3 сек дебаффам противника</p>
         </div>
      </div>
    `},
