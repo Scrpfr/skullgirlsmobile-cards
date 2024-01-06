@@ -65,6 +65,107 @@ function heavy_reign() {
    buildLoad();
 }
 
+function no_egrets() {
+   person.card_name = 'Держать строй';
+   person.aka = 'Строй';
+   person.card_src = 'No_Egrets.png';
+   person.description = 'Очень хороший серебрянный персонаж. Но нужно хорошо прокачать шанс крита для неё, уникальное умение при это массу. Можно прокачивать, но до золота: в алмазе слабовата как уроном, так и абилкой.';
+   person.ability = 'Критический удар блокирует блокбастеры и ос приёмы противника на 4 секунды.';
+   person.marquee1 = `${parasoul.marquee1}`;
+   person.marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   person.prestige_description = `${parasoul.prestige}`;
+   person.prestige_activation = `${parasoul.p_active}`;
+   person.at = '8,640';
+   person.hp = '52,263';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'parasoul/Canopy_Bounce.png';
+   person.build_2_img = 'parasoul/Silent_Scope.png';
+   person.build_3_img = 'parasoul/Egret_Call.png';
+   person.build_4_img = 'parasoul/Napalm_Shot.png';
+   person.build_1_desc = 'Снимает положительные эффекты врага.';
+   person.build_2_desc = 'Дистанционный выстрел.';
+   person.build_3_desc = 'Получить точность.';
+   person.build_4_desc = 'Дальняя атака, вызывает кровотечение.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function ivy_league() {
+   person.card_name = 'Лига плюща';
+   person.aka = 'Плющ';
+   person.card_src = 'Ivy_League.png';
+   person.description = 'Хороший урон для серебра, но качать эту вариацию не стоит: слабая в алмазе и нет применения.';
+   person.ability = 'При выбросе слезы, накладывает замедление на 10 секунд. При взрыве слёз наложит иссушение за каждую слезу на 10 сек.';
+   person.marquee1 = `${parasoul.marquee1}`;
+   person.marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   person.prestige_description = `${parasoul.prestige}`;
+   person.prestige_activation = `${parasoul.p_active}`;
+   person.at = '9,946';
+   person.hp = '47,021';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'parasoul/Canopy_Bounce.png';
+   person.build_2_img = 'parasoul/Motor_Brigade.png';
+   person.build_3_img = 'parasoul/Napalm_Shower.png';
+   person.build_4_img = 'parasoul/Napalm_Toss.png';
+   person.build_1_desc = 'Снимает положительные эффекты врага.';
+   person.build_2_desc = 'Может оглушить цель.';
+   person.build_3_desc = 'Выпустить 3 слезы.';
+   person.build_4_desc = 'Выпустить 1 слезу.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function shadow_ops() {
+   person.card_name = 'Тайные операции';
+   person.aka = 'Тока Киришима';
+   person.card_src = 'Shadow_Ops.png';
+   person.description = 'В основном, рифтовый персонаж для серебра и золота. Зажав противника у стены, он будет под вечным проклятьем, но управлять абилкой сложно. Не стоит алмазить.';
+   person.ability = 'Себе накладывает шипы, противник получает проклятье. Срабатывает если персонаж стоит у слезы Парасоул 1 секунду, снимается отойдя от слезы.';
+   person.marquee1 = `${parasoul.marquee1}`;
+   person.marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   person.prestige_description = `${parasoul.prestige}`;
+   person.prestige_activation = `${parasoul.p_active}`;
+   person.at = '7,335';
+   person.hp = '57,485';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'parasoul/Canopy_Bounce.png';
+   person.build_2_img = 'parasoul/Silent_Scope.png';
+   person.build_3_img = 'parasoul/Egret_Call.png';
+   person.build_4_img = 'parasoul/Napalm_Shot.png';
+   person.build_1_desc = 'Снимает положительные эффекты врага.';
+   person.build_2_desc = 'Дистанционный выстрел.';
+   person.build_3_desc = 'Получить точность.';
+   person.build_4_desc = 'Дальняя атака, вызывает кровотечение.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+
+function regally_blonde() {
+   person.card_name = 'Белая королева';
+   person.aka = 'Королева';
+   person.card_src = 'Regally_Blonde.png';
+   person.description = 'Универсальный вариант Парасоул, хороший урон и защитная абилка. Качать не рекомендуется, слаба и в атаке, и в защите.';
+   person.ability = 'Стоя вплотную, не даст противнику использовать ос приёмы и получает автоблок каждые 2 сек (снимается отойдя от противника). Когда любой перс использует блокбастер, с шансом 50% противник получит увечье и потеряет 50% шкалы всех бб.';
+   person.marquee1 = `${parasoul.marquee1}`;
+   person.marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   person.prestige_description = `${parasoul.prestige}`;
+   person.prestige_activation = `${parasoul.p_active}`;
+   person.at = '10,100';
+   person.hp = '60,960';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Здоровье', 'Защита', 'Точность', 'Сопрот криту'];
+   person.build_1_img = 'parasoul/Canopy_Bounce.png';
+   person.build_2_img = 'parasoul/Silent_Scope.png';
+   person.build_3_img = 'parasoul/Egret_Dive.png';
+   person.build_4_img = 'parasoul/Napalm_Shot.png';
+   person.build_1_desc = 'Снимает положительные эффекты врага.';
+   person.build_2_desc = 'Дистанционный выстрел.';
+   person.build_3_desc = 'Щит с оглушением.';
+   person.build_4_desc = 'Дальняя атака, вызывает кровотечение.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
 function princess_pride() {
    person.card_name = 'Принцесса';
    person.aka = 'Принцесса';
@@ -113,7 +214,7 @@ function summer_salt() {
    person.build_2_desc = 'Дистанционный выстрел.';
    person.build_3_desc = 'Получить точность.';
    person.build_4_desc = 'Дальняя атака, вызывает кровотечение.';
-   person.addition = 'Отсылка: отсылает на Амбреллу, младшую дочь Парасоул. Отсылает только палитрой и фразой, абилка скорее всего Парасоул.';
+   person.addition = 'Отсылка: отсылает на Амбреллу, младшую сестру Парасоул. Отсылает только палитрой и фразой, абилка скорее всего Парасоул.';
    skullgirls.replaceChildren();
    pageGenerator();
    addition();
