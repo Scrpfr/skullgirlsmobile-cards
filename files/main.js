@@ -194,11 +194,11 @@ list = `
       <ul type="none">
          <li onclick="sheltered()">Прикрытие</li>
          <li onclick="heavy_reign()">Осадки замка</li>
-         <li onclick="()" class="empty">Держать строй</li>
-         <li onclick="()" class="empty">Лига плюща</li>
-         <li onclick="()" class="empty">Тайные операции</li>
+         <li onclick="no_egrets()">Держать строй</li>
+         <li onclick="ivy_league()">Лига плюща</li>
+         <li onclick="shadow_ops()">Тайные операции</li>
          <li onclick="()" class="empty">Неукротимость</li>
-         <li onclick="()" class="empty">Белая королева</li>
+         <li onclick="regally_blonde()">Белая королева</li>
          <li onclick="()" class="empty">Незвёздный час</li>
          <li onclick="()" class="empty">Высший сорт</li>
          <li onclick="princess_pride()">Принцесса</li>
