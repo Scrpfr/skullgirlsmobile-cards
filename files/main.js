@@ -932,7 +932,7 @@ function supports_fncn() {
    }
 }
 function addition() {
-   let s = `<div style="margin-bottom: 16px;"><p style="text-indent: 14px;">${person.addition}</p></div>`;
+   let s = `<div style="padding-bottom: 16px;"><p style="text-indent: 14px;">${person.addition}</p></div>`;
    skullgirls.insertAdjacentHTML('beforeend', s);
 }
 function buildLoad() {
