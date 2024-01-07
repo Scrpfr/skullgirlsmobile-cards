@@ -161,11 +161,11 @@ list = `
    <li><span>Мисс Форчун</span>
       <ul type="none">
          <li onclick="just_kitten()">Котейка-шутейка</li>
-         <li onclick="()" class="empty">Адская кошка</li>
-         <li onclick="()" class="empty">Мисс Адвокат</li>
+         <li onclick="hellcat()">Адская кошка</li>
+         <li onclick="ms_trial()">Мисс Адвокат</li>
          <li onclick="purrfect_dark()">Полный мр-р-рак</li>
-         <li onclick="()" class="empty">Трёхцветная удача</li>
-         <li onclick="()" class="empty">Похититель времени</li>
+         <li onclick="feline_lucky()">Трёхцветная удача</li>
+         <li onclick="time_thief()">Похититель времени</li>
          <li onclick="()" class="empty">Рвать и поливать</li>
          <li onclick="()" class="empty">Когти и порядок</li>
          <li onclick="()" class="empty">Вор-одиночка</li>
@@ -225,16 +225,16 @@ list = `
       </ul></li>
    <li><span>Робо Форчун</span>
       <ul type="none">
-         <li onclick="()" class="empty">Прототип</li>
-         <li onclick="()" class="empty">М-РУ</li>
-         <li onclick="()" class="empty">Нянотехнологии</li>
-         <li onclick="()" class="empty">Синий подрывник</li>
-         <li onclick="()" class="empty">Защита вектора</li>
+         <li onclick="prototype()">Прототип</li>
+         <li onclick="m30w()">М-РУ</li>
+         <li onclick="nyanotech()">Нянотехнологии</li>
+         <li onclick="blue_bomber()">Синий подрывник</li>
+         <li onclick="vector_protector()">Защита вектора</li>
          <li onclick="purrminator()">Мур-р-минатор</li>
          <li onclick="()" class="empty">Головорезка</li>
          <li onclick="blue_screen()">Синий экран</li>
          <li onclick="()" class="empty">Террор-байт</li>
-         <li onclick="()" class="empty">Числодробилка</li>
+         <li onclick="number_cruncher()">Числодробилка</li>
          <li onclick="()" class="empty">Персона-бот</li>
          <li onclick="()" class="empty">Буферная зона</li>
          <li onclick="()" class="empty">В разгоне</li>
