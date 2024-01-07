@@ -102,14 +102,14 @@ list = `
       <ul type="none">
          <li onclick="denile()">Нилисток</li>
          <li onclick="decrypted()">Гроб да винчи</a></li>
-         <li onclick="()" class="empty">Алая гадюка</li>
-         <li onclick="()" class="empty">Кровь фэй</li>
-         <li onclick="()" class="empty">Мрачная птица</li>
-         <li onclick="()" class="empty">Внутренние миры</li>
-         <li onclick="()" class="empty">Красный бархат</li>
-         <li onclick="()" class="empty">Роскошный лазурит</li>
-         <li onclick="()" class="empty">Кровавая баня</li>
-         <li onclick="()" class="empty">Партия дивы</li>
+         <li onclick="scarlet_viper()">Алая гадюка</li>
+         <li onclick="bloody_valentine()">Кровь фэй</li>
+         <li onclick="tomb_gloom()">Мрачная птица</li>
+         <li onclick="inner_pieces()">Внутренние миры</li>
+         <li onclick="red_velvet()">Красный бархат</li>
+         <li onclick="lapis_luxury()">Роскошный лазурит</li>
+         <li onclick="bloodbath()">Кровавая баня</li>
+         <li onclick="diva_intervention()">Партия дивы</li>
          <li onclick="()" class="empty">Одна такая</li>
          <li onclick="()" class="empty">Драгоценная мумия</li>
       </ul></li>
