@@ -261,3 +261,79 @@ function meow_furever() {
    skullgirls.replaceChildren();
    pageGenerator();
 }
+
+function furry_fury() {
+   person.card_name = 'Лохматая ярость';
+   person.aka = 'Лохма';
+   person.card_src = 'Furry_Fury.png';
+   person.description = 'Имба Форчун, гигантский урон, бешенства, кровотоки, обязательно качаем. Довольно проста в использовании при этом.';
+   person.ability = 'Если ваше здоровье выше чем у противника, шанс 20% при ударе на 10 сек вызвать кровотечение врагу и активировать бешенство. При не менее 3 бешенства, через каждую секунду снимает бафф у противника.';
+   person.marquee1 = `${msfocha.marquee1} Основной выбор.`;
+   person.marquee2 = `${msfocha.marquee2}`;
+   person.prestige_description = `${msfocha.prestige}`;
+   person.prestige_activation = `${msfocha.p_active}`;
+   person.at = '14,592';
+   person.hp = '62,247';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'msfocha/Fiber_Upper.png';
+   person.build_2_img = 'msfocha/El_Gato.png';
+   person.build_3_img = 'msfocha/Cat_Slide.png';
+   person.build_4_img = 'msfocha/Cat_Scratch_Fever.png';
+   person.build_1_desc = 'Может нанести раскол брони.';
+   person.build_2_desc = 'Критический удар может оглушить противника.';
+   person.build_3_desc = 'Доп урон если у оппонента есть дебафф.';
+   person.build_4_desc = 'Доп урон от комбо.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function wind_stalker() {
+   person.card_name = 'Ветреный сталкер';
+   person.aka = 'Свалкер';
+   person.card_src = 'WindStalker.png';
+   person.description = 'Не плохая вариация, но увы, Лохматая или Мрак смотрятся лучше. Не стоит качать.';
+   person.ability = 'Если противник находится рядом с головой, вампирит 5% шкалы блокбастера. Когда здоровье противника опускается ниже 35%, блокирует смену персонажа и накладывает метку смерти и гибель на 15 сек. Гибель снимется если цель использует блокбастер.';
+   person.marquee1 = `${msfocha.marquee1}`;
+   person.marquee2 = `${msfocha.marquee2} Основной выбор.`;
+   person.prestige_description = `${msfocha.prestige}`;
+   person.prestige_activation = `${msfocha.p_active}`;
+   person.at = '12,384';
+   person.hp = '68,506';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'msfocha/Fiber_Upper.png';
+   person.build_2_img = 'msfocha/El_Gato.png';
+   person.build_3_img = 'msfocha/Cat_Slide.png';
+   person.build_4_img = 'msfocha/Cat_Scratch_Fever.png';
+   person.build_1_desc = 'Может нанести раскол брони.';
+   person.build_2_desc = 'Критический удар может оглушить противника.';
+   person.build_3_desc = 'Доп урон если у оппонента есть дебафф.';
+   person.build_4_desc = 'Доп урон от комбо.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function foot_soldier() {
+   person.card_name = 'Рядовой';
+   person.aka = 'Джури';
+   person.card_src = 'Foot_Soldier.png';
+   person.description = 'Очень крутая вариация. Меньше урона в сравнении с Лохматкой, но лучше контроллирует эффекты.';
+   person.ability = 'Удары головой снимают с противника 1 бафф и дают метку смерти на 7 сек, также снимает с себя дебафф. Дополнительный урон 10% за каждый бафф на любом из персонажей, до 100%.';
+   person.marquee1 = `${msfocha.marquee1}`;
+   person.marquee2 = `${msfocha.marquee2} Основной выбор.`;
+   person.prestige_description = `${msfocha.prestige}`;
+   person.prestige_activation = `${msfocha.p_active}`;
+   person.at = '12,384';
+   person.hp = '68,506';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'msfocha/Fiber_Upper.png';
+   person.build_2_img = 'msfocha/El_Gato.png';
+   person.build_3_img = 'msfocha/Cat_Slide.png';
+   person.build_4_img = 'msfocha/Cat_Scratch_Fever.png';
+   person.build_1_desc = 'Может нанести раскол брони.';
+   person.build_2_desc = 'Критический удар может оглушить противника.';
+   person.build_3_desc = 'Доп урон если у оппонента есть дебафф.';
+   person.build_4_desc = 'Доп урон от комбо.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
