@@ -159,6 +159,32 @@ function necrobreaker() {
    pageGenerator();
 }
 
+function thrill_shrieker() {
+   person.card_name = 'Героиня триллера';
+   person.aka = 'Триллер';
+   person.card_src = 'Thrill_Shrieker.png';
+   person.description = 'В золоте - хороший дд вариант Сквигли, качать стоит. Алмазить стоит, но превращается в полу-саппорта, играя второй абилкой: меняем активного танкующего врага на саппортящего его товарища, попутно снимая сразу 50% его здоровья.';
+   person.ability = 'При получении заряда дракона, также получает постоянное бешенство, снимается при расходе заряда. При принудительной смене противника под бешенством, он теряет 50% своих текущих НР.';
+   person.marquee1 = `${squigly.marquee1}`;
+   person.marquee2 = `${squigly.marquee2} Основной выбор.`;
+   person.prestige_description = `${squigly.prestige}`;
+   person.prestige_activation = `${squigly.p_active}`;
+   person.at = '10,157';
+   person.hp = '61,767';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'squigly/Inferno_of_Leviathan.png';
+   person.build_2_img = 'squigly/Battle_Opera.png';
+   person.build_3_img = 'squigly/Basso_Buffo.png';
+   person.build_4_img = 'squigly/The_Silver_Chord.png';
+   person.build_1_desc = 'Накладывает иссушение, применяется к подброшенному противнику.';
+   person.build_2_desc = 'Накладывает иссушение, применяется к противнику на дистанции.';
+   person.build_3_desc = 'Сменить противника, сочетается с абилкой Триллера.';
+   person.build_4_desc = 'Притягивает и может забрать 1 бафф.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+
 function love_crafted() {
    person.card_name = 'Лав и крафт';
    person.aka = 'Лавка';
