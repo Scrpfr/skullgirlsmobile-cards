@@ -161,3 +161,103 @@ function time_thief() {
    skullgirls.replaceChildren();
    pageGenerator();
 }
+function hack_n_splash() {
+   person.card_name = 'Рвать и поливать';
+   person.aka = 'Поливайка';
+   person.card_src = 'Hack_N_Splash.png';
+   person.description = 'Честно говоря, абилку сложно реализовать в бою, поэтому мало кто ей пользуется. Качать стоит, играть чисто огромным уроном.';
+   person.ability = 'Своевременный блок обычных атак даёт 5 точности, а противнику увечья и раскол брони на 10 сек. Если враг с увечьем, крит удары головой наносят дополнительно 3% максимального здоровья противника.';
+   person.marquee1 = `${msfocha.marquee1}`;
+   person.marquee2 = `${msfocha.marquee2} Основной выбор.`;
+   person.prestige_description = `${msfocha.prestige}`;
+   person.prestige_activation = `${msfocha.p_active}`;
+   person.at = '14,343';
+   person.hp = '48,039';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'msfocha/Fiber_Upper.png';
+   person.build_2_img = 'msfocha/El_Gato.png';
+   person.build_3_img = 'msfocha/Cat_Slide.png';
+   person.build_4_img = 'msfocha/Cat_Scratch_Fever.png';
+   person.build_1_desc = 'Может нанести раскол брони.';
+   person.build_2_desc = 'Критический удар может оглушить противника.';
+   person.build_3_desc = 'Доп урон если у оппонента есть дебафф.';
+   person.build_4_desc = 'Доп урон от комбо.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function claw_order() {
+   person.card_name = 'Когти и порядок';
+   person.aka = 'Когти';
+   person.card_src = 'Claw_Order.png';
+   person.description = 'Одна из лучших вариаций кошки. Не даст противнику использовать никакие приёмы. Рекомендуется качать.';
+   person.ability = 'Шанс 50% что критический удар сбросит таймеры отрицательных эффектов противника (кроме оглушения и гибели). Удар, снимающий более 5% НР за удар, перезаряжают особые приёмы и отключает блокбастеры противника на 15 сек.';
+   person.marquee1 = `${msfocha.marquee1}`;
+   person.marquee2 = `${msfocha.marquee2} Основной выбор.`;
+   person.prestige_description = `${msfocha.prestige}`;
+   person.prestige_activation = `${msfocha.p_active}`;
+   person.at = '12,519';
+   person.hp = '53,357';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'msfocha/Fiber_Upper.png';
+   person.build_2_img = 'msfocha/El_Gato.png';
+   person.build_3_img = 'msfocha/Cat_Slide.png';
+   person.build_4_img = 'msfocha/Cat_Scratch_Fever.png';
+   person.build_1_desc = 'Может нанести раскол брони.';
+   person.build_2_desc = 'Критический удар может оглушить противника.';
+   person.build_3_desc = 'Доп урон если у оппонента есть дебафф.';
+   person.build_4_desc = 'Доп урон от комбо.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function rogue_agent() {
+   person.card_name = 'Вор-одиночка';
+   person.aka = 'Вор';
+   person.card_src = 'Rogue_Agent.png';
+   person.description = 'Одна из лучших вариаций кошки. Урон невероятно большой, точность, уклонения. Рекомендуется качать, но очень желательно уметь играть головой.';
+   person.ability = 'Каждый удар головой имеет шанс 25% забрать 1 бафф превратив его в 3 точности. Удары с точностью дают уклонение, а противнику метку смерти на 10 сек.';
+   person.marquee1 = `${msfocha.marquee1}`;
+   person.marquee2 = `${msfocha.marquee2} Основной выбор.`;
+   person.prestige_description = `${msfocha.prestige}`;
+   person.prestige_activation = `${msfocha.p_active}`;
+   person.at = '14,343';
+   person.hp = '48,039';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'msfocha/Fiber_Upper.png';
+   person.build_2_img = 'msfocha/El_Gato.png';
+   person.build_3_img = 'msfocha/Cat_Slide.png';
+   person.build_4_img = 'msfocha/Cat_Scratch_Fever.png';
+   person.build_1_desc = 'Может нанести раскол брони.';
+   person.build_2_desc = 'Критический удар может оглушить противника.';
+   person.build_3_desc = 'Доп урон если у оппонента есть дебафф.';
+   person.build_4_desc = 'Доп урон от комбо.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function meow_furever() {
+   person.card_name = 'Сейчёс и мяувсегда';
+   person.aka = 'Сейчёска';
+   person.card_src = 'Meow_Furever.png';
+   person.description = 'Универсал, гроза новичков в защите. Якобы неубиваемая и оглушает ещё. Но контрится весьма легко, проще всего Элайзами. В рифтах ещё опаснее, ставят под катализаторы "Когтеточка" и "Светлое начало", но даже так не представляет серьёзной угрозы. В атаке играет через точность. Качать не стоит, устарела.';
+   person.ability = 'За каждую потерю 10% НР получает неупал на 10 сек и 5 точности. Когда эффект неупал закончится, наложит на врага метку смерти на 10 сек и оглушение на 4с.';
+   person.marquee1 = `${msfocha.marquee1}`;
+   person.marquee2 = `${msfocha.marquee2} Основной выбор.`;
+   person.prestige_description = `${msfocha.prestige}`;
+   person.prestige_activation = `${msfocha.p_active}`;
+   person.at = '10,618';
+   person.hp = '58,714';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Атака'];
+   person.build_1_img = 'msfocha/Fiber_Upper.png';
+   person.build_2_img = 'msfocha/El_Gato.png';
+   person.build_3_img = 'msfocha/Cat_Slide.png';
+   person.build_4_img = 'msfocha/Cat_Scratch_Fever.png';
+   person.build_1_desc = 'Может нанести раскол брони.';
+   person.build_2_desc = 'Критический удар может оглушить противника.';
+   person.build_3_desc = 'Доп урон если у оппонента есть дебафф.';
+   person.build_4_desc = 'Доп урон от комбо.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
