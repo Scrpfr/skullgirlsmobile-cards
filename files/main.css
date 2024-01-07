@@ -310,7 +310,7 @@ a {
 
 .pop_build__list {
    display: flex;
-   flex-direction: row;
+   flex-wrap: wrap;
    justify-content: space-around;
 }
 .pop_build__list li img {width: 800px;}
