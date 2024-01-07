@@ -166,13 +166,13 @@ list = `
          <li onclick="purrfect_dark()">Полный мр-р-рак</li>
          <li onclick="feline_lucky()">Трёхцветная удача</li>
          <li onclick="time_thief()">Похититель времени</li>
-         <li onclick="()" class="empty">Рвать и поливать</li>
-         <li onclick="()" class="empty">Когти и порядок</li>
-         <li onclick="()" class="empty">Вор-одиночка</li>
-         <li onclick="()" class="empty">Сейчёс и мяувсегда</li>
-         <li onclick="()" class="empty">Лохматая ярость</li>
-         <li onclick="()" class="empty">Ветреный сталкер</li>
-         <li onclick="()" class="empty">Рядовой</li>
+         <li onclick="hack_n_splash()">Рвать и поливать</li>
+         <li onclick="claw_order()">Когти и порядок</li>
+         <li onclick="rogue_agent()">Вор-одиночка</li>
+         <li onclick="meow_furever()">Сейчёс и мяувсегда</li>
+         <li onclick="furry_fury()">Лохматая ярость</li>
+         <li onclick="wind_stalker()">Ветреный сталкер</li>
+         <li onclick="foot_soldier()">Рядовой</li>
       </ul></li>
    <li><span>Пэйнвил</span>
       <ul type="none">
@@ -248,7 +248,7 @@ list = `
          <li onclick="gang_green()">Бандитский зелёный</li>
          <li onclick="nearly_departed()">Почти ушедшая</li>
          <li onclick="necrobreaker()">Некробрейкер</li>
-         <li onclick="()" class="empty">Героиня триллера</li>
+         <li onclick="thrill_shrieker()">Героиня триллера</li>
          <li onclick="()" class="empty">Холодная смерть</li>
          <li onclick="()" class="empty">Призрачный порыв</li>
          <li onclick="()" class="empty">Биоэкзорцист</li>
