@@ -1,6 +1,6 @@
 const eliza = {
    marquee1: 'Клятва - при поражении союзника восстанавливает 50% здоровья.',
-   marquee2: 'Жертва - при поражении союзника восстанавливает 70% шкалы блокбастера.',
+   marquee2: 'Жертва - при поражении союзника восстанавливает 100% шкалы блокбастера.',
    prestige: 'В режиме сехмет шанс при ударе снять положительный эффект с врага и восстановить немного здоровья.',
    p_active: '25% за переход в режим Сехмет.'
 }
@@ -153,7 +153,7 @@ function inner_pieces() {
    person.prestige_activation = `${eliza.p_active}`;
    person.at = '10,100';
    person.hp = '68,602';
-   person.atk_stats = ['Атака', 'Проницание', 'Прирост шкалы', 'Криты'];
+   person.atk_stats = ['Атака', 'Проницание', 'Перез приёмов'];
    person.def_stats = ['Не защитник'];
    person.build_1_img = 'eliza/Sekhmets_Bite.png';
    person.build_2_img = 'eliza/Sekhmets_Fury.png';
@@ -178,7 +178,7 @@ function red_velvet() {
    person.prestige_activation = `${eliza.p_active}`;
    person.at = '8,564';
    person.hp = '75,476';
-   person.atk_stats = ['Атака', 'Проницание', 'Прирост шкалы', 'Криты'];
+   person.atk_stats = ['Атака', 'Проницание', 'Перез приёмов', 'Точность'];
    person.def_stats = ['Не защитник'];
    person.build_1_img = 'eliza/Sekhmets_Bite.png';
    person.build_2_img = 'eliza/Sekhmets_Fury.png';
@@ -255,7 +255,7 @@ function diva_intervention() {
    person.prestige_activation = `${eliza.p_active}`;
    person.at = '10,100';
    person.hp = '68,602';
-   person.atk_stats = ['Атака', 'Проницание', 'Прирост шкалы', 'Криты'];
+   person.atk_stats = ['Атака', 'Проницание', 'Перез приёмов'];
    person.def_stats = ['Не защитник'];
    person.build_1_img = 'eliza/Lady_of_Slaughter.png';
    person.build_2_img = 'eliza/Sekhmets_Fury.png';
