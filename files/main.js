@@ -767,7 +767,7 @@ let supports_list = [
         </div>
         <div class="card_desc">
             <h3>Звёздная роза</h3>
-            <p>Своевременные блоки снимают бедафф и дают барьер на 15 сек</p>
+            <p>Своевременные блоки снимают дебафф и дают барьер на 15 сек</p>
             <p>Под барьером получают бешенство и реген</p>
         </div>
      </div>
@@ -950,4 +950,11 @@ function buildLoad() {
       </ul>
    </div>`;
    skullgirls.insertAdjacentHTML('beforeend', l);
+}
+
+function bg_image(arrow) {
+   skullgirls.style.backgroundImage = `url(${arrow})`;
+   skullgirls.style.backgroundAttachment = 'fixed';
+   skullgirls.style.backgroundSize = 'cover';
+   skullgirls.style.backgroundPosition = 'center';
 }
