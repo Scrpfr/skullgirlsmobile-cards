@@ -211,14 +211,14 @@ list = `
       <ul type="none">
          <li onclick="rerun()">Перезапуск</li>
          <li onclick="sketchy()">Мульт</li>
-         <li onclick="()" class="empty">Призматическое оперение</li>
-         <li onclick="()" class="empty">Джокер</li>
-         <li onclick="()" class="empty">Горошница</li>
+         <li onclick="prism_plumage()">Призматическое оперение</li>
+         <li onclick="wildcard()">Джокер</li>
+         <li onclick="pea_shooter()">Горошница</li>
          <li onclick="inkling()">Чернильница</li>
          <li onclick="mean_one()">Гадкая я</li>
-         <li onclick="()" class="empty">Неприкасаемые</li>
-         <li onclick="()" class="empty">Ультрафиолет</li>
-         <li onclick="()" class="empty">Вот и всё</li>
+         <li onclick="untouchable()">Неприкасаемые</li>
+         <li onclick="ultraviolent()">Ультрафиолет</li>
+         <li onclick="taf()">Вот и всё</li>
          <li onclick="()" class="empty">Животный дар</li>
          <li onclick="()" class="empty">Стоп-кадр</li>
          <li onclick="()" class="empty">Ловец снов</li>
@@ -877,7 +877,7 @@ function pageGenerator() {
             </div>
          </div>
          <div class="builds">
-            <h2>Рекомендуемый билд</h2>
+            <h2>Рекомендуемые приёмы</h2>
             <ul class="build__column" type="none">
                <li class="build__list"><img src="files/moves/${person.build_1_img}" height="100px"><span>${person.build_1_desc}</span></li>
                <li class="build__list"><img src="files/moves/${person.build_2_img}" height="100px"><span>${person.build_2_desc}</span></li>
