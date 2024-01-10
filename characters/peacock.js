@@ -56,6 +56,83 @@ function sketchy() {
    pageGenerator();
 }
 
+function prism_plumage() {
+   person.card_name = 'Призматическое оперение';
+   person.aka = 'Призма';
+   person.card_src = 'Prism_Plumage.png';
+   person.description = 'Может использоваться как саппорт, может как дд. Снаряды дают дебаффы, которые контрят большинство стихийных модов, что очень полезно и применяемо, к тому же снаряды не только самой Призмы дают эти дебаффы, можно использовать любого персонажа. Рекомендуется прокачивать.';
+   person.ability = 'Пока жива, все союзники призываются с 2 эффектами в зависимости от их стихии на 10 сек, и все снаряды с шансом 10% накладывают на противника дебафф в зависимости от его стихии.';
+   person.marquee1 = `${peacock.marquee1} Основной выбор.`;
+   person.marquee2 = `${peacock.marquee2}`;
+   person.prestige_description = `${peacock.prestige}`;
+   person.prestige_activation = `${peacock.p_active}`;
+   person.at = '8,218';
+   person.hp = '50,324';
+   person.atk_stats = ['Атака', 'Проницание', 'Криты', 'Перез приемов'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'peacock/Argus_Agony.png';
+   person.build_2_img = 'peacock/Impending_Doom.png';
+   person.build_3_img = 'peacock/Bandwagon_Rushdown.png';
+   person.build_4_img = 'peacock/Georges_Day_Out.png';
+   person.build_1_desc = 'Может наложить раскол брони.';
+   person.build_2_desc = 'Может оглушить противника.';
+   person.build_3_desc = 'Может снять с противника все положительные эффекты.';
+   person.build_4_desc = 'Выпустить бомбочку.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function wildcard() {
+   person.card_name = 'Джокер';
+   person.aka = 'Джокер';
+   person.card_src = 'Wildcard.png';
+   person.description = 'Не такой простой персонаж как другие Пикок, но качать можно, больше фанатам Пикок. При смерти если у врага дебафф, забирает сразу 50% полных НР, что может быть полезно в некоторых ситуациях, но есть вариации получше.';
+   person.ability = 'При использовании особого приёма, накладывает случайный дебафф на 5 сек. При поражении, если у противника есть дебафф, снижает максимальное здоровье противника на 50%.';
+   person.marquee1 = `${peacock.marquee1} Основной выбор.`;
+   person.marquee2 = `${peacock.marquee2}`;
+   person.prestige_description = `${peacock.prestige}`;
+   person.prestige_activation = `${peacock.p_active}`;
+   person.at = '8,218';
+   person.hp = '50,324';
+   person.atk_stats = ['Атака', 'Проницание', 'Криты', 'Перез приемов'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'peacock/Argus_Agony.png';
+   person.build_2_img = 'peacock/Impending_Doom.png';
+   person.build_3_img = 'peacock/BANG_BANG.png';
+   person.build_4_img = 'peacock/Georges_Day_Out.png';
+   person.build_1_desc = 'Может наложить раскол брони.';
+   person.build_2_desc = 'Может оглушить противника.';
+   person.build_3_desc = '3 нажатия = 3 выстрела.';
+   person.build_4_desc = 'Выпустить бомбочку.';
+   person.supps = ['joy', 'peashooter', 'harlequin'];
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+}
+function pea_shooter() {
+   person.card_name = 'Горошница';
+   person.aka = 'Горох';
+   person.card_src = 'Pea_Shooter.png';
+   person.description = 'Для серебра, очень сильный персонаж, можно также алмазить. Может также использоваться как саппорт, увеличивающий урон от снарядов. Рекомендуется качать.';
+   person.ability = 'Увеличивает урон снарядов на 35%. Снаряды с шансом 15% накладывают раскол брони на 6 сек.';
+   person.marquee1 = `${peacock.marquee1} Основной выбор.`;
+   person.marquee2 = `${peacock.marquee2}`;
+   person.prestige_description = `${peacock.prestige}`;
+   person.prestige_activation = `${peacock.p_active}`;
+   person.at = '11,079';
+   person.hp = '41,127';
+   person.atk_stats = ['Атака', 'Проницание', 'Криты', 'Перез приемов'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'peacock/Boxcar_George.png';
+   person.build_2_img = 'peacock/Impending_Doom.png';
+   person.build_3_img = 'peacock/Bandwagon_Rushdown.png';
+   person.build_4_img = 'peacock/Georges_Day_Out.png';
+   person.build_1_desc = 'Быстрая бомбочка с края карты.';
+   person.build_2_desc = 'Может оглушить противника.';
+   person.build_3_desc = 'Может снять с противника все положительные эффекты.';
+   person.build_4_desc = 'Выпустить бомбочку.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
 function inkling() {
    person.card_name = 'Чернильница';
    person.aka = 'Инк';
@@ -110,4 +187,79 @@ function mean_one() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+}
+function ultraviolent() {
+   person.card_name = 'Ультрафиолет';
+   person.aka = 'Уфа';
+   person.card_src = 'Ultraviolent.png';
+   person.description = 'Хороший персонаж сам по себе, большой урон и игнорирование всей защиты противника. Но уже устарела и Гадкая выглядит поинтереснее, не стоит качать.';
+   person.ability = 'Шанс 50% что снаряд проигнорирует защиту и броню противника. Увеличен урон на 50% по противнику с непоколебимостью или бронёй.';
+   person.marquee1 = `${peacock.marquee1} Основной выбор.`;
+   person.marquee2 = `${peacock.marquee2}`;
+   person.prestige_description = `${peacock.prestige}`;
+   person.prestige_activation = `${peacock.p_active}`;
+   person.at = '12,960';
+   person.hp = '48,039';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'peacock/Argus_Agony.png';
+   person.build_2_img = 'peacock/Impending_Doom.png';
+   person.build_3_img = 'peacock/Bandwagon_Rushdown.png';
+   person.build_4_img = 'peacock/Georges_Day_Out.png';
+   person.build_1_desc = 'Может наложить раскол брони.';
+   person.build_2_desc = 'Может оглушить противника.';
+   person.build_3_desc = 'Может снять с противника все положительные эффекты.';
+   person.build_4_desc = 'Выпустить бомбочку.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function untouchable() {
+   person.card_name = 'Неприкасаемые';
+   person.aka = 'Неприкасайка';
+   person.card_src = 'Untouchable.png';
+   person.description = 'Не стоит прокачивать: весьма слабая и очень легко контрится, как порчей и проклятьем, так и метким глазом и точностью.';
+   person.ability = 'При получении удара, шанс 15% не получить урона и активировать непоколебимость на 6 секунд (распространяется на блок).';
+   person.marquee1 = `${peacock.marquee1} Основной выбор.`;
+   person.marquee2 = `${peacock.marquee2}`;
+   person.prestige_description = `${peacock.prestige}`;
+   person.prestige_activation = `${peacock.p_active}`;
+   person.at = '10,272';
+   person.hp = '58,676';
+   person.atk_stats = ['Не атакующий'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Точность'];
+   person.build_1_img = 'peacock/Argus_Agony.png';
+   person.build_2_img = 'peacock/Impending_Doom.png';
+   person.build_3_img = 'peacock/Georges_Day_Out.png';
+   person.build_4_img = 'peacock/Peacock_Burst.png';
+   person.build_1_desc = 'Может наложить раскол брони.';
+   person.build_2_desc = 'Может оглушить противника.';
+   person.build_3_desc = 'Выпустить бомбочку.';
+   person.build_4_desc = 'Прервать атаку противника.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function taf() {
+   person.card_name = 'Вот и всё';
+   person.aka = 'Таф';
+   person.card_src = 'Thats_All_Folks.png';
+   person.description = 'Не для новичков, так как нужна только полностью прокачанная (включая статы). Ставят в рифты под катализаторы "Разрывные", "Последнее слово" и можно "Светлое начало". Здоровье низкое, но уклонения могут создать сложности в победе над ней.';
+   person.ability = 'При получении удара, шанс 15% наложить раскол брони на 10 сек и получить 5 точности и 1 уклонение. Пока жива, шанс крита противника понижен на 75%.';
+   person.marquee1 = `${peacock.marquee1} Основной выбор.`;
+   person.marquee2 = `${peacock.marquee2}`;
+   person.prestige_description = `${peacock.prestige}`;
+   person.prestige_activation = `${peacock.p_active}`;
+   person.at = '11,271';
+   person.hp = '53,357';
+   person.atk_stats = ['Не атакующий'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Точность'];
+   person.build_1_img = 'peacock/Argus_Agony.png';
+   person.build_2_img = 'peacock/Impending_Doom.png';
+   person.build_3_img = 'peacock/Georges_Day_Out.png';
+   person.build_4_img = 'peacock/Peacock_Burst.png';
+   person.build_1_desc = 'Может наложить раскол брони.';
+   person.build_2_desc = 'Может оглушить противника.';
+   person.build_3_desc = 'Выпустить бомбочку.';
+   person.build_4_desc = 'Прервать атаку противника.';
+   skullgirls.replaceChildren();
+   pageGenerator();
 }
