@@ -135,14 +135,14 @@ list = `
          <li onclick="souls_sister()">Сестра по духу</li>
          <li onclick="rain_shadow()">Грозовая тень</li>
          <li onclick="chameleon_twist()">Ящерица спок</li>
-         <li onclick="()" class="empty">Соколиные крылья</li>
-         <li onclick="()" class="empty">Милая меломанка</li>
-         <li onclick="()" class="empty">Ночной кошмар</li>
-         <li onclick="()" class="empty">Призрачные нити</li>
+         <li onclick="feathered_edges()">Соколиные крылья</li>
+         <li onclick="vaporwave_vixen()">Милая меломанка</li>
+         <li onclick="night_terror()">Ночной кошмар</li>
+         <li onclick="phantom_threads()">Призрачные нити</li>
          <li onclick="()" class="empty">Альфа-комплекс</li>
          <li onclick="()" class="empty">Демон из сна</li>
-         <li onclick="()" class="empty">Мрачная марионетка</li>
-         <li onclick="()" class="empty">Зазеркалье</li>
+         <li onclick="shadow_puppet()">Мрачная марионетка</li>
+         <li onclick="splitting_image()">Зазеркалье</li>
       </ul></li>
    <li><span>Мари</span>
       <ul type="none">
