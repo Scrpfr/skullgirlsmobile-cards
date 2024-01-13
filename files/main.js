@@ -180,12 +180,12 @@ list = `
          <li onclick="twisted_mettle()">Металлопрокат</li>
          <li onclick="blood_drive()">Сестра крови</li>
          <li onclick="rage_appropriate()">Подростковый</li>
-         <li onclick="()" class="empty">Жуткая пятница</li>
+         <li onclick="freaky_friday()">Жуткая пятница</li>
          <li onclick="firefly()">Светлячок</li>
          <li onclick="biting_cold()">Кусачий мороз</li>
          <li onclick="buzzkill()">Пчёлы-убийцы</li>
          <li onclick="raw_nerv()">Оголённый нерв</li>
-         <li onclick="()" class="empty">Мрачное фанданго</li>
+         <li onclick="grim_fan()">Мрачное фанданго</li>
          <li onclick="()" class="empty">Паутинник</li>
          <li onclick="()" class="empty">Мухоловка</li>
          <li onclick="()" class="empty">Нейромант</li>
