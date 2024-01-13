@@ -108,6 +108,31 @@ function rage_appropriate() {
    skullgirls.replaceChildren();
    pageGenerator();
 }
+function freaky_friday() {
+   person.card_name = 'Жуткая пятница';
+   person.aka = 'Пятка';
+   person.card_src = 'Freaky_Friday.png';
+   person.description = 'Лучшая дд Пейнвил до алмазных. Можно качать до алмаза, но всё же в алмазе очень мало здоровья и много непроходимых противников, что сделает её не часто используемой.';
+   person.ability = 'Критический удар накладывает кровотечение и метку смерти на 5 сек. Убийство противника с уроном больше 10% за удар даёт ускорение и 5 точности.';
+   person.marquee1 = `${painwheel.marquee1}`;
+   person.marquee2 = `${painwheel.marquee2} Основной выбор.`;
+   person.prestige_description = `${painwheel.prestige}`;
+   person.prestige_activation = `${painwheel.p_active}`;
+   person.at = '12,327';
+   person.hp = '35,271';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'painwheel/Pinion_Dash.png';
+   person.build_2_img = 'painwheel/Gae_Bolga_Stinger.png';
+   person.build_3_img = 'painwheel/Hatred_Install.png';
+   person.build_4_img = 'painwheel/Fracture_Reaper.png';
+   person.build_1_desc = 'Мета приём.';
+   person.build_2_desc = 'Повышенный шанс крита, сочетается с абилкой.';
+   person.build_3_desc = 'Может дать бешенство.';
+   person.build_4_desc = 'Может наложить метку смерти.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
 
 function firefly() {
    person.card_name = 'Светлячок';
@@ -147,7 +172,7 @@ function biting_cold() {
    person.at = '10,618';
    person.hp = '50,285';
    person.atk_stats = ['Основной дд билд пэйнвил'];
-   person.def_stats = ['Здоровье', 'Защита', 'Атака', 'Прирост шкалы'];
+   person.def_stats = ['Здоровье', 'Защита', 'Атака', 'Сопротивление'];
    person.build_1_img = 'painwheel/Buer_Overdrive.png';
    person.build_2_img = 'painwheel/Pinion_Dash.png';
    person.build_3_img = 'painwheel/Buer_Thresher.png';
@@ -208,6 +233,57 @@ function raw_nerv() {
    person.build_2_desc = 'Мета приём.';
    person.build_3_desc = 'Резкая контратака.';
    person.build_4_desc = 'Может наложить метку смерти.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function grim_fan() {
+   person.card_name = 'Мрачное фанданго';
+   person.aka = 'Фанта';
+   person.card_src = 'Grim_Fan.png';
+   person.description = 'Можно получить только из ивентовых реликвий света. Не рекомендуется прокачивать: слабая. Но можно ставить на защиту в рифтах под Буэра.';
+   person.ability = 'Раз за матч когда здоровье становится ниже 50%, получает непоколебимость и иммунитет на 15 сек. Когда непоколебимость заканчивается, возрождает всех союзников с 30% НР.';
+   person.marquee1 = `${painwheel.marquee1}`;
+   person.marquee2 = `${painwheel.marquee2}`;
+   person.prestige_description = `${painwheel.prestige}`;
+   person.prestige_activation = `${painwheel.p_active}`;
+   person.at = '12,480';
+   person.hp = '45,716';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Атака'];
+   person.build_1_img = 'painwheel/Buer_Overdrive.png';
+   person.build_2_img = 'painwheel/Pinion_Dash.png';
+   person.build_3_img = 'painwheel/Buer_Thresher.png';
+   person.build_4_img = 'painwheel/Fracture_Reaper.png';
+   person.build_1_desc = 'Снижает шкалу блокбастеров врага.';
+   person.build_2_desc = 'Мета приём.';
+   person.build_3_desc = 'Резкая контратака.';
+   person.build_4_desc = 'Может наложить метку смерти.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+
+function true_ovagva() {
+   person.card_name = 'Кийоко Огава';
+   person.aka = 'Овагва';
+   person.card_src = 'true_ovagva.png';
+   person.description = 'Легенда ру сгм комьюнити, Кийоко Огава. Самая настоящая, Тру Овагва 2022.';
+   person.ability = 'Периодически наматывается на проблемы, хоть и не хочет этого. Решать проблемы также не хочет. Иногда не может нормально изложить свои мысли, из-за чего часто также наматывается на проблемы.';
+   person.marquee1 = `${painwheel.marquee1}`;
+   person.marquee2 = `${painwheel.marquee2}`;
+   person.prestige_description = `${painwheel.prestige}`;
+   person.prestige_activation = `${painwheel.p_active}`;
+   person.at = '0';
+   person.hp = 'терпила';
+   person.atk_stats = ['Не атакующий'];
+   person.def_stats = ['Не защитница'];
+   person.build_1_img = 'painwheel/Smile.png';
+   person.build_2_img = 'painwheel/Painwheel_Burst.png';
+   person.build_3_img = 'cerebella/Medici_Muscle.png';
+   person.build_4_img = 'cerebella/Grab_Bag.png';
+   person.build_1_desc = 'Несъёмная маска клоуна.';
+   person.build_2_desc = 'Блаженная.';
+   person.build_3_desc = 'Полосы норм ты чё.';
+   person.build_4_desc = 'Бесконечное терпение.';
    skullgirls.replaceChildren();
    pageGenerator();
 }
