@@ -146,16 +146,16 @@ list = `
       </ul></li>
    <li><span>Мари</span>
       <ul type="none">
-         <li onclick="()" class="empty">Голые кости</li>
-         <li onclick="()" class="empty">Угрюмая колдунья</li>
-         <li onclick="()" class="empty">Призрачная пастушка</li>
-         <li onclick="()" class="empty">Змея-заклинательница</li>
+         <li onclick="bare_bones()">Голые кости</li>
+         <li onclick="moody_magus()">Угрюмая колдунья</li>
+         <li onclick="phantom_wrangler()">Призрачная пастушка</li>
+         <li onclick="snake_charmer()">Змея-заклинательница</li>
          <li onclick="maid_of_honor()">Рыцарь-горничная</li>
          <li onclick="()" class="empty">Октоплазма</li>
          <li onclick="()" class="empty">Охотница с пылесосом</li>
          <li onclick="()" class="empty">Тёмная лошадка</li>
          <li onclick="()" class="empty">Гробокопательница</li>
-         <li onclick="()" class="empty">Мегаломаньяк</li>
+         <li onclick="megalomaniac()">Мегаломаньяк</li>
          <li onclick="()" class="empty">Бессердечная</li>
       </ul></li>
    <li><span>Мисс Форчун</span>
