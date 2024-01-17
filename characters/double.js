@@ -110,7 +110,7 @@ function doublicious() {
    person.card_name = 'Двойная мята';
    person.aka = 'Мята';
    person.card_src = 'Doublicious.png';
-   person.description = 'Очень сильный персонаж против бафферов, шикарный для серебра. А с хаосом закидает оппонента также множеством дебаффов. Но здоровья очень мало, не смотрите на вторую абилку, играйте от первой.';
+   person.description = 'Вариация Дабл, забирающая баффы с противника. Очень хорошая для серебра, но уже устарела: из подобных персонажей лучше прокачать Охотницу с пылесосом (Мари). Мяту прокачать можно, но не выше золота, и не смотрите на вторую абилку, лучше не получать урона специально.';
    person.ability = 'При нанесении удара шанс 25% забрать 1 бафф с противника. При получении удара шанс 25% перенести 1 дебафф с себя на противника.';
    person.marquee1 = `${double.marquee1} Качайте Только Хаос.`;
    person.marquee2 = `${double.marquee2}`;
@@ -228,6 +228,109 @@ function rainbow_blight() {
    person.build_1_desc = 'Резкая атака, накладывает замедление.';
    person.build_2_desc = 'Наложит блок исцеления, используют после слайда.';
    person.build_3_desc = 'Используют в комбо.';
+   person.build_4_desc = 'Наложит порчу.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+
+function creature_of_habit() {
+   person.card_name = 'Порождение привычки';
+   person.aka = 'Привычка';
+   person.card_src = 'Creature_of_Habit.png';
+   person.description = 'Играет между двумя режимами: либо с миазмами, либо с бешенствами. Режим с миазмами бесполезный, а вот режим бешенств очень даже крутой. Можно взять только 1 блокбастер и никогда его не использовать, он зарядится и даст 5 бешенств, дальше играть от комбо от ос приёмов. В целом, примерно то же что и Зуболом, только быстрее получает буст урона и он стабильный, но предел буста меньше.';
+   person.ability = 'Когда ни один блокбастер не заряжен и когда не блокирует, каждые 5 сек получает миазмы на 10 сек. Когда хоть один блокбастер будет заряжен, каждые 2 сек получает бешенство, которое снимется только при использовании блокбастера.';
+   person.marquee1 = `${double.marquee1} Качайте Только Хаос.`;
+   person.marquee2 = `${double.marquee2}`;
+   person.prestige_description = `${double.prestige}`;
+   person.prestige_activation = `${double.p_active}`;
+   person.at = '13,152';
+   person.hp = '53,338';
+   person.atk_stats = ['Атака', 'Проницание', 'Стихийный бонус', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'double/Cilia_Slide.png';
+   person.build_2_img = 'double/Bogus_Buzzard.png';
+   person.build_3_img = 'double/Hornet_Bomber.png';
+   person.build_4_img = 'double/Beast_Of_Gehenna.png';
+   person.build_1_desc = 'Резкая атака, накладывает замедление.';
+   person.build_2_desc = 'Наложит блок исцеления, используют после слайда.';
+   person.build_3_desc = 'Используют в комбо.';
+   person.build_4_desc = 'Шанс ввести ос и призыв противника в кд.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function heart_of_darkness() {
+   person.card_name = 'Сердце тьмы';
+   person.aka = 'Сердце';
+   person.card_src = 'Heart_of_Darkness.png';
+   person.description = 'Интересная идея абилки, но врядли где-то вообще пригодится. Проще не качать.';
+   person.ability = 'Раз за матч при трансмутации в стихию противника копирует его ключевое умение и накладывает ему порчу на 30 сек. Когда противник меняет персонажа, переносит все его дебаффы на активного персонажа.';
+   person.marquee1 = `${double.marquee1} Качайте Только Хаос.`;
+   person.marquee2 = `${double.marquee2}`;
+   person.prestige_description = `${double.prestige}`;
+   person.prestige_activation = `${double.p_active}`;
+   person.at = '13,152';
+   person.hp = '53,338';
+   person.atk_stats = ['Атака', 'Проницание', 'Стихийный бонус', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'double/Cilia_Slide.png';
+   person.build_2_img = 'double/Bogus_Buzzard.png';
+   person.build_3_img = 'double/Hornet_Bomber.png';
+   person.build_4_img = 'double/Bandwagon_Rushdown.png';
+   person.build_1_desc = 'Резкая атака, накладывает замедление.';
+   person.build_2_desc = 'Наложит блок исцеления, используют после слайда.';
+   person.build_3_desc = 'Используют в комбо.';
+   person.build_4_desc = 'Наложит порчу.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function jawbreaker() {
+   person.card_name = 'Зуболом';
+   person.aka = 'Зуб';
+   person.card_src = 'Jawbreaker.png';
+   person.description = 'Сильнейшая Дабл в игре на данный момент. Но абилка при этом довольно слабая, для лучшего результата потребуются саппорты, дающие ей баффы. Также, не стоит ей сражаться против Пэйнвил, из-за отражения урона. А также против Нечисти и Жажды Смерти, которые сделают вашу абилку бесполезной.';
+   person.ability = 'При трансмутации даёт случайный положительный эффект на 7 сек. Дополнительный 20% урон за каждый положительный эффект на вас.';
+   person.marquee1 = `${double.marquee1} Качайте Только Хаос.`;
+   person.marquee2 = `${double.marquee2}`;
+   person.prestige_description = `${double.prestige}`;
+   person.prestige_activation = `${double.p_active}`;
+   person.at = '15,130';
+   person.hp = '48,020';
+   person.atk_stats = ['Атака', 'Проницание', 'Стихийный бонус', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'double/Cilia_Slide.png';
+   person.build_2_img = 'double/Bogus_Buzzard.png';
+   person.build_3_img = 'double/Hornet_Bomber.png';
+   person.build_4_img = 'double/Bandwagon_Rushdown.png';
+   person.build_1_desc = 'Резкая атака, накладывает замедление.';
+   person.build_2_desc = 'Наложит блок исцеления, используют после слайда.';
+   person.build_3_desc = 'Используют в комбо.';
+   person.build_4_desc = 'Наложит порчу.';
+   person.supps = ['evergreen', 'persona', 'surgeon'];
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+}
+function altar_ego() {
+   person.card_name = 'Алтарное эго';
+   person.aka = 'Алтарь';
+   person.card_src = 'Altar_Ego.png';
+   person.description = 'Либо надо наложить много дебаффов и убить таунтом, либо бесполезная вариация. Проще не качать.';
+   person.ability = 'Вплотную к противнику и не в блоке, каждые 2 секунды даёт ему рандом дебафф на 10 сек. При использовании таунта "Неблагие намерения", снимает все дебаффы противника и наносит 25% урона от атаки Дабл за каждый дебафф, а в случае убийства таунтом, враг не сможет воскреснуть.';
+   person.marquee1 = `${double.marquee1} Качайте Только Хаос.`;
+   person.marquee2 = `${double.marquee2}`;
+   person.prestige_description = `${double.prestige}`;
+   person.prestige_activation = `${double.p_active}`;
+   person.at = '15,130';
+   person.hp = '48,020';
+   person.atk_stats = ['Атака', 'Проницание', 'Стихийный бонус', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'double/Cilia_Slide.png';
+   person.build_2_img = 'double/Bogus_Buzzard.png';
+   person.build_3_img = 'double/False_Intentions.png';
+   person.build_4_img = 'double/Bandwagon_Rushdown.png';
+   person.build_1_desc = 'Резкая атака, накладывает замедление.';
+   person.build_2_desc = 'Наложит блок исцеления, используют после слайда.';
+   person.build_3_desc = 'Получить рандом бафф, сочетается с абилкой Алтаря.';
    person.build_4_desc = 'Наложит порчу.';
    skullgirls.replaceChildren();
    pageGenerator();
