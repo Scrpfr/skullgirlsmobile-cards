@@ -93,10 +93,10 @@ list = `
          <li onclick="immoral_fiber()">Аморальные устои</li>
          <li onclick="evergreen_evil()">Вечнозеленое зло</li>
          <li onclick="xenomorph()">Ксеноморф</li>
-         <li onclick="()" class="empty">Порождение привычки</li>
-         <li onclick="()" class="empty">Сердце тьмы</li>
-         <li onclick="()" class="empty">Зуболом</li>
-         <li onclick="()" class="empty">Алтарное эго</li>
+         <li onclick="creature_of_habit()">Порождение привычки</li>
+         <li onclick="heart_of_darkness()">Сердце тьмы</li>
+         <li onclick="jawbreaker()">Зуболом</li>
+         <li onclick="altar_ego()">Алтарное эго</li>
       </ul></li>
    <li><span>Элайза</span>
       <ul type="none">
@@ -311,13 +311,13 @@ let builds = document.getElementById('pop_build');
 let person = {
    card_name: 'Название карточки',
    aka: '"никнейм"',
-   card_src: 'main.jpg',
-   description: 'Этот сайт сделан на скорую руку, не судите строго. Его цель - рассказать о карточках подробно без лишнего и в компактном виде. Будем стараться держать только актуальную информацию.На телефонах левый сайтбар находится в левой верхней вкладке "меню". После выбора закройте окно.',
+   card_src: 'main2.jpg',
+   description: 'Этот сайт сделан на скорую руку, не судите строго. Его цель - рассказать о карточках подробно без лишнего и в компактном виде. Будем стараться держать только актуальную информацию. На телефонах левый сайтбар находится в левой верхней вкладке "меню".',
    ability: 'Ключевое умение карточки в одном описании в целом.',
-   marquee1: 'Две уникальных способностей персонажа.',
+   marquee1: 'Две уникальных способностей персонажа на выбор.',
    marquee2: 'Может быть указано что лучше именно выбранной карточке.',
-   prestige_description: 'Описание престижа, ',
-   prestige_activation: 'при условии.',
+   prestige_description: 'Описание престижа.',
+   prestige_activation: 'описание условия для зарядки престижа.',
    at: 'Стат',
    hp: 'Стат',
    atk_stats: ['Статы на персонажа при нападении на бота'],
@@ -899,6 +899,9 @@ function hideNeedless() {
       document.querySelector('.third_main_column').replaceChildren();
       document.querySelector('.card_img').replaceChildren();
       document.querySelector('.stats__column').replaceChildren();
+   };
+   if (innerWidth > 670) {
+      document.querySelector('.head').replaceChildren();
    }
 }
 
