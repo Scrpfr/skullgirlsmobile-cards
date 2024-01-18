@@ -25,7 +25,7 @@ function solar_flair() {
    person.build_4_img = 'annie/Crescent_Cut.png';
    person.build_1_desc = 'Бонус к урону при критическом ударе.';
    person.build_2_desc = 'Восстановить здоровье.';
-   person.build_3_desc = 'Обездвижит ударами.';
+   person.build_3_desc = 'Шанс дать обездвиживание.';
    person.build_4_desc = 'Может дать раскол защиты.';
    person.supps = ['honormaid', 'martial_outlaw', 'surgeon'];
    skullgirls.replaceChildren();
@@ -130,7 +130,7 @@ function triple_threat() {
    person.build_4_img = 'annie/Crescent_Cut.png';
    person.build_1_desc = 'Бонус к урону при критическом ударе.';
    person.build_2_desc = 'Восстановить здоровье.';
-   person.build_3_desc = 'Обездвижит ударами.';
+   person.build_3_desc = 'Шанс дать обездвиживание.';
    person.build_4_desc = 'Может дать раскол защиты.';
    person.build_form_name1 = 'Основной билд';
    person.build_form_path1 = '<img src="files/moves/annie/build1_triple_threat.jpg">';
@@ -187,7 +187,7 @@ function model_leader() {
    person.build_4_img = 'annie/Annie_Burst.png';
    person.build_1_desc = 'Перекладывает с себя дебаффы и станит.';
    person.build_2_desc = 'Восстановить здоровье.';
-   person.build_3_desc = 'Обездвижит ударами.';
+   person.build_3_desc = 'Шанс дать обездвиживание.';
    person.build_4_desc = 'Прервать атаку противника.';
    person.addition = 'Отсылка: отсылает на персонажа Несса из покемон меч и щит. Гим лидер, использующий водяных покемонов, а как лидер, обладает своим стадионом, который водяные гим лидеры обычно наполняют водой, о чём и говорится в фразе.';
    skullgirls.replaceChildren();
