@@ -5,19 +5,19 @@ list = `
    <li><span>Энни</span>
       <ul type="none" id="cards">
          <li onclick="solar_flair()">Солнечный дар</li>
-         <li onclick="()" class="empty">Звёздное дитя</li>
-         <li onclick="()" class="empty">Галактический гламур</li>
-         <li onclick="()" class="empty">Звезда-ниндзя</li>
+         <li onclick="star_child()">Звёздное дитя</li>
+         <li onclick="galactic_glamour()">Галактический гламур</li>
+         <li onclick="ninja_star()">Звезда-ниндзя</li>
          <li onclick="triple_threat()">Тройная угроза</li>
          <li onclick="()" class="empty">Космическая мятежница</li>
          <li onclick="()" class="empty">Девочка-материя</li>
          <li onclick="()" class="empty">Вневременный кумир</li>
          <li onclick="()" class="empty">Сила луны</li>
-         <li onclick="()" class="empty">Нестареющее чудо</li>
+         <li onclick="ageless_wonder()">Нестареющее чудо</li>
          <li onclick="()" class="empty">Звездная роза</li>
          <li onclick="()" class="empty">Клеймённая огнём</li>
          <li onclick="model_leader()">Лидер-модель</li>
-         <li onclick="()" class="empty">Сияние звёзд</li>
+         <li onclick="star_shine()">Сияние звёзд</li>
       </ul></li>
    <li><span>Беовульф</span>
       <ul type="none">
@@ -28,12 +28,12 @@ list = `
          <li onclick="wrestler()">Рестлер Х</li>
          <li onclick="()" class="empty">Любимец публики</li>
          <li onclick="()" class="empty">Кулак дракона</li>
-         <li onclick="()" class="empty">Борец за свободу</li>
-         <li onclick="()" class="empty">Волкодав</li>
-         <li onclick="()" class="empty">Воин на час</li>
-         <li onclick="()" class="empty">Царь зверей</li>
+         <li onclick="freedom_fighter()">Борец за свободу</li>
+         <li onclick="wulfsbane()">Волкодав</li>
+         <li onclick="weekend_warrior()">Воин на час</li>
+         <li onclick="beast_king()">Царь зверей</li>
          <li onclick="()" class="empty">Укус змеи</li>
-         <li onclick="()" class="empty">Тёмный навсегда</li>
+         <li onclick="dark_might()">Тёмный навсегда</li>
          <li onclick="()" class="empty">Огряной зелёный</li>
       </ul></li>
    <li><span>Биг Бенд</span>
@@ -55,16 +55,16 @@ list = `
       <ul type="none">
          <li onclick="trigger_happy()">Авантюристка</li>
          <li onclick="golden_gunner()">Золотой стрелок</li>
-         <li onclick="()" class="empty">Смертельное оружие</li>
-         <li onclick="()" class="empty">Наёмница рока</li>
-         <li onclick="()" class="empty">Сокрушительница душ</li>
-         <li onclick="()" class="empty">Психокомандир</li>
+         <li onclick="lethal_weapon()">Смертельное оружие</li>
+         <li onclick="dame_slayer()">Наёмница рока</li>
+         <li onclick="soul_crusher()">Сокрушительница душ</li>
+         <li onclick="psycommander()">Психокомандир</li>
          <li onclick="()" class="empty">Красный всадник</li>
-         <li onclick="()" class="empty">Едкий агент</li>
+         <li onclick="corrosive_agent()">Едкий агент</li>
          <li onclick="martial_outlaw()">Военный преступник</li>
          <li onclick="()" class="empty">Невозмутимость</li>
          <li onclick="fur_monger()">Меховик войны</li>
-         <li onclick="()" class="empty">Носитель нечисти</li>
+         <li onclick="unholy_host()">Носитель нечисти</li>
       </ul></li>
    <li><span>Церебелла</span>
       <ul type="none">
