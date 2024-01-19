@@ -23,10 +23,10 @@ function cold_stones() {
    person.build_2_img = 'beowulf/HurtingHurdle.png';
    person.build_3_img = 'beowulf/LupinePummel.png';
    person.build_4_img = 'beowulf/GeatishTrepak.png';
-   person.build_1_desc = 'Основное оружие волка.';
-   person.build_2_desc = 'На всякий случай.';
+   person.build_1_desc = 'Неотменяемый захват на пол экрана.';
+   person.build_2_desc = 'Повышенный шанс крита.';
    person.build_3_desc = 'Много ударов, способных прокнуть абилку.';
-   person.build_4_desc = 'Много ударов под хайпом.';
+   person.build_4_desc = 'Больше урона и ударов под хайпом.';
    person.build_form_name1 = 'Примерный билд на глыбу';
    person.build_form_path1 = '<img src="files/moves/beowulf/build_cold_stones.jpg">';
    person.build_form_name2 = 'Царский билд';
@@ -53,10 +53,10 @@ function underdog() {
    person.build_2_img = 'beowulf/HurtingHurdle.png';
    person.build_3_img = 'beowulf/LupinePummel.png';
    person.build_4_img = 'beowulf/GeatishTrepak.png';
-   person.build_1_desc = 'Основное оружие волка.';
+   person.build_1_desc = 'Неотменяемый захват на пол экрана.';
    person.build_2_desc = 'Резкий подбрасывающий удар.';
    person.build_3_desc = 'Шанс дать увечье и замедление.';
-   person.build_4_desc = 'Много ударов под хайпом.';
+   person.build_4_desc = 'Больше урона и ударов под хайпом.';
    skullgirls.replaceChildren();
    pageGenerator();
 }
@@ -79,10 +79,10 @@ function number_one() {
    person.build_2_img = 'beowulf/GiganticArm.png';
    person.build_3_img = 'beowulf/LupinePummel.png';
    person.build_4_img = 'beowulf/GeatishTrepak.png';
-   person.build_1_desc = 'Основное оружие волка.';
+   person.build_1_desc = 'Неотменяемый захват на пол экрана.';
    person.build_2_desc = 'Шанс оглушить противника.';
    person.build_3_desc = 'Шанс дать увечье и замедление.';
-   person.build_4_desc = 'Много ударов под хайпом.';
+   person.build_4_desc = 'Больше урона и ударов под хайпом.';
    skullgirls.replaceChildren();
    pageGenerator();
 }
@@ -104,10 +104,10 @@ function hype_man() {
    person.build_2_img = 'beowulf/Airwulf.png';
    person.build_3_img = 'beowulf/LupinePummel.png';
    person.build_4_img = 'beowulf/GeatishTrepak.png';
-   person.build_1_desc = 'Основное оружие волка.';
+   person.build_1_desc = 'Неотменяемый захват на пол экрана.';
    person.build_2_desc = 'Блокируемый, но добавит 1 заряд хайпа.';
    person.build_3_desc = 'Шанс дать увечье и замедление.';
-   person.build_4_desc = 'Много ударов под хайпом.';
+   person.build_4_desc = 'Больше урона и ударов под хайпом.';
    skullgirls.replaceChildren();
    pageGenerator();
 }
@@ -129,7 +129,7 @@ function wrestler() {
    person.build_2_img = 'beowulf/GiganArmSweep.png';
    person.build_3_img = 'beowulf/LupinePummel.png';
    person.build_4_img = 'beowulf/GeatishTrepak.png';
-   person.build_1_desc = 'Основное оружие волка.';
+   person.build_1_desc = 'Неотменяемый захват на пол экрана.';
    person.build_2_desc = 'Может дать кровотечение.';
    person.build_3_desc = 'Много ударов под хайпом.';
    person.build_4_desc = 'Много ударов под хайпом.';
@@ -140,4 +140,137 @@ function wrestler() {
    skullgirls.replaceChildren();
    pageGenerator();
    buildLoad();
+}
+
+function freedom_fighter() {
+   person.card_name = 'Борец за свободу';
+   person.aka = 'Борец';
+   person.card_src = 'Freedom_Fighter.png';
+   person.description = 'Интересная абилка, которая легко контрится в защите. Можно было бы играть за него, оглушая противника просто стоя в блоке, но для Беовульфа это не надо, так как у него очень много неотменяемых захватов, и урона у этой вариации мало. Не рекомендуется прокачивать.';
+   person.ability = 'При получении удара (включая блок), шанс 10% получить автоблок и наложить раскол брони на 10 сек. Блок ударов блокбастера или особых приёмов оглушают противника на 4 сек и отключают ему блокбастеры на 15 сек.';
+   person.marquee1 = `${beowulf.marquee1} Основной выбор.`;
+   person.marquee2 = `${beowulf.marquee2}`;
+   person.prestige_description = `${beowulf.prestige}`;
+   person.prestige_activation = `${beowulf.p_active}`;
+   person.at = '9,581';
+   person.hp = '67,047';
+   person.atk_stats = ['Не атакующий'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Сопрот криту'];
+   person.build_1_img = 'beowulf/WulfShoot.png';
+   person.build_2_img = 'beowulf/BeoBurst.png';
+   person.build_3_img = 'beowulf/LupinePummel.png';
+   person.build_4_img = 'beowulf/GeatishTrepak.png';
+   person.build_1_desc = 'Неотменяемый захват на пол экрана.';
+   person.build_2_desc = 'Прервать атаку противника.';
+   person.build_3_desc = 'Шанс дать увечье и замедление.';
+   person.build_4_desc = 'Больше урона и ударов под хайпом.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function wulfsbane() {
+   person.card_name = 'Волкодав';
+   person.aka = 'Волк';
+   person.card_src = 'Wulfsbane.png';
+   person.description = 'Сильный и популярный вариант Беовульфа. Играют обычно с 3 вульфшотами, которые также дадут врагу блок исцеления, что полезно против Далий, Валентайн (особенно жадной убийце), также броски не могут нанести критический урон, поэтому играют против Пэйнвил. Криты не качают вообще, они не работают на бросках. Рекомендуется алмазить.';
+   person.ability = 'При броске шанс 50% дать увечье и блок исцеления на 10 секунд. 50% дополнительного урона противнику под отрицательными эффектами.';
+   person.marquee1 = `${beowulf.marquee1}`;
+   person.marquee2 = `${beowulf.marquee2} Основной выбор.`;
+   person.prestige_description = `${beowulf.prestige}`;
+   person.prestige_activation = `${beowulf.p_active}`;
+   person.at = '12,960';
+   person.hp = '54,874';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Перез. приёмов'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'beowulf/WulfShoot.png';
+   person.build_2_img = 'beowulf/HurtingHurdle.png';
+   person.build_3_img = 'beowulf/LupinePummel.png';
+   person.build_4_img = 'beowulf/GeatishTrepak.png';
+   person.build_1_desc = 'Неотменяемый захват на пол экрана.';
+   person.build_2_desc = 'Повышенный шанс крита.';
+   person.build_3_desc = 'Шанс дать увечье и замедление.';
+   person.build_4_desc = 'Больше урона и ударов под хайпом.';
+   person.supps = ['martial_outlaw', 'harlequin', 'surgeon'];
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+}
+function weekend_warrior() {
+   person.card_name = 'Воин на час';
+   person.aka = 'Шлюхан';
+   person.card_src = 'Weekend_Warrior.png';
+   person.description = 'Возможно задуманный как деф вариант, очень легко контрится в защите. Но его вторая абилка очень хорошая, поэтому им пользуются в атаке в рифтах. Прокачивать рекомендуется игрокам рифтов. Может использовать как крит билд, чтобы вносить больше урона, можно безкрит для контра Пэйнвилам. Первая абилка тоже неплохая как запасной вариант.';
+   person.ability = 'Раз за матч при здоровье ниже 50%, получит ускорение на 10 секунд и максимальный заряд хайпа. При активации хайпа, снимает все дебаффы и получает иммунитет, неупал и мощную регенерацию на 15 сек.';
+   person.marquee1 = `${beowulf.marquee1}`;
+   person.marquee2 = `${beowulf.marquee2} Основной выбор.`;
+   person.prestige_description = `${beowulf.prestige}`;
+   person.prestige_activation = `${beowulf.p_active}`;
+   person.at = '9,581';
+   person.hp = '67,047';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Перез. приёмов'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'beowulf/WulfShoot.png';
+   person.build_2_img = 'beowulf/HurtingHurdle.png';
+   person.build_3_img = 'beowulf/LupinePummel.png';
+   person.build_4_img = 'beowulf/GeatishTrepak.png';
+   person.build_1_desc = 'Неотменяемый захват на пол экрана.';
+   person.build_2_desc = 'Повышенный шанс крита.';
+   person.build_3_desc = 'Шанс дать увечье и замедление.';
+   person.build_4_desc = 'Больше урона и ударов под хайпом.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+
+function beast_king() {
+   person.card_name = 'Царь зверей';
+   person.aka = 'Царь';
+   person.card_src = 'Beast_King.png';
+   person.description = 'Мета, один из самых сильных персонажей в игре. Можно играть через билд вульфшотов, но в основном играют билдом со стульями, так как с них больше урон. Однозначно качать.';
+   person.ability = 'При нанесении урона больше чем 10% максимальных НР противника, даёт иссушение и проклятье на 10 сек. Бонус 25% к урону за каждый стак дебаффов на любом из персонажей.';
+   person.marquee1 = `${beowulf.marquee1}`;
+   person.marquee2 = `${beowulf.marquee2} ТОЛЬКО чемпион.`;
+   person.prestige_description = `${beowulf.prestige}`;
+   person.prestige_activation = `${beowulf.p_active}`;
+   person.at = '13,152';
+   person.hp = '71,117';
+   person.atk_stats = ['Атака', 'Проницание', 'Урон крита', 'Перез. приёмов'];
+   person.def_stats = ['В дд статах'];
+   person.build_1_img = 'beowulf/WulfShoot.png';
+   person.build_2_img = 'beowulf/HurtingHurdle.png';
+   person.build_3_img = 'beowulf/LupinePummel.png';
+   person.build_4_img = 'beowulf/GeatishTrepak.png';
+   person.build_1_desc = 'Неотменяемый захват на пол экрана.';
+   person.build_2_desc = 'Повышенный шанс крита.';
+   person.build_3_desc = 'Шанс дать увечье и замедление.';
+   person.build_4_desc = 'Больше урона и ударов под хайпом.';
+   person.supps = ['peashooter', 'harlequin', 'seraph'];
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+}
+function dark_might() {
+   person.card_name = 'Тёмный навсегда';
+   person.aka = 'Ватман';
+   person.card_src = 'Dark_Might.png';
+   person.description = 'Можно играть в атаке, но ему нужна либо Тёмная лошадка, либо смерть союзника для реализации абилки, но на высоких рядах ему не хватает урона. Больше ставят в защиту, вторым номером или третьим. В защите также слабоват: не хватает здоровья и проходится персонажами, которые не играют от баффов. Посредственный вариант, качают только Бео мейнеры.';
+   person.ability = 'Пока жив, снимает все баффы врага и накладывает перманентные проклятье и 3 стака всплеска энергии при поражении любого союзника. Если противник под проклятьем, атаки особыми приёмами и блокбастерами неблокируемые и дают непоколебимость на 10 сек.';
+   person.marquee1 = `${beowulf.marquee1} Основной выбор.`;
+   person.marquee2 = `${beowulf.marquee2}`;
+   person.prestige_description = `${beowulf.prestige}`;
+   person.prestige_activation = `${beowulf.p_active}`;
+   person.at = '13,152';
+   person.hp = '71,117';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность'];
+   person.def_stats = ['Здоровье', 'Защита', 'Атака', 'Точность'];
+   person.build_1_img = 'beowulf/WulfShoot.png';
+   person.build_2_img = 'beowulf/HurtingHurdle.png';
+   person.build_3_img = 'beowulf/LupinePummel.png';
+   person.build_4_img = 'beowulf/GiganArmSweep.png';
+   person.build_1_desc = 'Неотменяемый захват на пол экрана.';
+   person.build_2_desc = 'Повышенный шанс крита.';
+   person.build_3_desc = 'Шанс дать увечье и замедление.';
+   person.build_4_desc = 'Удар почти на весь экран, наложит кровотечение.';
+   person.supps = ['joy', 'horse', 'martial_outlaw'];
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
 }
