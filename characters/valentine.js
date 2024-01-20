@@ -209,3 +209,154 @@ function last_hope() {
    pageGenerator();
    addition();
 }
+function surgeon_general() {
+   person.card_name = 'Генерал-хирург';
+   person.aka = 'Гена';
+   person.card_src = 'Surgeon_General.png';
+   person.description = 'Самый популярный саппорт, дающий неупал, иммунитет и регенерацию. Также может сама выступать в роли атакующего персонажа. Однозначно качать и алмазить.';
+   person.ability = 'Если жива, каждые 30 сек получает постоянное бешенство для себя, иммунитет и мощную регенерацию на 15 сек для активного союзника.';
+   person.marquee1 = `${valentine.marquee1} Только Неотложка.`;
+   person.marquee2 = `${valentine.marquee2}`;
+   person.prestige_description = `${valentine.prestige}`;
+   person.prestige_activation = `${valentine.p_active}`;
+   person.at = '10,157';
+   person.hp = '54,874';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Только саппорт'];
+   person.build_1_img = 'valentine/Mortuary_Drop.png';
+   person.build_2_img = 'valentine/Forbidden_Procedure.png';
+   person.build_3_img = 'valentine/Vial_Hazard_Type_A.png';
+   person.build_4_img = 'valentine/Triage.png';
+   person.build_1_desc = 'Бросок с шансом оглушить, если на вас активна регенерация.';
+   person.build_2_desc = 'Воскресит союзника.';
+   person.build_3_desc = 'Снимает часть шкалы бб.';
+   person.build_4_desc = 'Сменить противника.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function final_fang() {
+   person.card_name = 'Последний клык';
+   person.aka = 'Какаши';
+   person.card_src = 'Final_Fang.png';
+   person.description = 'Получилась вариация что-то среднее между Валентайн и Дабл. Также похожа на Инкогнито, но имеет свои плюсы и минусы в сравнении с ней. Хорошая вариация, можно качать.';
+   person.ability = 'Когда противник получает бафф, отражает 1 из них и даёт проклятье на 7 сек. Когда у противника есть дебафф, при ударе шанс 20% наложить случайный дебафф на 15 сек.';
+   person.marquee1 = `${valentine.marquee1}`;
+   person.marquee2 = `${valentine.marquee2} Только БИТ.`;
+   person.prestige_description = `${valentine.prestige}`;
+   person.prestige_activation = `${valentine.p_active}`;
+   person.at = '10,157';
+   person.hp = '54,874';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'valentine/Countervenom_Detox.png';
+   person.build_2_img = 'valentine/Countervenom_Paralysis.png';
+   person.build_3_img = 'valentine/Countervenom_Sedative.png';
+   person.build_4_img = 'valentine/Vial_Hazard_Type_A.png';
+   person.build_1_desc = 'Шанс снять все баффы.';
+   person.build_2_desc = 'Шанс оглушить.';
+   person.build_3_desc = 'Снимает часть шкалы бб.';
+   person.build_4_desc = 'Снимает часть шкалы бб.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+
+function seraph_soldier() {
+   person.card_name = 'Пламенная воительница';
+   person.aka = 'Серафим';
+   person.card_src = 'Seraph_Soldier.png';
+   person.description = 'Очень сильный баффер, особенно для огненных персонажей.';
+   person.ability = 'Если жива, активный союзник при снесении больше 10% здоровья противнику с удара, получает бешенство на 10 сек. Атака персонажей огня каждую секунду перманентно повышается на 0,5%. Критические удары активного персонажа также восстанавливают ему 25% от нанесённого урона, если есть бешенство.';
+   person.marquee1 = `${valentine.marquee1} Только Неотложка.`;
+   person.marquee2 = `${valentine.marquee2}`;
+   person.prestige_description = `${valentine.prestige}`;
+   person.prestige_activation = `${valentine.p_active}`;
+   person.at = '10,330';
+   person.hp = '71,117';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Только саппорт'];
+   person.build_1_img = 'valentine/Mortuary_Drop.png';
+   person.build_2_img = 'valentine/Forbidden_Procedure.png';
+   person.build_3_img = 'valentine/Vial_Hazard_Type_A.png';
+   person.build_4_img = 'valentine/Triage.png';
+   person.build_1_desc = 'Бросок с шансом оглушить, если на вас активна регенерация.';
+   person.build_2_desc = 'Воскресит союзника.';
+   person.build_3_desc = 'Снимает часть шкалы бб.';
+   person.build_4_desc = 'Сменить противника.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function wetwork() {
+   person.card_name = 'Мокрое дело';
+   person.aka = 'Мокруха';
+   person.card_src = 'Wetwork.png';
+   person.description = 'Сравнима с Инкогнито, обе очень сильные. Обе имеют свои плюсы и минусы, но Мокрая кажется немного лучше. Качать однозначно стоит.';
+   person.ability = 'При зарядке атаки в рывке, каждую 1 секунду получает постоянное уклонение. На подброшенного в воздух противника на 7 сек накладываются раскол брони и метка смерти, а на Валентайн бешенство.';
+   person.marquee1 = `${valentine.marquee1}`;
+   person.marquee2 = `${valentine.marquee2} Только БИТ.`;
+   person.prestige_description = `${valentine.prestige}`;
+   person.prestige_activation = `${valentine.p_active}`;
+   person.at = '10,330';
+   person.hp = '71,117';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'valentine/Countervenom_Detox.png';
+   person.build_2_img = 'valentine/Countervenom_Paralysis.png';
+   person.build_3_img = 'valentine/Countervenom_Sedative.png';
+   person.build_4_img = 'valentine/Vial_Hazard_Type_A.png';
+   person.build_1_desc = 'Шанс снять все баффы.';
+   person.build_2_desc = 'Шанс оглушить.';
+   person.build_3_desc = 'Снимает часть шкалы бб.';
+   person.build_4_desc = 'Снимает часть шкалы бб.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function tres_chic() {
+   person.card_name = 'Инкогнито';
+   person.aka = 'Инка';
+   person.card_src = 'Tres_Chic.png';
+   person.description = 'Кажется чем-то средним между Мокрой и Последним клыком, но ни разу не хуже обеих. Зажав противника в углу, дебаффает его и наносит большой урон, а на своей стороне (слева карты) получает защитные баффы. Можно ставить в защиту при неимении хорошего деф персонажа.';
+   person.ability = 'Находясь на своей стороне, каждые 3 сек получает один постоянный эффект из: барьер, шипы или броня; снимаются при нокдауне. На стороне противника, критический удар накладывает кровотечение, метку смерти или раскол брони на 10 сек.';
+   person.marquee1 = `${valentine.marquee1}`;
+   person.marquee2 = `${valentine.marquee2} Только БИТ.`;
+   person.prestige_description = `${valentine.prestige}`;
+   person.prestige_activation = `${valentine.p_active}`;
+   person.at = '11,847';
+   person.hp = '64,032';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Прирост шкалы'];
+   person.build_1_img = 'valentine/Countervenom_Detox.png';
+   person.build_2_img = 'valentine/Countervenom_Paralysis.png';
+   person.build_3_img = 'valentine/Countervenom_Sedative.png';
+   person.build_4_img = 'valentine/Vial_Hazard_Type_A.png';
+   person.build_1_desc = 'Шанс снять все баффы.';
+   person.build_2_desc = 'Шанс оглушить.';
+   person.build_3_desc = 'Снимает часть шкалы бб.';
+   person.build_4_desc = 'Снимает часть шкалы бб.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function assassin_greed() {
+   person.card_name = 'Жадность убийцы';
+   person.aka = 'Жадина';
+   person.card_src = 'Assassin_Greed.png';
+   person.description = 'Танкующая версия Валентайн, в своё время была грозной. Нынче легко контрится, как блоком исцеления или поляркой, так и просто ударами без использования блокбастеров. Можно играть в атаке (обычно в рифтах), урон очень низкий, но есть кровотечения и регенерация.';
+   person.ability = 'Когда противник использует блокбастер против вас, он теряет 25% текущих НР и получает сильное кровотечение на 5 сек. Если рядом противник с кровотечением, лечит 5% своих НР в секунду.';
+   person.marquee1 = `${valentine.marquee1}`;
+   person.marquee2 = `${valentine.marquee2} Только БИТ.`;
+   person.prestige_description = `${valentine.prestige}`;
+   person.prestige_activation = `${valentine.p_active}`;
+   person.at = '8,794';
+   person.hp = '78,221';
+   person.atk_stats = ['Не атакующий'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Прирост шкалы'];
+   person.build_1_img = 'valentine/EKG_Flatliner.png';
+   person.build_2_img = 'valentine/Laryngectomy.png';
+   person.build_3_img = 'valentine/Checkmate_Incision.png';
+   person.build_4_img = 'valentine/Val_Burst.png';
+   person.build_1_desc = 'Доп урон если враг с кровотечением.';
+   person.build_2_desc = 'Шанс наложить сильное кровотечение.';
+   person.build_3_desc = 'Шанс наложить кровотечения.';
+   person.build_4_desc = 'Сбивает атаку противника и накладывает кровотечение.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
