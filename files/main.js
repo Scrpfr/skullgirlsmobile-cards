@@ -233,10 +233,10 @@ list = `
          <li onclick="purrminator()">Мур-р-минатор</li>
          <li onclick="()" class="empty">Головорезка</li>
          <li onclick="blue_screen()">Синий экран</li>
-         <li onclick="()" class="empty">Террор-байт</li>
+         <li onclick="terror_byte()">Террор-байт</li>
          <li onclick="number_cruncher()">Числодробилка</li>
-         <li onclick="()" class="empty">Персона-бот</li>
-         <li onclick="()" class="empty">Буферная зона</li>
+         <li onclick="persona_assistant()">Персона-бот</li>
+         <li onclick="buffer_zone()">Буферная зона</li>
          <li onclick="()" class="empty">В разгоне</li>
          <li onclick="()" class="empty">Икс-бот</li>
       </ul></li>
@@ -281,13 +281,13 @@ list = `
          <li onclick="kill_joy()">Смерть джой</li>
          <li onclick="pyro_technique()">Пиро-техника</li>
          <li onclick="silent_kill()">Сайлент килл</li>
-         <li onclick="()" class="empty">Генерал-хирург</li>
+         <li onclick="surgeon_general()">Генерал-хирург</li>
          <li onclick="last_hope()">Надежда</li>
-         <li onclick="()" class="empty">Последний клык</li>
+         <li onclick="final_fang()">Последний клык</li>
          <li onclick="()" class="empty">Пламенная воительница</li>
-         <li onclick="()" class="empty">Мокрое дело</li>
-         <li onclick="()" class="empty">Инкогнито</li>
-         <li onclick="()" class="empty">Жадность убийцы</li>
+         <li onclick="wetwork()">Мокрое дело</li>
+         <li onclick="tres_chic()">Инкогнито</li>
+         <li onclick="assassin_greed()">Жадность убийцы</li>
       </ul></li>
 </ul>
 `;
