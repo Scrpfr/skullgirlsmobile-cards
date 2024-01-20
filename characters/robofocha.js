@@ -1,7 +1,7 @@
 const robofocha = {
-   marquee1: 'DDOS - рядом с противником накладывает скачок напряжения на 5 сек каждые 3 сек.',
+   marquee1: 'DDOS - рядом с противником накладывает всплеск энергии на 5 сек каждые 3 сек.',
    marquee2: 'PING - далеко от противника получает бешенство на 5 сек каждые 2 сек.',
-   prestige: 'Получает 5 стаков точности и отражает часть получаемого урона, в зависимости от кол-ва баффов на ней или противнике.',
+   prestige: 'Получает 5 стаков точности и отражает часть получаемого урона, в зависимости от кол-ва баффов на ней или противнике (до 100%).',
    p_active: '7% за любой бафф или дебафф.'
 }
 
@@ -217,6 +217,83 @@ function blue_screen() {
    person.build_1_desc = 'Снимает баффы, при убийстве блокирует воскрешение.';
    person.build_2_desc = 'Накладывает иссушение.';
    person.build_3_desc = 'Прерывает атаку врага.';
+   person.build_4_desc = 'Мета приём.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function terror_byte() {
+   person.card_name = 'Террор-байт';
+   person.aka = 'Терка';
+   person.card_src = 'Terror_Byte.png';
+   person.description = 'Полезна только обратной полярностью, которая делает баффы регенерации практически кровотечением, при этом может убить, в отличии от кровотечений. Можно качать для контры хиллеров.';
+   person.ability = 'Каждые 5 сек, не получая ударов (включая блок), накладывает замедление и всплеск энергии на 10 сек. Удары дронов (включая блок) накладывают обратную полярность на 15 сек.';
+   person.marquee1 = `${robofocha.marquee1}`;
+   person.marquee2 = `${robofocha.marquee2}`;
+   person.prestige_description = `${robofocha.prestige}`;
+   person.prestige_activation = `${robofocha.p_active}`;
+   person.at = '10,100';
+   person.hp = '60,960';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'robofocha/CATASTROPHE_CANNON_OMEGA_B.png';
+   person.build_2_img = 'robofocha/CATASTROPHE_CANNON_ALPHA_B.png';
+   person.build_3_img = 'robofocha/Phaser_Burn_B.png';
+   person.build_4_img = 'robofocha/Theonite_Beam_B.png';
+   person.build_1_desc = 'Снимает баффы при этом увеличивает урон, убитые враги не воскреснут.';
+   person.build_2_desc = 'Накладывает иссушение.';
+   person.build_3_desc = 'Шанс снять баффы и оглушить.';
+   person.build_4_desc = 'Мета приём.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function persona_assistant() {
+   person.card_name = 'Персона-бот';
+   person.aka = 'Персона';
+   person.card_src = 'Persona_Assistant.png';
+   person.description = 'Вполне крутая и полезная атакующая карточка, можно качать и алмазить. Может также использоваться как саппорт, дающий барьеры и баффы воскрешения, но как саппорт, очень слаба.';
+   person.ability = 'Пока жива, каждые 30 сек получает 5 точности и 5 бешенств на 5 сек, а другой активный персонаж получает благославение и барьер. Под бешенством, атака в рывке неблокируема.';
+   person.marquee1 = `${robofocha.marquee1}`;
+   person.marquee2 = `${robofocha.marquee2}`;
+   person.prestige_description = `${robofocha.prestige}`;
+   person.prestige_activation = `${robofocha.p_active}`;
+   person.at = '10,157';
+   person.hp = '61,767';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'robofocha/CATASTROPHE_CANNON_OMEGA_B.png';
+   person.build_2_img = 'robofocha/CATASTROPHE_CANNON_ALPHA_B.png';
+   person.build_3_img = 'robofocha/Phaser_Burn_B.png';
+   person.build_4_img = 'robofocha/Theonite_Beam_B.png';
+   person.build_1_desc = 'Снимает баффы при этом увеличивает урон, убитые враги не воскреснут.';
+   person.build_2_desc = 'Накладывает иссушение.';
+   person.build_3_desc = 'Шанс снять баффы и оглушить.';
+   person.build_4_desc = 'Мета приём.';
+   person.supps = ['peashooter', 'joy', 'evergreen'];
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+}
+function buffer_zone() {
+   person.card_name = 'Буферная зона';
+   person.aka = 'Буфер';
+   person.card_src = 'Buffer_Zone.png';
+   person.description = 'Универсал, слабый в алмазе, можно не качать эту вариацию. Но в золоте, вполне хороший вариант для новичков. Антибафф и непоколебимость можно использовать и в атаке, и в защите. Алмазить не стоит.';
+   person.ability = 'При выходе из запасных, снимает все баффы противника и накладывает проклятье и блок призыва на 10 сек. Энергетические и лучевые атаки с шансом 10% дают барьер и непоколебимость. При смене персонажа, передаёт все свои баффы активному.';
+   person.marquee1 = `${robofocha.marquee1}`;
+   person.marquee2 = `${robofocha.marquee2} Основной выбор.`;
+   person.prestige_description = `${robofocha.prestige}`;
+   person.prestige_activation = `${robofocha.p_active}`;
+   person.at = '8,564';
+   person.hp = '67,047';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Сопрот криту'];
+   person.build_1_img = 'robofocha/CATASTROPHE_CANNON_OMEGA_B.png';
+   person.build_2_img = 'robofocha/CATASTROPHE_CANNON_ALPHA_B.png';
+   person.build_3_img = 'robofocha/Phaser_Burn_B.png';
+   person.build_4_img = 'robofocha/Theonite_Beam_B.png';
+   person.build_1_desc = 'Снимает баффы при этом увеличивает урон, убитые враги не воскреснут.';
+   person.build_2_desc = 'Накладывает иссушение.';
+   person.build_3_desc = 'Шанс снять баффы и оглушить.';
    person.build_4_desc = 'Мета приём.';
    skullgirls.replaceChildren();
    pageGenerator();
