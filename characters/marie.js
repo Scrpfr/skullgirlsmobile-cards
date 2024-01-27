@@ -60,7 +60,7 @@ function phantom_wrangler() {
    person.card_name = 'Призрачная пастушка';
    person.aka = 'Рэнглер';
    person.card_src = 'Phantom_Wrangler.png';
-   person.description = 'Не особо полезная вариация, не рекомендуется прокачивать.';
+   person.description = 'Хорошо накладывает слизь, которая наносит урон врагу если он получает бафф. Но своей атаки у неё мало, поэтому, прокачивать не рекомендуется.';
    person.ability = 'Удары скелетов наносят на 30% больше урона и с шансом 50% накладывают слизь на 15 сек. Если противник со слизью, блокбастеры накладывают вечный покой на 15 сек.';
    person.marquee1 = `${marie.marquee1}`;
    person.marquee2 = `${marie.marquee2}`;
@@ -68,7 +68,7 @@ function phantom_wrangler() {
    person.prestige_activation = `${marie.p_active}`;
    person.at = '8,717';
    person.hp = '52,954';
-   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
    person.def_stats = ['Не защитник'];
    person.build_1_img = 'marie/Carpal_Pummel.png';
    person.build_2_img = 'marie/Scrub_n_Smash.png';
