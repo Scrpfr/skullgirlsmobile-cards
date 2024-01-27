@@ -220,8 +220,8 @@ list = `
          <li onclick="ultraviolent()">Ультрафиолет</li>
          <li onclick="taf()">Вот и всё</li>
          <li onclick="()" class="empty">Животный дар</li>
-         <li onclick="()" class="empty">Стоп-кадр</li>
-         <li onclick="()" class="empty">Ловец снов</li>
+         <li onclick="freeze_frame()">Стоп-кадр</li>
+         <li onclick="dream_catcher()">Ловец снов</li>
       </ul></li>
    <li><span>Робо Форчун</span>
       <ul type="none">
@@ -284,7 +284,7 @@ list = `
          <li onclick="surgeon_general()">Генерал-хирург</li>
          <li onclick="last_hope()">Надежда</li>
          <li onclick="final_fang()">Последний клык</li>
-         <li onclick="()" class="empty">Пламенная воительница</li>
+         <li onclick="seraph_soldier()">Пламенная воительница</li>
          <li onclick="wetwork()">Мокрое дело</li>
          <li onclick="tres_chic()">Инкогнито</li>
          <li onclick="assassin_greed()">Жадность убийцы</li>
