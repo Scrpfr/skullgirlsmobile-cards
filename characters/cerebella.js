@@ -288,7 +288,7 @@ function blitz_glamour() {
    person.prestige_activation = `${cerebella.p_active}`;
    person.at = '11,271';
    person.hp = '68,602';
-   person.atk_stats = ['Шанс крита', 'Урон крита', 'Атака', 'Проницание'];
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
    person.def_stats = ['Здоровье', 'Защита', 'Сопрот криту'];
    person.build_1_img = 'cerebella/Diamonds_are_Forever.png';
    person.build_2_img = 'cerebella/Battle_Butt.png';
@@ -324,7 +324,7 @@ function heavy_handed() {
    person.build_4_img = 'cerebella/Ultimate_Showstopper.png';
    person.build_1_desc = 'Наносит большой урон.';
    person.build_2_desc = 'Наложит раскол защиты.';
-   person.build_3_desc = 'Таже даёт сильный урон и непоколебимость.';
+   person.build_3_desc = 'Непоколебимая атака с увеличенным шансом крита.';
    person.build_4_desc = 'При убийстве получит 2 рандом баффа.';
    skullgirls.replaceChildren();
    pageGenerator();
