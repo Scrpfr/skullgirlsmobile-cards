@@ -263,3 +263,58 @@ function taf() {
    skullgirls.replaceChildren();
    pageGenerator();
 }
+
+function freeze_frame() {
+   person.card_name = 'Стоп-кадр';
+   person.aka = 'Стопка';
+   person.card_src = 'Freeze_Frame.png';
+   person.description = 'Не стоит прокачивать: высокие ряды би не потянет, в рифтах тоже не нужна, негде использовать. Абилка хорошая, но карточка не окупает вложенные в неё ресурсы.';
+   person.ability = 'Снаряды при ударе с шансом 50% накладывают замедление и иссушение на 15 сек, но снимаются если противник использует блокбастер. Когда эффекты закончатся, противник получает оглушение на 3 секунды и урон 50% от максимальной атаки Пикок.';
+   person.marquee1 = `${peacock.marquee1} Основной выбор.`;
+   person.marquee2 = `${peacock.marquee2}`;
+   person.prestige_description = `${peacock.prestige}`;
+   person.prestige_activation = `${peacock.p_active}`;
+   person.at = '11,981';
+   person.hp = '68,468';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'peacock/Argus_Agony.png';
+   person.build_2_img = 'peacock/Impending_Doom.png';
+   person.build_3_img = 'peacock/Bandwagon_Rushdown.png';
+   person.build_4_img = 'peacock/Georges_Day_Out.png';
+   person.build_1_desc = 'Может наложить раскол брони.';
+   person.build_2_desc = 'Может оглушить противника.';
+   person.build_3_desc = 'Может снять с противника все положительные эффекты.';
+   person.build_4_desc = 'Выпустить бомбочку.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function dream_catcher() {
+   person.card_name = 'Ловец снов';
+   person.aka = 'Ловец';
+   person.card_src = 'Dream_Catcher.png';
+   person.description = 'Скорее фановый персонаж, так как урона на высоких рядах не хватает, и современных деф персов не победит. Но на высоких рядах можно взять билд бомбочек и использовать саппортов: внутренние миры для оглушения и баффов атаки, перезапуск для снижения кд смены персов и баффов атаки. В таком случае, призывается на уже оглушённого противника, заряжается об него точностью и бьёт бомбочками.';
+   person.ability = 'Выход на поле или особый приём при ударе имеет шанс 25% оглушить цель на 6 сек (кроме тёмных стихий). Находясь рядом с оглушённым противником, каждую 1 секунду получает точность и восстанавливает 5% шкалы и 5% здоровья союзникам.';
+   person.marquee1 = `${peacock.marquee1}`;
+   person.marquee2 = `${peacock.marquee2} Основной выбор.`;
+   person.prestige_description = `${peacock.prestige}`;
+   person.prestige_activation = `${peacock.p_active}`;
+   person.at = '13,152';
+   person.hp = '62,247';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'peacock/Argus_Agony.png';
+   person.build_2_img = 'peacock/Impending_Doom.png';
+   person.build_3_img = 'peacock/Bandwagon_Rushdown.png';
+   person.build_4_img = 'peacock/Georges_Day_Out.png';
+   person.build_1_desc = 'Может наложить раскол брони.';
+   person.build_2_desc = 'Может оглушить противника.';
+   person.build_3_desc = 'Может снять с противника все положительные эффекты.';
+   person.build_4_desc = 'Выпустить бомбочку.';
+   person.supps = ['rerun', 'peashooter', 'inner'];
+   person.addition = 'Видео игры с билдом бомбочек и с саппортами</br> <iframe width="560" height="315" src="https://www.youtube.com/embed/tk1c2PVyP_E?si=ldzxWECunWHkSvs9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+   addition();
+}
