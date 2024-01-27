@@ -9,10 +9,10 @@ list = `
          <li onclick="galactic_glamour()">Галактический гламур</li>
          <li onclick="ninja_star()">Звезда-ниндзя</li>
          <li onclick="triple_threat()">Тройная угроза</li>
-         <li onclick="()" class="empty">Космическая мятежница</li>
-         <li onclick="()" class="empty">Девочка-материя</li>
-         <li onclick="()" class="empty">Вневременный кумир</li>
-         <li onclick="()" class="empty">Сила луны</li>
+         <li onclick="cosmic_rebel()">Космическая мятежница</li>
+         <li onclick="materia_girl()">Девочка-материя</li>
+         <li onclick="timeless_hero()">Вневременный кумир</li>
+         <li onclick="moonstruck()">Сила луны</li>
          <li onclick="ageless_wonder()">Нестареющее чудо</li>
          <li onclick="()" class="empty">Звездная роза</li>
          <li onclick="()" class="empty">Клеймённая огнём</li>
