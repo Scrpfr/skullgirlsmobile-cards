@@ -106,9 +106,9 @@ function gray_matter() {
    person.build_3_img = 'cerebella/Hammer_Toss.png';
    person.build_4_img = 'cerebella/Burst.png';
    person.build_1_desc = 'При убийстве даст 2 рандом баффа.';
-   person.build_2_desc = 'Дает оглушение.';
+   person.build_2_desc = 'Шанс оглушить.';
    person.build_3_desc = 'Сменяет противника.';
-   person.build_4_desc = 'Отменяет атаку врага.';
+   person.build_4_desc = 'Прервать атаку противника.';
    skullgirls.replaceChildren();
    pageGenerator();
 }
@@ -131,9 +131,9 @@ function big_top() {
    person.build_3_img = 'cerebella/Diamond_Drop.png';
    person.build_4_img = 'cerebella/Burst.png';
    person.build_1_desc = 'При убийстве даст 2 рандом баффа.';
-   person.build_2_desc = 'Дает оглушение.';
+   person.build_2_desc = 'Шанс оглушить.';
    person.build_3_desc = 'При убийстве даст сильную регенерацию.';
-   person.build_4_desc = 'Отменяет атаку врага.';
+   person.build_4_desc = 'Прервать атаку противника.';
    skullgirls.replaceChildren();
    pageGenerator();
 }
@@ -169,7 +169,7 @@ function brain_freeze() {
    person.card_name = 'Отмороженная';
    person.aka = 'Отморозок';
    person.card_src = 'Brain_Freeze.png';
-   person.description = 'В золоте - вполне хороший персонаж, универсальный. Но в алмазе слабая и нет применения, не рекомендуется качать.';
+   person.description = 'Слабая вариация, не стоит прокачивать. Буст урона очень низкий, а снижение урона бесполезно из-за огромного урона в этой игре: её просто шотнут, и в атаке и в защите.';
    person.ability = 'Урон повышается на 3% от текущего здоровья. Урон противника снижается на 3% за каждое комбо.';
    person.marquee1 = `${cerebella.marquee1}`;
    person.marquee2 = `${cerebella.marquee2}`;
@@ -181,12 +181,12 @@ function brain_freeze() {
    person.def_stats = ['Здоровье', 'Защита', 'Атака', 'Сопрот криту'];
    person.build_1_img = 'cerebella/Battle_Butt.png';
    person.build_2_img = 'cerebella/Lock_n_Load.png';
-   person.build_3_img = 'cerebella/Excellebella.png';
+   person.build_3_img = 'cerebella/Grab_Bag.png';
    person.build_4_img = 'cerebella/Burst.png';
    person.build_1_desc = 'Таран с непоколебимостью.';
    person.build_2_desc = 'Удар с непоколебимостью.';
-   person.build_3_desc = 'Атака с набегом.';
-   person.build_4_desc = 'Прервать атаку врага.';
+   person.build_3_desc = 'При убийстве даст 2 брони.';
+   person.build_4_desc = 'Прервать атаку противника.';
    person.supps = ['honormaid', 'martial_outlaw', 'starlight'];
    skullgirls.replaceChildren();
    pageGenerator();
@@ -196,7 +196,7 @@ function armed_forces() {
    person.card_name = 'Армия';
    person.aka = 'Армия';
    person.card_src = 'Armed_Forces.png';
-   person.description = 'Очень сильный защитный золотой персонаж, в алмазе не самый шикарный деф, легко контрится. Но алмазить можно.';
+   person.description = 'Очень сильный защитный золотой персонаж, в алмазе при этом слабая, легко контрится. Алмазить можно если вам хочется.';
    person.ability = 'Шанс 10% получить броню и непоколебимость при получении или нанесении удара (включая блок). И шанс перенести 1 отрицательный эффект на противника при получении положительного.';
    person.marquee1 = `${cerebella.marquee1} Основной выбор.`;
    person.marquee2 = `${cerebella.marquee2}`;
@@ -210,10 +210,10 @@ function armed_forces() {
    person.build_2_img = 'cerebella/Burst.png';
    person.build_3_img = 'cerebella/Diamond_Drop.png';
    person.build_4_img = 'cerebella/Excellebella.png';
-   person.build_1_desc = 'Бросок иногда хорошо работает.';
-   person.build_2_desc = 'Прервать атаку врага.';
-   person.build_3_desc = 'Блокбастер с захватом и регенерацией при убийстве.';
-   person.build_4_desc = 'Наскок с оглушением.';
+   person.build_1_desc = 'Не используется вплотную, нужно небольшое расстояние.';
+   person.build_2_desc = 'Прервать атаку противника.';
+   person.build_3_desc = 'При убийстве даст сильную регенерацию.';
+   person.build_4_desc = 'Шанс оглушить.';
    person.supps = ['surgeon', 'evergreen', 'rosetin'];
    skullgirls.replaceChildren();
    pageGenerator();
@@ -237,10 +237,10 @@ function criminal_mind() {
    person.build_2_img = 'cerebella/Battle_Butt.png';
    person.build_3_img = 'cerebella/Excellebella.png';
    person.build_4_img = 'cerebella/Pummel_Horse.png';
-   person.build_1_desc = 'Наносит основной сокрушительный урон.';
-   person.build_2_desc = 'Наносит большой урон и даёт раскол защиты.';
-   person.build_3_desc = 'Ловит и оглушает врага.';
-   person.build_4_desc = 'Используется в комбо.';
+   person.build_1_desc = 'Наносит большой урон.';
+   person.build_2_desc = 'Наложит раскол защиты.';
+   person.build_3_desc = 'Шанс оглушить.';
+   person.build_4_desc = 'Поймать подброшенного противника и дать кровотечение.';
    person.supps = ['horse', 'martial_outlaw', 'starlight'];
    person.build_form_name1 = 'Интересный билд для кумыса';
    person.build_form_path1 = '<img src="files/moves/cerebella/build1_criminal_mind.jpg">';
@@ -250,6 +250,31 @@ function criminal_mind() {
    pageGenerator();
    supports();
    buildLoad();
+}
+function scare_giver() {
+   person.card_name = 'Страшила';
+   person.aka = 'Страшила';
+   person.card_src = 'Scare_Giver.png';
+   person.description = 'Сложно что-то однозначно сказать сейчас, карточка совсем новая ещё. Но предположительно, сильнейшая дд Церебелла.';
+   person.ability = 'При падении противника, даёт ему иссушение и себе ускорение на 8 секунд. При ударе под ускорением, шанс 15% получить бешенство на 10 сек и забрать 3% НР противника.';
+   person.marquee1 = `${cerebella.marquee1} Основной выбор.`;
+   person.marquee2 = `${cerebella.marquee2}`;
+   person.prestige_description = `${cerebella.prestige}`;
+   person.prestige_activation = `${cerebella.p_active}`;
+   person.at = '11,271';
+   person.hp = '68,602';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'cerebella/Diamonds_are_Forever.png';
+   person.build_2_img = 'cerebella/Battle_Butt.png';
+   person.build_3_img = 'cerebella/Merry_Go-rilla.png';
+   person.build_4_img = 'cerebella/Pummel_Horse.png';
+   person.build_1_desc = 'Наносит большой урон.';
+   person.build_2_desc = 'Наложит раскол защиты.';
+   person.build_3_desc = 'Не используется вплотную, нужно небольшое расстояние.';
+   person.build_4_desc = 'Поймать подброшенного противника и дать кровотечение.';
+   skullgirls.replaceChildren();
+   pageGenerator();
 }
 function blitz_glamour() {
    person.card_name = 'Сила денег';
@@ -267,12 +292,12 @@ function blitz_glamour() {
    person.def_stats = ['Здоровье', 'Защита', 'Сопрот криту'];
    person.build_1_img = 'cerebella/Diamonds_are_Forever.png';
    person.build_2_img = 'cerebella/Battle_Butt.png';
-   person.build_3_img = 'cerebella/Excellebella.png';
+   person.build_3_img = 'cerebella/Merry_Go-rilla.png';
    person.build_4_img = 'cerebella/Pummel_Horse.png';
-   person.build_1_desc = 'Наносит основной сокрушительный урон.';
-   person.build_2_desc = 'Наносит большой урон и даёт раскол защиты.';
-   person.build_3_desc = 'Ловит и оглушает врага.';
-   person.build_4_desc = 'Для комбинаций.';
+   person.build_1_desc = 'Наносит большой урон.';
+   person.build_2_desc = 'Наложит раскол защиты.';
+   person.build_3_desc = 'Не используется вплотную, нужно небольшое расстояние.';
+   person.build_4_desc = 'Поймать подброшенного противника и дать кровотечение.';
    person.supps = ['honormaid', 'martial_outlaw', 'persona'];
    skullgirls.replaceChildren();
    pageGenerator();
@@ -297,8 +322,8 @@ function heavy_handed() {
    person.build_2_img = 'cerebella/Battle_Butt.png';
    person.build_3_img = 'cerebella/Lock_n_Load.png';
    person.build_4_img = 'cerebella/Ultimate_Showstopper.png';
-   person.build_1_desc = 'Наносит основной сокрушительный урон.';
-   person.build_2_desc = 'Наносит большой урон и даёт раскол защиты.';
+   person.build_1_desc = 'Наносит большой урон.';
+   person.build_2_desc = 'Наложит раскол защиты.';
    person.build_3_desc = 'Таже даёт сильный урон и непоколебимость.';
    person.build_4_desc = 'При убийстве получит 2 рандом баффа.';
    skullgirls.replaceChildren();
@@ -322,7 +347,7 @@ function star_spangled() {
    person.build_2_img = 'cerebella/Diamond_Dynamo.png';
    person.build_3_img = 'cerebella/Cerecopter.png';
    person.build_4_img = 'cerebella/Diamond_Drop.png';
-   person.build_1_desc = 'Наносит основной сокрушительный урон.';
+   person.build_1_desc = 'Наносит большой урон.';
    person.build_2_desc = 'Увеличивает урон за комбо и держит в воздухе.';
    person.build_3_desc = 'Много ударов в воздухе.';
    person.build_4_desc = 'Тоже считается как атака в воздухе, хотя захватывает с земли.';
