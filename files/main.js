@@ -48,8 +48,8 @@ list = `
          <li onclick="jazz()">Солдат джаз</li>
          <li onclick="megasonic()">Мегасоник</li>
          <li onclick="epic_sax()">Эпик сакс гай</li>
-         <li onclick="()" class="empty">Хэви-метал</li>
-         <li onclick="()" class="empty">Звёздный состав</li>
+         <li onclick="heavy_metal()">Хэви-метал</li>
+         <li onclick="dream_band()">Звёздный состав</li>
       </ul></li>
    <li><span>Чёрный Георгин</span>
       <ul type="none">
@@ -77,7 +77,7 @@ list = `
          <li onclick="brain_freeze()">Отмороженная</li>
          <li onclick="armed_forces()">Армия</li>
          <li onclick="criminal_mind()">Преступный умысел</li>
-         <li onclick="" class="empty">Страшила</li>
+         <li onclick="scare_giver()">Страшила</li>
          <li onclick="blitz_glamour()">Сила денег</li>
          <li onclick="heavy_handed()">Тяжёлая рука</li>
          <li onclick="star_spangled()">Звёзды и полосы</li>
