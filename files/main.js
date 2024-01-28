@@ -199,8 +199,8 @@ list = `
          <li onclick="shadow_ops()">Тайные операции</li>
          <li onclick="()" class="empty">Неукротимость</li>
          <li onclick="regally_blonde()">Белая королева</li>
-         <li onclick="()" class="empty">Незвёздный час</li>
-         <li onclick="()" class="empty">Высший сорт</li>
+         <li onclick="star_crossed()">Незвёздный час</li>
+         <li onclick="primed()">Высший сорт</li>
          <li onclick="princess_pride()">Принцесса</li>
          <li onclick="()" class="empty">Зельдомания</li>
          <li onclick="()" class="empty">Бомба</li>
@@ -263,14 +263,14 @@ list = `
          <li onclick="rose_tinted()">Розовая звезда</li>
          <li onclick="puddle_pirate()">Пират-лужеход</li>
          <li onclick="candy_crusher()">Конфетный бой</li>
-         <li onclick="()" class="empty">Сорвиголова</li>
-         <li onclick="()" class="empty">Вундеркинд</li>
-         <li onclick="()" class="empty">Верхом на волне</li>
-         <li onclick="()" class="empty">Ты просто космос</li>
-         <li onclick="()" class="empty">Юный телепат</li>
+         <li onclick="wild_child()">Сорвиголова</li>
+         <li onclick="wunderkind()">Вундеркинд</li>
+         <li onclick="tidal_traveler()">Верхом на волне</li>
+         <li onclick="space_case()">Ты просто космос</li>
+         <li onclick="psykid()">Юный телепат</li>
          <li onclick="()" class="empty">Прыткая пройдоха</li>
          <li onclick="()" class="empty">Жажда смерти</li>
-         <li onclick="()" class="empty">Чемпионка дождя</li>
+         <li onclick="raining_champ()">Чемпионка дождя</li>
       </ul></li>
    <li><span>Валентайн</span>
       <ul type="none">
