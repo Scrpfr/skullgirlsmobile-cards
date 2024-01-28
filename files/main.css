@@ -129,7 +129,15 @@ a {
 .third_main_column {grid-area: c; max-width: 260px;}
 .card_img, .main_img {grid-area: d;}
 
-.char__list {margin-left: 20px;}
+.char__list {
+   margin-left: 20px;
+   display: flex;
+   /* max-height: 360px; */
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: flex-start;
+}
 .char__list li span:hover {cursor: pointer; color: var(--aside-list-active);}
 .char__list li span:active {color: var(--version-red);}
 
