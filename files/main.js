@@ -309,27 +309,27 @@ let build = document.getElementById('buildName');
 let builds = document.getElementById('pop_build');
 
 let person = {
-   card_name: 'Название карточки',
-   aka: '"никнейм"',
-   card_src: 'main2.jpg',
-   description: 'Этот сайт сделан на скорую руку, не судите строго. Его цель - рассказать о карточках подробно без лишнего и в компактном виде. Будем стараться держать только актуальную информацию. На телефонах левый сайтбар находится в левой верхней вкладке "меню".',
-   ability: 'Ключевое умение карточки в одном описании в целом.',
-   marquee1: 'Две уникальных способностей персонажа на выбор.',
-   marquee2: 'Может быть указано что лучше именно выбранной карточке.',
-   prestige_description: 'Описание престижа.',
-   prestige_activation: 'описание условия для зарядки престижа.',
-   at: 'Стат',
-   hp: 'Стат',
-   atk_stats: ['Статы на персонажа при нападении на бота'],
-   def_stats: ['Статы персонажа на защите, тоесть управляемый ботом'],
-   build_1_img: 'valentine/Dead_On_Arrival.png',
-   build_2_img: 'filia/Gregor_Samson.png',
-   build_3_img: 'parasoul/Napalm_Shot.png',
-   build_4_img: 'cerebella/Medici_Muscle.png',
-   build_1_desc: 'Ульта, она же бб3 (блокбастер 3го уровня).',
-   build_2_desc: 'Блокбастеры 1 и 2 уровня.',
-   build_3_desc: 'Атакующие приёмы.',
-   build_4_desc: 'Защитные приёмы.',
+   card_name: '',
+   aka: '',
+   card_src: '',
+   description: '',
+   ability: '',
+   marquee1: '',
+   marquee2: '',
+   prestige_description: '',
+   prestige_activation: '',
+   at: '',
+   hp: '',
+   atk_stats: [''],
+   def_stats: [''],
+   build_1_img: '',
+   build_2_img: '',
+   build_3_img: '',
+   build_4_img: '',
+   build_1_desc: '',
+   build_2_desc: '',
+   build_3_desc: '',
+   build_4_desc: '',
 }
 let supports_list = [
    {name: 'scrub', body: `
@@ -827,8 +827,7 @@ let supports_list = [
 ];
 function atkList() {return person.atk_stats.map(item => `<li>${item}</li>`)}
 function defList() {return person.def_stats.map(item => `<li>${item}</li>`)}
-pageGenerator();
-hideNeedless();
+
 function pageGenerator() {
    const page = `
    <h2 class="head">${person.card_name} <span class="aka">a.k.a. ${person.aka}</span></h2>
@@ -891,19 +890,6 @@ function pageGenerator() {
    skullgirls.insertAdjacentHTML('beforeend', page);
    closer();
 };
-
-function hideNeedless() {
-   if (innerWidth < 671) {
-      document.querySelector('.head').replaceChildren();
-      document.querySelector('.second_main_column').replaceChildren();
-      document.querySelector('.third_main_column').replaceChildren();
-      document.querySelector('.card_img').replaceChildren();
-      document.querySelector('.stats__column').replaceChildren();
-   };
-   if (innerWidth > 670) {
-      document.querySelector('.head').replaceChildren();
-   }
-}
 
 supports_all()
 function supports_all() {
