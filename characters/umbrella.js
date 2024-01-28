@@ -131,3 +131,155 @@ function candy_crusher() {
    skullgirls.replaceChildren();
    pageGenerator();
 }
+function wild_child() {
+   person.card_name = 'Сорвиголова';
+   person.aka = 'Сорвиголова';
+   person.card_src = 'Wild_Child.png';
+   person.description = 'Хороший вариант. Много атаки, забирает шкалу бб, а ещё слизь, которая наносит урон противнику если тот получает бафф. Можно качать.';
+   person.ability = 'Если не переполнена, броски с шансом 20% вампирят 15% шкалы блокбастера противника. Противник при нокдауне получает 2 слизи на 15 секунд.';
+   person.marquee1 = `${umbrella.marquee1}`;
+   person.marquee2 = `${umbrella.marquee2} Основной выбор.`;
+   person.prestige_description = `${umbrella.prestige}`;
+   person.prestige_activation = `${umbrella.p_active}`;
+   person.at = '11,079';
+   person.hp = '41,127';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'umbrella/Tongue_Twister.png';
+   person.build_2_img = 'umbrella/Acid_Reflux.png';
+   person.build_3_img = 'umbrella/Salt_Grinder.png';
+   person.build_4_img = 'umbrella/Wish_Maker.png';
+   person.build_1_desc = 'Неблокируемая атака, восстановит здоровье.';
+   person.build_2_desc = 'Может наложить слизь.';
+   person.build_3_desc = 'Пополнить шкалу Хангерна.';
+   person.build_4_desc = 'Блокирует призыв, ос и бб противника.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+
+function wunderkind() {
+   person.card_name = 'Вундеркинд';
+   person.aka = 'Вундеркинд';
+   person.card_src = 'Wunderkind.png';
+   person.description = 'Можно получить в быстрых играх, в золоте набив 10 миллионов очков, в алмазе за 30 миллионов. Не смотря на высокую атаку, абилка слабая из-за низкого шанса. Не рекомендуется прокачивать, есть вариации лучше.';
+   person.ability = 'Все удары пузырями имеют шанс 35% при ударе (включая блок) наложить всплеск энергии на 15 секунд. Когда наложит 3 всплеска будучи живой, противник теряет 50% шкалы блокбастера и здоровье от 100% атаки Амбреллы.';
+   person.marquee1 = `${umbrella.marquee1}`;
+   person.marquee2 = `${umbrella.marquee2} Основной выбор.`;
+   person.prestige_description = `${umbrella.prestige}`;
+   person.prestige_activation = `${umbrella.p_active}`;
+   person.at = '12,960';
+   person.hp = '48,039';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'umbrella/Tongue_Twister.png';
+   person.build_2_img = 'umbrella/Acid_Reflux.png';
+   person.build_3_img = 'umbrella/Bobblin_Bubble.png';
+   person.build_4_img = 'umbrella/Wish_Maker.png';
+   person.build_1_desc = 'Неблокируемая атака, восстановит здоровье.';
+   person.build_2_desc = 'Может наложить слизь.';
+   person.build_3_desc = 'Пузырь, накладывает слизь.';
+   person.build_4_desc = 'Пузырь, блокирует призыв, ос и бб противника.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function tidal_traveler() {
+   person.card_name = 'Верхом на волне';
+   person.aka = 'Волна';
+   person.card_src = 'Tidal_Traveler.png';
+   person.description = 'Не легко реализуемая абилка, к тому же слабая. Не стоит прокачивать.';
+   person.ability = 'Получает иммунитет, находясь рядом со своей лужей более секунды. Под иммунитетом, атаки пузырями (включая блок) дают 50% бонус урона и накладывают раскол брони на 10 секунд.';
+   person.marquee1 = `${umbrella.marquee1}`;
+   person.marquee2 = `${umbrella.marquee2} Основной выбор.`;
+   person.prestige_description = `${umbrella.prestige}`;
+   person.prestige_activation = `${umbrella.p_active}`;
+   person.at = '10,272';
+   person.hp = '58,676';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'umbrella/Tongue_Twister.png';
+   person.build_2_img = 'umbrella/Acid_Reflux.png';
+   person.build_3_img = 'umbrella/Bobblin_Bubble.png';
+   person.build_4_img = 'umbrella/Wish_Maker.png';
+   person.build_1_desc = 'Неблокируемая атака, восстановит здоровье.';
+   person.build_2_desc = 'Может наложить слизь.';
+   person.build_3_desc = 'Пузырь, накладывает слизь.';
+   person.build_4_desc = 'Пузырь, блокирует призыв, ос и бб противника.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function space_case() {
+   person.card_name = 'Ты просто космос';
+   person.aka = 'Космос';
+   person.card_src = 'Space_Case.png';
+   person.description = 'Достойная прокачки вариация Амбреллы. Больше полагается на простой урон, обе абилки чисто под ситуацию.';
+   person.ability = 'Когда голодна а здоровье противника опускается ниже 50%, накладывает гибель на 15 сек, которая снимется при смене или поражении Амбреллы. При убийстве получит 3 точности и ещё 3 баффа, в зависимости от стихии жертвы, на 15 сек.';
+   person.marquee1 = `${umbrella.marquee1}`;
+   person.marquee2 = `${umbrella.marquee2} Основной выбор.`;
+   person.prestige_description = `${umbrella.prestige}`;
+   person.prestige_activation = `${umbrella.p_active}`;
+   person.at = '11,271';
+   person.hp = '53,357';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'umbrella/Tongue_Twister.png';
+   person.build_2_img = 'umbrella/Acid_Reflux.png';
+   person.build_3_img = 'umbrella/Under_The_Weather.png';
+   person.build_4_img = 'umbrella/Wish_Maker.png';
+   person.build_1_desc = 'Неблокируемая атака, восстановит здоровье.';
+   person.build_2_desc = 'Может наложить слизь.';
+   person.build_3_desc = 'Может дать иссушение при жоре.';
+   person.build_4_desc = 'Блокирует призыв, ос и бб противника.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function psykid() {
+   person.card_name = 'Юный телепат';
+   person.aka = 'Телепат';
+   person.card_src = 'Psykid.png';
+   person.description = 'Очень сильная вариация Амбреллы. И урон, и дебаффы, и обновление времени эффектов, можно также использовать саппортов, и бафферов и дебафферов. Рекомендуется прокачивать.';
+   person.ability = 'При ударе атакующего противника, получает меткий глаз и накладывает обратную полярность на 15 секунд. Сбрасывает таймер своих баффов и дебаффов врага когда он стукается об стену.';
+   person.marquee1 = `${umbrella.marquee1}`;
+   person.marquee2 = `${umbrella.marquee2} Основной выбор.`;
+   person.prestige_description = `${umbrella.prestige}`;
+   person.prestige_activation = `${umbrella.p_active}`;
+   person.at = '12,960';
+   person.hp = '48,039';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'umbrella/Tongue_Twister.png';
+   person.build_2_img = 'umbrella/Acid_Reflux.png';
+   person.build_3_img = 'umbrella/Salt_Grinder.png';
+   person.build_4_img = 'umbrella/Bobblin_Bubble.png';
+   person.build_1_desc = 'Неблокируемая атака, восстановит здоровье.';
+   person.build_2_desc = 'Может наложить слизь.';
+   person.build_3_desc = 'Пополнить шкалу Хангерна.';
+   person.build_4_desc = 'Накладывает слизь.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+
+function raining_champ() {
+   person.card_name = 'Чемпионка дождя';
+   person.aka = 'Чемпионка';
+   person.card_src = 'Raining_Champ.png';
+   person.description = 'Саппорт полу-деф, прокачивать не стоит: слабая и как саппорт, и как деф. Можно взять в атаку из-за непоколебимости, но на высоких рядах это не поможет, и урона нет.';
+   person.ability = 'Начинает бой с непоколебимостью на 10 сек и 2 стаками перманентной брони, которые снимутся при неимении союзников. Если жива, каждые 20 сек активный союзник получает ускорение и неупал на 10 сек.';
+   person.marquee1 = `${umbrella.marquee1}`;
+   person.marquee2 = `${umbrella.marquee2} Основной выбор.`;
+   person.prestige_description = `${umbrella.prestige}`;
+   person.prestige_activation = `${umbrella.p_active}`;
+   person.at = '11,981';
+   person.hp = '68,468';
+   person.atk_stats = ['Основной билд Амбреллы'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление'];
+   person.build_1_img = 'umbrella/Feeding_Time.png';
+   person.build_2_img = 'umbrella/Tongue_Twister.png';
+   person.build_3_img = 'umbrella/Acid_Reflux.png';
+   person.build_4_img = 'umbrella/Bobblin_Bubble.png';
+   person.build_1_desc = 'Восстановит здоровье, блок воскрешения при убийстве.';
+   person.build_2_desc = 'Неблокируемая атака, восстановит здоровье.';
+   person.build_3_desc = 'Может наложить слизь.';
+   person.build_4_desc = 'Накладывает слизь.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
