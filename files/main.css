@@ -129,6 +129,10 @@ a {
 .third_main_column {grid-area: c; max-width: 260px;}
 .card_img, .main_img {grid-area: d;}
 
+.char__list {margin-left: 20px;}
+.char__list li span:hover {cursor: pointer; color: var(--aside-list-active);}
+.char__list li span:active {color: var(--version-red);}
+
 .indent p {text-indent: 14px;}
 
 .table {
@@ -325,6 +329,7 @@ a {
       padding-left: 0;
    }
    .opener, .closer {display: block;}
+   .char__list li span:active {color: var(--aside-list-active);}
 }
 
 @media (max-width: 1150px) {
