@@ -166,6 +166,56 @@ function regally_blonde() {
    skullgirls.replaceChildren();
    pageGenerator();
 }
+function star_crossed() {
+   person.card_name = 'Незвёздный час';
+   person.aka = 'Незвёздка';
+   person.card_src = 'Star-Crossed.png';
+   person.description = 'Можно получить только из ивентовых реликвий ветра. Урона на высоких рядах в би не хватит, но качать можно, хорошая.';
+   person.ability = 'Свовременный блок обычных атак с шансом 50% оглушает на 3 секунды. Блокбастеры наносят на 100% больше урона по оглушённым противникам.';
+   person.marquee1 = `${parasoul.marquee1}`;
+   person.marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   person.prestige_description = `${parasoul.prestige}`;
+   person.prestige_activation = `${parasoul.p_active}`;
+   person.at = '10,100';
+   person.hp = '60,960';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'parasoul/Canopy_Bounce.png';
+   person.build_2_img = 'parasoul/Silent_Scope.png';
+   person.build_3_img = 'parasoul/Egret_Call.png';
+   person.build_4_img = 'parasoul/Napalm_Shot.png';
+   person.build_1_desc = 'Снимает положительные эффекты врага.';
+   person.build_2_desc = 'Дистанционный выстрел.';
+   person.build_3_desc = 'Получить точность.';
+   person.build_4_desc = 'Дальняя атака, вызывает кровотечение.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function primed() {
+   person.card_name = 'Высший сорт';
+   person.aka = 'Высорт';
+   person.card_src = 'Primed.png';
+   person.description = 'Очень сильная карточка, которую также можно получить из быстрой игры в золоте (набрав 10 миллионов очков) и в алмазе (за 30 миллионов). Рекомендуется качать, даже в алмазе очень достойная.';
+   person.ability = 'При выбросе слезы, активирует бешенство на 10 секунд. Взорванные слёзы накладывают кровотечение на 5 секунд.';
+   person.marquee1 = `${parasoul.marquee1}`;
+   person.marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   person.prestige_description = `${parasoul.prestige}`;
+   person.prestige_activation = `${parasoul.p_active}`;
+   person.at = '11,616';
+   person.hp = '54,874';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'parasoul/Canopy_Bounce.png';
+   person.build_2_img = 'parasoul/Motor_Brigade.png';
+   person.build_3_img = 'parasoul/Egret_Call.png';
+   person.build_4_img = 'parasoul/Napalm_Shower.png';
+   person.build_1_desc = 'Снимает положительные эффекты врага.';
+   person.build_2_desc = 'Шанс оглушить.';
+   person.build_3_desc = 'Получить точность.';
+   person.build_4_desc = 'Выбросить 3 слезы.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
 function princess_pride() {
    person.card_name = 'Принцесса';
    person.aka = 'Принцесса';
