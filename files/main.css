@@ -127,8 +127,7 @@ a {
 .first_main_column {grid-area: a; max-width: 400px;}
 .second_main_column {grid-area: b; max-width: 500px;}
 .third_main_column {grid-area: c; max-width: 260px;}
-.card_img {grid-area: d;}
-.second_main_column p:last-child {margin-top: 10px;}
+.card_img, .main_img {grid-area: d;}
 
 .indent p {text-indent: 14px;}
 
@@ -148,6 +147,8 @@ a {
    padding-top: 16px;
    text-align: center;
 }
+
+.second_main_column p:last-child {margin-top: 10px;}
 
 .char__mod {
    display: flex;
@@ -217,40 +218,21 @@ a {
    margin: 0 auto -15px auto;
 }
 
-.bronze .frame {
-   background-image: linear-gradient(#621 10%, #b76 20%, #843 40%, #b76 60%, #621 90%);
-}
-.silver .frame {
-    background-image: linear-gradient(#889 10%, #eef 20%, #aab 40%, #eef 60%, #889 90%);
-}
-.gold .frame {
-    background-image: linear-gradient(#da2 10%, #feb 20%, #fd8 40%, #feb 60%, #da2 90%);
-}
+.bronze .frame {background-image: linear-gradient(#621 10%, #b76 20%, #843 40%, #b76 60%, #621 90%);}
+.silver .frame {background-image: linear-gradient(#889 10%, #eef 20%, #aab 40%, #eef 60%, #889 90%);}
+.gold .frame {background-image: linear-gradient(#da2 10%, #feb 20%, #fd8 40%, #feb 60%, #da2 90%);}
 .diamond.neutral .frame,
-.diamond .neutral .frame {
-    background-image: linear-gradient(#d9d 10%, #fff 20%, #fcf 40%, #fef 60%, #d9d 90%);
-}
+.diamond .neutral .frame {background-image: linear-gradient(#d9d 10%, #fff 20%, #fcf 40%, #fef 60%, #d9d 90%);}
 .diamond.fire .frame,
-.diamond .fire .frame {
-    background-image: linear-gradient(#d33 10%, #fff 20%, #f99 40%, #fee 60%, #d33 90%);
-}
+.diamond .fire .frame {background-image: linear-gradient(#d33 10%, #fff 20%, #f99 40%, #fee 60%, #d33 90%);}
 .diamond.water .frame,
-.diamond .water .frame {
-    background-image: linear-gradient(#6be 10%, #fff 20%, #ace 40%, #eff 60%, #6be 90%);
-}
+.diamond .water .frame {background-image: linear-gradient(#6be 10%, #fff 20%, #ace 40%, #eff 60%, #6be 90%);}
 .diamond.wind .frame,
-.diamond .wind .frame {
-    background-image: linear-gradient(#8b3 10%, #fff 20%, #de9 40%, #efe 60%, #8b3 90%);
-}
+.diamond .wind .frame {background-image: linear-gradient(#8b3 10%, #fff 20%, #de9 40%, #efe 60%, #8b3 90%);}
 .diamond.dark .frame,
-.diamond .dark .frame {
-    background-image: linear-gradient(#95f 10%, #fff 20%, #caf 40%, #fef 60%, #95f 90%);
-}
+.diamond .dark .frame {background-image: linear-gradient(#95f 10%, #fff 20%, #caf 40%, #fef 60%, #95f 90%);}
 .diamond.light .frame,
-.diamond .light .frame {
-    background-image: linear-gradient(#dd6 10%, #fff 20%, #ffb 40%, #ffe 60%, #dd6 90%);
-}
-
+.diamond .light .frame {background-image: linear-gradient(#dd6 10%, #fff 20%, #ffb 40%, #ffe 60%, #dd6 90%);}
 .backdrop {
     position: relative;
     width: 100%;
@@ -258,54 +240,17 @@ a {
     border-radius: 50%;
     box-shadow: inset 0 0 2px 1px black;
 }
-
 .neutral .backdrop {background-image: radial-gradient(#ccc, #888);}
 .fire .backdrop {background-image: radial-gradient(#fb7, #d00);}
 .water .backdrop {background-image: radial-gradient(#5ff, #06c);}
 .wind .backdrop {background-image: radial-gradient(#9f8, #082);}
 .dark .backdrop {background-image: radial-gradient(#eae, #525);}
 .light .backdrop {background-image: radial-gradient(#fff, #ec5);}
-.neutral .unloaded .backdrop,
-.neutral.unloaded .backdrop {background: url(image/RandomBackgroundTransparent.png) 0 0 / contain, radial-gradient(#ccc, #888);}
-.fire .unloaded .backdrop,
-.fire.unloaded .backdrop {background: url(image/RandomBackgroundTransparent.png) 0 0 / contain, radial-gradient(#fb7, #d00);}
-.water .unloaded .backdrop,
-.water.unloaded .backdrop {background: url(image/RandomBackgroundTransparent.png) 0 0 / contain, radial-gradient(#5ff, #06c);}
-.wind .unloaded .backdrop,
-.wind.unloaded .backdrop {background: url(image/RandomBackgroundTransparent.png) 0 0 / contain, radial-gradient(#9f8, #082);}
-.dark .unloaded .backdrop,
-.dark.unloaded .backdrop {background: url(image/RandomBackgroundTransparent.png) 0 0 / contain, radial-gradient(#eae, #525);}
-.light .unloaded .backdrop,
-.light.unloaded .backdrop {background: url(image/RandomBackgroundTransparent.png) 0 0 / contain, radial-gradient(#fff, #ec5);}
-
-.backdrop.hallow1:after {
-   background-image: url(image/official/Blood1.png);
-}
-.backdrop.hallow2:after {
-   background-image: url(image/official/Blood2.png);
-}
-.backdrop.hallow3:after {
-   background-image: url(image/official/Blood3.png);
-}
-.backdrop.hallow1:after, .backdrop.hallow2:after, .backdrop.hallow3:after {
-   content: '';
-   position: absolute;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   background-position: bottom;
-   background-size: contain;
-   background-repeat: no-repeat;
-   display: block;
-}
 
 .portrait {
    width: 151%;
    margin: -110% 0 0 -26%;
    pointer-events: none;
-}
-#rBlight .portrait {
-   animation: rainbow 7s linear infinite;
 }
 
 .pop_build__list {
@@ -392,6 +337,7 @@ a {
    }
 
    .menu__char .card_img {margin: 0 auto;}
+   .main_img {display: none;}
 
    .builds {width: auto;}
    .build__column {
@@ -440,9 +386,7 @@ a {
 }
 
 @media (max-width: 450px) {
-   .second_main_column {width: auto;}
-   .stats__column {width: auto;}
-   .stats {flex-direction: column;  row-gap: 20px;}
-   .build__list {width: auto;}
+   .second_main_column, .stats__column, .build__list {width: auto;}
+   .stats {flex-direction: column; row-gap: 20px;}
    .supp_card {width: 100%;}
 }
