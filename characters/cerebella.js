@@ -249,7 +249,6 @@ function criminal_mind() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
-   buildLoad();
 }
 function scare_giver() {
    person.card_name = 'Страшила';
