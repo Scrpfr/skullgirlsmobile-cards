@@ -186,9 +186,9 @@ list = `
          <li onclick="buzzkill()">Пчёлы-убийцы</li>
          <li onclick="raw_nerv()">Оголённый нерв</li>
          <li onclick="grim_fan()">Мрачное фанданго</li>
-         <li onclick="()" class="empty">Паутинник</li>
-         <li onclick="()" class="empty">Мухоловка</li>
-         <li onclick="()" class="empty">Нейромант</li>
+         <li onclick="web_crawler()">Паутинник</li>
+         <li onclick="fly_trap()">Мухоловка</li>
+         <li onclick="neuromancer()">Нейромант</li>
       </ul></li>
    <li><span>Парасоул</span>
       <ul type="none">
@@ -197,14 +197,14 @@ list = `
          <li onclick="no_egrets()">Держать строй</li>
          <li onclick="ivy_league()">Лига плюща</li>
          <li onclick="shadow_ops()">Тайные операции</li>
-         <li onclick="()" class="empty">Неукротимость</li>
+         <li onclick="indomitable()">Неукротимость</li>
          <li onclick="regally_blonde()">Белая королева</li>
          <li onclick="star_crossed()">Незвёздный час</li>
          <li onclick="primed()">Высший сорт</li>
          <li onclick="princess_pride()">Принцесса</li>
-         <li onclick="()" class="empty">Зельдомания</li>
-         <li onclick="()" class="empty">Бомба</li>
-         <li onclick="()" class="empty">Рыжая авантюристка</li>
+         <li onclick="high_ruler()">Зельдомания</li>
+         <li onclick="bombshell()">Бомба</li>
+         <li onclick="risky_ginger()">Рыжая авантюристка</li>
          <li onclick="summer_salt()">Соль дождя</li>
       </ul></li>
    <li><span>Пикок</span>
