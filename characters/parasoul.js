@@ -26,7 +26,7 @@ function sheltered() {
    person.build_1_desc = 'Снимает положительные эффекты врага.';
    person.build_2_desc = 'Хороший урон с оглушением.';
    person.build_3_desc = 'Дистанционный выстрел.';
-   person.build_4_desc = 'Дальняя атака, вызывает кровотечение.';
+   person.build_4_desc = 'Вызывает кровотечение.';
    person.supps = ['icyhot', 'evergreen', 'sundae'];
    skullgirls.replaceChildren();
    pageGenerator();
@@ -141,6 +141,31 @@ function shadow_ops() {
    pageGenerator();
 }
 
+function indomitable() {
+   person.card_name = 'Неукротимость';
+   person.aka = 'Неукротимость';
+   person.card_src = 'Indomitable.png';
+   person.description = 'Новая карточка, но выглядит впечатляюще из-за постоянного меткого глаза, воровства баффов и миазм.';
+   person.ability = 'Когда здоровье противника падает ниже 80%, получает меткий глаз и даёт блок исцеления. Эффекты постоянные, но снимаются при нокдауне Парасоул. Под метким глазом и на стороне противника, каждые 3 секунды забирает 1 бафф с врага и получает миазмы на 7 сек.';
+   person.marquee1 = `${parasoul.marquee1}`;
+   person.marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   person.prestige_description = `${parasoul.prestige}`;
+   person.prestige_activation = `${parasoul.p_active}`;
+   person.at = '8,564';
+   person.hp = '67,047';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'parasoul/Canopy_Bounce.png';
+   person.build_2_img = 'parasoul/Silent_Scope.png';
+   person.build_3_img = 'parasoul/Motor_Brigade.png';
+   person.build_4_img = 'parasoul/Napalm_Shot.png';
+   person.build_1_desc = 'Снимает положительные эффекты врага.';
+   person.build_2_desc = 'Дистанционный выстрел.';
+   person.build_3_desc = 'Шанс оглушить.';
+   person.build_4_desc = 'Вызывает кровотечение.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
 function regally_blonde() {
    person.card_name = 'Белая королева';
    person.aka = 'Королева';
@@ -187,7 +212,7 @@ function star_crossed() {
    person.build_1_desc = 'Снимает положительные эффекты врага.';
    person.build_2_desc = 'Дистанционный выстрел.';
    person.build_3_desc = 'Получить точность.';
-   person.build_4_desc = 'Дальняя атака, вызывает кровотечение.';
+   person.build_4_desc = 'Вызывает кровотечение.';
    skullgirls.replaceChildren();
    pageGenerator();
 }
@@ -237,11 +262,86 @@ function princess_pride() {
    person.build_1_desc = 'Снимает положительные эффекты врага.';
    person.build_2_desc = 'Дистанционный выстрел.';
    person.build_3_desc = 'Получить иммунитет.';
-   person.build_4_desc = 'Дальняя атака, вызывает кровотечение.';
+   person.build_4_desc = 'Вызывает кровотечение.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function high_ruler() {
+   person.card_name = 'Зельдомания';
+   person.aka = 'Зельда';
+   person.card_src = 'High_Ruler.png';
+   person.description = 'Отличная рифтовая карточка, дающая сразу и порчу и проклятье. Урон низкий, но всё равно популярная.';
+   person.ability = 'Если противник стоит близко со слезой, через 1 секунду у него блокируются блокбастеры и призыв. Удар от взрыва слёз накладывает проклятье и порчу на 10 сек, а тёмные персонажи также получают усталость на 5 сек.';
+   person.marquee1 = `${parasoul.marquee1}`;
+   person.marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   person.prestige_description = `${parasoul.prestige}`;
+   person.prestige_activation = `${parasoul.p_active}`;
+   person.at = '8,564';
+   person.hp = '67,047';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'parasoul/Canopy_Bounce.png';
+   person.build_2_img = 'parasoul/Silent_Scope.png';
+   person.build_3_img = 'parasoul/Napalm_Trigger.png';
+   person.build_4_img = 'parasoul/Napalm_Shot.png';
+   person.build_1_desc = 'Снимает положительные эффекты врага.';
+   person.build_2_desc = 'Дистанционный выстрел.';
+   person.build_3_desc = 'Детонатор слёз.';
+   person.build_4_desc = 'Вызывает кровотечение.';
    skullgirls.replaceChildren();
    pageGenerator();
 }
 
+function bombshell() {
+   person.card_name = 'Бомба';
+   person.aka = 'Барби';
+   person.card_src = 'Bombshell.png';
+   person.description = 'Новая и не понятная карточка, бесстихийная и меняет наряд при взрыве слёз, что ей ничего не даёт кроме внешности. Пока недоступна.';
+   person.ability = 'При появлении слезы, получает бешенство, барьер или регенерацию на 15 сек. При взрыве не менее 3 слёз, взрыв неблокируемый и меняет палитру Парасоул. Взрыв 5 слёз даст оглушение на 2 сек.';
+   person.marquee1 = `${parasoul.marquee1}`;
+   person.marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   person.prestige_description = `${parasoul.prestige}`;
+   person.prestige_activation = `${parasoul.p_active}`;
+   person.at = '11,770';
+   person.hp = '71,117';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'parasoul/Canopy_Bounce.png';
+   person.build_2_img = 'parasoul/Napalm_Shower.png';
+   person.build_3_img = 'parasoul/Napalm_Trigger.png';
+   person.build_4_img = 'parasoul/Napalm_Shot.png';
+   person.build_1_desc = 'Снимает положительные эффекты врага.';
+   person.build_2_desc = 'Выбросить 3 слезы.';
+   person.build_3_desc = 'Детонатор слёз.';
+   person.build_4_desc = 'Вызывает кровотечение.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function risky_ginger() {
+   person.card_name = 'Рыжая авантюристка';
+   person.aka = 'Рыжуха';
+   person.card_src = 'Risky_Ginger.png';
+   person.description = 'Менее популярна чем Сорт, но более сильная, просто неудобная абилка, заставляющая атаковать противника в движении и не получать ударов в блок. Качайте по своему желанию.';
+   person.ability = 'При ударе движущегося противника, даёт ему метку смерти на 15 сек и получает постоянное бешенство, которое снимается при получении ударов в блок. Блокбастеры неблокируемые при не менее 3 стаков бешенства.';
+   person.marquee1 = `${parasoul.marquee1}`;
+   person.marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   person.prestige_description = `${parasoul.prestige}`;
+   person.prestige_activation = `${parasoul.p_active}`;
+   person.at = '11,770';
+   person.hp = '71,117';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'parasoul/Canopy_Bounce.png';
+   person.build_2_img = 'parasoul/Silent_Scope.png';
+   person.build_3_img = 'parasoul/Motor_Brigade.png';
+   person.build_4_img = 'parasoul/Napalm_Shot.png';
+   person.build_1_desc = 'Снимает положительные эффекты врага.';
+   person.build_2_desc = 'Дистанционный выстрел.';
+   person.build_3_desc = 'Шанс оглушить.';
+   person.build_4_desc = 'Вызывает кровотечение.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
 function summer_salt() {
    person.card_name = 'Соль дождя';
    person.aka = 'Сасальто';
@@ -263,7 +363,7 @@ function summer_salt() {
    person.build_1_desc = 'Снимает положительные эффекты врага.';
    person.build_2_desc = 'Дистанционный выстрел.';
    person.build_3_desc = 'Получить точность.';
-   person.build_4_desc = 'Дальняя атака, вызывает кровотечение.';
+   person.build_4_desc = 'Вызывает кровотечение.';
    person.addition = 'Отсылка: отсылает на Амбреллу, младшую сестру Парасоул. Отсылает только палитрой и фразой, абилка скорее всего Парасоул.';
    skullgirls.replaceChildren();
    pageGenerator();
