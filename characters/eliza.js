@@ -163,8 +163,10 @@ function inner_pieces() {
    person.build_2_desc = 'Сехмет с шансом получить бешенство.';
    person.build_3_desc = 'Сехмет с шансом дать кровотечение и блок исцеления.';
    person.build_4_desc = 'Снимает все положительные эффекты врага.';
+   person.addition = 'Список эффектов:</br> Ветер: регенерация</br> Огонь: бешенство</br> Вода: броня</br> Свет: благославение</br> Тьма: шипы</br> Бесстихийка: барьер';
    skullgirls.replaceChildren();
    pageGenerator();
+   addition();
 }
 function red_velvet() {
    person.card_name = 'Красный бархат';
