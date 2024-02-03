@@ -262,6 +262,82 @@ function grim_fan() {
    pageGenerator();
 }
 
+function web_crawler() {
+   person.card_name = 'Паутинник';
+   person.aka = 'Паутина';
+   person.card_src = 'Web_Crawler.png';
+   person.description = 'Ещё новая карточка и не особо проверенная, но абилка звучит слабовато и урона маловато.';
+   person.ability = 'При нахождении в режиме полёта в течении полторы секунды, получает меткий глаз на 10 сек и даёт раскол защиты на 8 сек. Если на противнике раскол защиты, удары вплотную с шансом 15% снимают бафф противника и дают вам уклонение на 10 сек.';
+   person.marquee1 = `${painwheel.marquee1}`;
+   person.marquee2 = `${painwheel.marquee2}`;
+   person.prestige_description = `${painwheel.prestige}`;
+   person.prestige_activation = `${painwheel.p_active}`;
+   person.at = '12,384';
+   person.hp = '58,676';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'painwheel/Buer_Overdrive.png';
+   person.build_2_img = 'painwheel/Pinion_Dash.png';
+   person.build_3_img = 'painwheel/Gae_Bolga_Stinger.png';
+   person.build_4_img = 'painwheel/Fracture_Reaper.png';
+   person.build_1_desc = 'Снижает шкалу блокбастеров врага.';
+   person.build_2_desc = 'Мета приём.';
+   person.build_3_desc = 'Повышенный шанс крита.';
+   person.build_4_desc = 'Может наложить метку смерти.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function fly_trap() {
+   person.card_name = 'Мухоловка';
+   person.aka = 'Муха';
+   person.card_src = 'Fly_Trap.png';
+   person.description = 'Простая и эффективная универсальная вариация. В атаке, рекомендуется разблокировать престиж чтобы пробивать блоки, и высокий шанс крита, из-за чего не получится играть против других Пэйнов. Также очень мало здоровья, можно погибнуть в блоке, если бы не регены. Рекомендуют качать только кровь: с ней можно играть хоть в атаке, хоть в защите. Злоба контрится в защите, а в атаке вы не можете себе позволить получать урон, тем более критический.';
+   person.ability = 'Бонус к урону 25% за каждую смерть любого персонажа в бою. При убийстве, получает 5 регенераций, безвременных.';
+   person.marquee1 = `${painwheel.marquee1} Основной выбор.`;
+   person.marquee2 = `${painwheel.marquee2}`;
+   person.prestige_description = `${painwheel.prestige}`;
+   person.prestige_activation = `${painwheel.p_active}`;
+   person.at = '16,743';
+   person.hp = '48,020';
+   person.atk_stats = ['Атака', 'Проницание', 'Прирост шкалы', 'Криты'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Атака'];
+   person.build_1_img = 'painwheel/Death_Crawl.png';
+   person.build_2_img = 'painwheel/Pinion_Dash.png';
+   person.build_3_img = 'painwheel/Gae_Bolga_Stinger.png';
+   person.build_4_img = 'painwheel/Fracture_Reaper.png';
+   person.build_1_desc = 'Может наложить кровотоки.';
+   person.build_2_desc = 'Мета приём.';
+   person.build_3_desc = 'Повышенный шанс крита.';
+   person.build_4_desc = 'Может наложить метку смерти.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function neuromancer() {
+   person.card_name = 'Нейромант';
+   person.aka = 'Нейро';
+   person.card_src = 'Neuromancer.png';
+   person.description = 'Балансно сломанный персонаж, просто бьёте шипами в блок и почти моментально заряжается бб3 которая и так неблокируемая, а потом по-новой. Такая же тактика работает и в защите. В добавок, отражает получаемый критический урон, а рекомендуется качать только кровь, зато престиж не рекомендуют, он нужен для лома блока, что во вред абилке.';
+   person.ability = 'Вампирит 10% шкалы блокбастера при ударе в блок, если удары не блокбастера. 15% урона блокбастерами переносятся на союзников противника.';
+   person.marquee1 = `${painwheel.marquee1} Основной выбор.`;
+   person.marquee2 = `${painwheel.marquee2}`;
+   person.prestige_description = `${painwheel.prestige}`;
+   person.prestige_activation = `${painwheel.p_active}`;
+   person.at = '14,554';
+   person.hp = '53,338';
+   person.atk_stats = ['Атака', 'Проницание', 'Перез приёмов', 'Криты'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Атака'];
+   person.build_1_img = 'painwheel/Buer_Overdrive.png';
+   person.build_2_img = 'painwheel/Pinion_Dash.png';
+   person.build_3_img = 'painwheel/Gae_Bolga_Stinger.png';
+   person.build_4_img = 'painwheel/Fracture_Reaper.png';
+   person.build_1_desc = 'Снижает шкалу блокбастеров врага.';
+   person.build_2_desc = 'Мета приём.';
+   person.build_3_desc = 'Повышенный шанс крита, используют в блок для зарядки бб.';
+   person.build_4_desc = 'Может наложить метку смерти.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+
 function true_ovagva() {
    person.card_name = 'Кийоко Огава';
    person.aka = 'Овагва';
