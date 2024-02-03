@@ -78,8 +78,10 @@ function prism_plumage() {
    person.build_2_desc = 'Может оглушить противника.';
    person.build_3_desc = 'Может снять с противника все положительные эффекты.';
    person.build_4_desc = 'Выпустить бомбочку.';
+   person.addition = 'Список эффектов:</br> Ветер: кровотечение</br> Огонь: увечья</br> Вода: раскол брони</br> Свет: обратная полярность</br> Тьма: иссушение';
    skullgirls.replaceChildren();
    pageGenerator();
+   addition();
 }
 function wildcard() {
    person.card_name = 'Джокер';
