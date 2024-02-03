@@ -211,7 +211,7 @@ function rainbow_blight() {
    person.card_name = 'Радужный мор';
    person.aka = 'Мор';
    person.card_src = 'Rainbow_Blight.png';
-   person.description = 'Хороший урон и хорошая абилка, рекомендуется прокачивать. Список эффектов:</br> Ветер: сильная регенерация и блок блокбастеров</br> Огонь: 2 бешенства и кровотечение</br> Вода: 2 брони и увечье</br> Свет: иммунитет и порча</br> Тьма: ускорение и блок исцеления';
+   person.description = 'Хороший урон и хорошая абилка, рекомендуется прокачивать. Примерно легко накладывает порчу, из-за чего можно играть в рифтах или против специфичных врагов. Здоровья мало, но сильная регенерация поможет жить в блоке. Небольшая проблема в рандомности, но тем не менее, одна из лучших Дабл.';
    person.ability = 'При трансмутации накладывает положительные и отрицательные эффекты на 10 сек в зависимости от итоговой стихии.';
    person.marquee1 = `${double.marquee1} Качайте Только Хаос.`;
    person.marquee2 = `${double.marquee2}`;
@@ -223,14 +223,16 @@ function rainbow_blight() {
    person.def_stats = ['Не защитник'];
    person.build_1_img = 'double/Cilia_Slide.png';
    person.build_2_img = 'double/Bogus_Buzzard.png';
-   person.build_3_img = 'double/Hornet_Bomber.png';
+   person.build_3_img = 'double/Catellite_Lives.png';
    person.build_4_img = 'double/Bandwagon_Rushdown.png';
-   person.build_1_desc = 'Резкая атака, накладывает замедление.';
-   person.build_2_desc = 'Наложит блок исцеления, используют после слайда.';
-   person.build_3_desc = 'Используют в комбо.';
+   person.build_1_desc = 'Накладывает замедление.';
+   person.build_2_desc = 'Наложит блок исцеления.';
+   person.build_3_desc = 'Шанс снять бафф противника.';
    person.build_4_desc = 'Наложит порчу.';
+   person.addition = 'Список эффектов:</br> Ветер: сильная регенерация и блок блокбастеров</br> Огонь: 2 бешенства и кровотечение</br> Вода: 2 брони и увечье</br> Свет: иммунитет и порча</br> Тьма: ускорение и блок исцеления';
    skullgirls.replaceChildren();
    pageGenerator();
+   addition();
 }
 
 function creature_of_habit() {
