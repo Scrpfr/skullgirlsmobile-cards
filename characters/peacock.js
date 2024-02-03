@@ -68,7 +68,7 @@ function prism_plumage() {
    person.prestige_activation = `${peacock.p_active}`;
    person.at = '8,218';
    person.hp = '50,324';
-   person.atk_stats = ['Атака', 'Проницание', 'Криты', 'Перез приемов'];
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
    person.def_stats = ['Не защитник'];
    person.build_1_img = 'peacock/Argus_Agony.png';
    person.build_2_img = 'peacock/Impending_Doom.png';
