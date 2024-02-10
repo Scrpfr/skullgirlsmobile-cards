@@ -118,11 +118,11 @@ list = `
          <li onclick="bad_hair()">Голова-трава</li>
          <li onclick="frayed_ends()">Концы секутся</li>
          <li onclick="ms_frosty()">Снеговичок</li>
-         <li onclick="()" class="empty">Локон медичи</li>
-         <li onclick="()" class="empty">Звезда вселенной</li>
+         <li onclick="hair_apparent()">Локон медичи</li>
+         <li onclick="rock_star()">Звезда вселенной</li>
          <li onclick="parasite_weave()">Паразит</li>
          <li onclick="()" class="empty">Звёздная угроза</li>
-         <li onclick="()" class="empty">Волосы на ветру</li>
+         <li onclick="windswept()">Волосы на ветру</li>
          <li onclick="dreadlocks()">Локоны-убийцы</li>
          <li onclick="djinn_frizz()">Кудряшка-джинн</li>
          <li onclick="class_cutter()">Мастер-класс</li>
