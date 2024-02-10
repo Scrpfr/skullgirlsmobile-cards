@@ -91,10 +91,10 @@ function parasite_weave() {
    person.card_name = 'Паразит';
    person.aka = 'Паразитка';
    person.card_src = 'Parasite_Weave.png';
-   person.description = 'Усиленная трава: больше урон, замедления, оглушения. Требует хороший билд: шанс крита почти 100%, чтобы активировалась абилка. В таком случае не получится сражаться против Далий и Пейнвил.';
+   person.description = 'Требует хорошо прокачанный билд с шипами для игры, высокий шанс крита. В таком случае, получается хороший боец с оглушениями и кровотечениями. Можно прокачать рану для превращения Паразита в дебаффера и усиленную Траву, но выгоднее качать пиявку. Вторая абилка бесполезна, не обращайте внимания на неё, выгоднее всего играть шипами.';
    person.ability = 'Критический удар с шансом 50% наложит противнику замедление на 10 сек и оглушение на 3 сек, если еще нет замедления. По оглушённому врагу удар с шансом 15% наложит кровотечение на 5 сек.';
    person.marquee1 = `${filia.marquee1}`;
-   person.marquee2 = `${filia.marquee2} Основной выбор.`;
+   person.marquee2 = `${filia.marquee2}`;
    person.prestige_description = `${filia.prestige}`;
    person.prestige_activation = `${filia.p_active}`;
    person.at = '10,100';
@@ -108,7 +108,7 @@ function parasite_weave() {
    person.build_1_desc = 'Шанс снять все положительные эффекты.';
    person.build_2_desc = 'Подбрасывает и наносит раскол брони.';
    person.build_3_desc = 'Мета приём.';
-   person.build_4_desc = 'Атака вперёд.';
+   person.build_4_desc = 'Шанс вызвать кровотечение.';
    person.supps = ['peashooter', 'harlequin', 'seraph'];
    person.build_form_name1 = 'Финальный билд для Филии, к которому стоит стремиться';
    person.build_form_path1 = '<img src="files/moves/filia/build1_class_cutter.jpg">';
@@ -118,6 +118,31 @@ function parasite_weave() {
    pageGenerator();
    supports();
    buildLoad();
+}
+function windswept() {
+   person.card_name = 'Волосы на ветру';
+   person.aka = 'Волосы';
+   person.card_src = 'Windswept.png';
+   person.description = 'Метовый поломанный персонаж из-за уклонений и постоянной точности, которая не просто даёт 100% шанса крита, но и не позволяет срабатывать абилке противника, что делает большинство дэф персонажей ничем против неё. Добавьте сюда хилл от уника, кровотоки от шипов и снятия всех баффов от сверла. Играют также через шипы, но не требует прокачку шанса крита из-за точности.';
+   person.ability = 'При ударе атакующего противника, получает бешенство на 10 сек и уклонение. Успешное уклонение даёт постоянную точность, снимается при получении удара.';
+   person.marquee1 = `${filia.marquee1} Лучший выбор.`;
+   person.marquee2 = `${filia.marquee2}`;
+   person.prestige_description = `${filia.prestige}`;
+   person.prestige_activation = `${filia.p_active}`;
+   person.at = '11,616';
+   person.hp = '48,039';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'filia/Drill_Tempered.png';
+   person.build_2_img = 'filia/Widows_Peak.png';
+   person.build_3_img = 'filia/Ringlet_Spike.png';
+   person.build_4_img = 'filia/Gregor_Samson.png';
+   person.build_1_desc = 'Шанс снять все положительные эффекты.';
+   person.build_2_desc = 'Подбрасывает и наносит раскол брони.';
+   person.build_3_desc = 'Мета приём.';
+   person.build_4_desc = 'Шанс вызвать кровотечение.';
+   skullgirls.replaceChildren();
+   pageGenerator();
 }
 function dreadlocks() {
    person.card_name = 'Локоны-убийцы';
@@ -193,7 +218,7 @@ function class_cutter() {
    person.build_1_desc = 'Шанс снять все положительные эффекты.';
    person.build_2_desc = 'Подбрасывает и наносит раскол брони.';
    person.build_3_desc = 'Мета приём.';
-   person.build_4_desc = 'Атака вперёд.';
+   person.build_4_desc = 'Шанс вызвать кровотечение.';
    person.supps = ['peashooter', 'harlequin', 'horse'];
    person.build_form_name1 = 'Основной билд для МК';
    person.build_form_path1 = '<img src="files/moves/filia/build1_class_cutter.jpg">';
