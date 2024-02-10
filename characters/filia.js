@@ -86,6 +86,56 @@ function ms_frosty() {
    skullgirls.replaceChildren();
    pageGenerator();
 }
+function hair_apparent() {
+   person.card_name = 'Локон медичи';
+   person.aka = 'Локон';
+   person.card_src = 'Hair_Apparent.png';
+   person.description = 'Очень хорошая вариация для новичков для серебра, но алмазить не стоит.';
+   person.ability = 'При использовании особого приёма, получает ускорение на 15 сек. При использовании блокбастера, сбрасывает кд всех особых приёмов.';
+   person.marquee1 = `${filia.marquee1} Основной выбор.`;
+   person.marquee2 = `${filia.marquee2}`;
+   person.prestige_description = `${filia.prestige}`;
+   person.prestige_activation = `${filia.p_active}`;
+   person.at = '9,946';
+   person.hp = '41,127';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'filia/Drill_Tempered.png';
+   person.build_2_img = 'filia/Gregor_Samson.png';
+   person.build_3_img = 'filia/Ringlet_Spike.png';
+   person.build_4_img = 'filia/Born_With_It.png';
+   person.build_1_desc = 'Шанс снять все положительные эффекты.';
+   person.build_2_desc = 'Шанс вызвать кровотечение.';
+   person.build_3_desc = 'Мета приём.';
+   person.build_4_desc = 'Получить бешенство.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function rock_star() {
+   person.card_name = 'Звезда вселенной';
+   person.aka = 'Рок стар';
+   person.card_src = 'Rock_Star.png';
+   person.description = 'Не особо полезный саппорт, можно не качать. Скорее полу-саппорт, ведь сама по себе неплохой боец, поэтому играют периодическими сменами персонажей с основного на неё а потом обратно.';
+   person.ability = 'Если жива, смена персонажа даёт 3 барьера на 10 сек, а после истечения его времени, даст неупал на 10 сек и 20% к шкале блокбастера.';
+   person.marquee1 = `${filia.marquee1} Основной выбор.`;
+   person.marquee2 = `${filia.marquee2}`;
+   person.prestige_description = `${filia.prestige}`;
+   person.prestige_activation = `${filia.p_active}`;
+   person.at = '7,335';
+   person.hp = '50,324';
+   person.atk_stats = ['Только саппорт'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'filia/Drill_Tempered.png';
+   person.build_2_img = 'filia/Gregor_Samson.png';
+   person.build_3_img = 'filia/Ringlet_Spike.png';
+   person.build_4_img = 'filia/Lash_Out.png';
+   person.build_1_desc = 'Шанс снять все положительные эффекты.';
+   person.build_2_desc = 'Шанс вызвать кровотечение.';
+   person.build_3_desc = 'Мета приём.';
+   person.build_4_desc = 'Сменить противника.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
 
 function parasite_weave() {
    person.card_name = 'Паразит';
@@ -192,7 +242,7 @@ function djinn_frizz() {
    person.build_2_desc = 'Подбрасывает и наносит раскол брони.';
    person.build_3_desc = 'Мета приём.';
    person.build_4_desc = 'Мощный урон под яростью.';
-   person.supps = ['evergreen', 'prisma', 'surgeon'];
+   person.supps = ['evergreen', 'prisma', 'seraph'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
