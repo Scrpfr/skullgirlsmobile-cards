@@ -833,21 +833,28 @@ function defList() {return person.def_stats.map(item => `<li>${item}</li>`)}
 
 function pageGenerator() {
    const page = `
-   <h2 class="head">${person.card_name} <span class="aka">a.k.a. ${person.aka}</span></h2>
       <ul class="menu__char" type="none">
-         <li class="first_main_column indent">
+         <li class="card_name"><h2 class="head box">${person.card_name} <span class="aka">a.k.a. ${person.aka}</span></h2></li>
+         <li class="the_description indent box">
            <h3 class="center">Описание</h3>
            <p>${person.description}</p>
          </li>
-         <li class="second_main_column indent">
+         <li class="the_signature_ab indent box">
            <h3 class="center">Ключевое умение</h3>
            <p>${person.ability}</p>
-           <h3 class="ability">Уникальная способность</h3>
-           <p>${person.marquee1}</p>
-           <p>${person.marquee2}</p>
          </li>
-         <li class="third_main_column">
-           <table class="table" width="256px" height="100px">
+         <li class="the_marquee box">
+            <h3 class="center">Уникальная способность</h3>
+            <p>${person.marquee1}</p>
+            <p>${person.marquee2}</p>
+         </li>
+         <li class="the_prestige box">
+            <p style="font-weight: bold; text-align: center;">Престиж</p>
+            <p>${person.prestige_description}</p>
+            <p>Активация престижа: ${person.prestige_activation}</p>
+         </li>
+         <li class="the_base_stats">
+           <table class="box" width="256px" height="100px">
              <tr>
                <th>Макс. атака</th>
                <td>${person.at}</td>
@@ -857,38 +864,36 @@ function pageGenerator() {
                <td>${person.hp}</td>
             </tr>
            </table>
-           <p style="font-weight: bold; text-align: center;">Престиж</p>
-           <p>${person.prestige_description}</p>
-           <p>Активация престижа: ${person.prestige_activation}</p>
          </li>
          <li class="card_img"><img src="files/cards/${person.card_src}" width="270px" height="356px"></li>
-      </ul>
-      <h2 class="head">Прокачка персонажа</h2>
-      <div class="char__mod">
-         <div class="stats__column">
+         <li class="the_add_stats box">
+            <div class="stats__column">
             <h2>Статы</h2>
             <div class="stats">
                <div class="stats__sub">
                   <h3>Атакующий фланг</h3>
-                  <ul>${atkList().join('')}</ul>
+                  <ul type="disc">${atkList().join('')}</ul>
                </div>
                <div class="stats__sub">
                   <h3>Защищающий фланг</h3>
-                  <ul>${defList().join('')}</ul>
+                  <ul type="disc">${defList().join('')}</ul>
                </div>
             </div>
-         </div>
-         <div class="builds">
-            <h2>Рекомендуемые приёмы</h2>
-            <ul class="build__column" type="none">
-               <li class="build__list"><img src="files/moves/${person.build_1_img}" height="100px"><span>${person.build_1_desc}</span></li>
-               <li class="build__list"><img src="files/moves/${person.build_2_img}" height="100px"><span>${person.build_2_desc}</span></li>
-               <li class="build__list"><img src="files/moves/${person.build_3_img}" height="100px"><span>${person.build_3_desc}</span></li>
-               <li class="build__list"><img src="files/moves/${person.build_4_img}" height="100px"><span>${person.build_4_desc}</span></li>
-            </ul>
-         </div>
+         </li>
+         <li class="the_moves box">
+            <div class="builds">
+               <h2>Рекомендуемые приёмы</h2>
+               <ul class="build__column" type="none">
+                  <li class="build__list"><img src="files/moves/${person.build_1_img}" height="100px"><span>${person.build_1_desc}</span></li>
+                  <li class="build__list"><img src="files/moves/${person.build_2_img}" height="100px"><span>${person.build_2_desc}</span></li>
+                  <li class="build__list"><img src="files/moves/${person.build_3_img}" height="100px"><span>${person.build_3_desc}</span></li>
+                  <li class="build__list"><img src="files/moves/${person.build_4_img}" height="100px"><span>${person.build_4_desc}</span></li>
+               </ul>
+            </div>
+         </li>
       </div>
-      <h2 class="head head_mt">Дополнительная информация</h2>
+      </ul>
+      <h2 class="head box">Дополнительная информация</h2>
    `;
    skullgirls.insertAdjacentHTML('beforeend', page);
    closer();
