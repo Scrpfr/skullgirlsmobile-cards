@@ -901,7 +901,7 @@ function pageGenerator() {
 
 supports_all()
 function supports_all() {
-   let a = `<p style="text-align: center;">Все саппорты в игре</p><div id="supp_ntfc"></div>`;
+   let a = `<p style="text-align: center;"><span class="box-sup">Все саппорты в игре</span></p><div id="supp_ntfc"></div>`;
    skullgirls.insertAdjacentHTML('beforeend', a);
    supports_all_fncn()
 }
@@ -919,7 +919,7 @@ function closer() {
    }
 }
 function supports() {
-   let p = `<p style="text-align: center;">Подходящие саппорты</p><div id="supp_ntfc"></div>`;
+   let p = `<p style="text-align: center;"><span class="box-sup">Подходящие саппорты</span></p><div id="supp_ntfc"></div>`;
    const supprs = document.getElementById('supp_ntfc');
    skullgirls.insertAdjacentHTML('beforeend', p);
    supports_fncn()
