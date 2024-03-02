@@ -375,7 +375,7 @@ a {
 }
 
 @media (max-width: 734px) {
-   .card {background-image: url('arts/bg_750.jpg');}
+   .card {background-image: url('arts/bg_750.jpg'); background-position: inherit;}
    .stats {flex-direction: column;}
 }
 
