@@ -372,6 +372,9 @@ a {
    .menu__char .card_img {margin: 0 auto;}
    .main_img {display: none;}
    .pop_build__list li img {width: 100%;}
+   .char__list {
+      min-width: 300px;
+   }
 }
 
 @media (max-width: 734px) {
@@ -406,9 +409,6 @@ a {
       width: 100%;
       overflow: overlay;
       background-color: var(--aside-bg);
-   }
-   .char__list {
-      min-width: 300px;
    }
 }
 
