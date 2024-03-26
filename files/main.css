@@ -150,7 +150,7 @@ a {
    flex-direction: column;
    flex-wrap: wrap;
    justify-content: flex-start;
-   align-items: flex-start;
+   align-items: stretch;
 }
 .char__list li span:hover {cursor: pointer; color: var(--aside-list-active);}
 .char__list li span:active {color: var(--version-red);}
