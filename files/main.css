@@ -407,7 +407,7 @@ a {
       overflow: overlay;
       background-color: var(--aside-bg);
    }
-   .the_marquee {
+   .char__list {
       min-width: 300px;
    }
 }
