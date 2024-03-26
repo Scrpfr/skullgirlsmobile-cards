@@ -407,10 +407,13 @@ a {
       overflow: overlay;
       background-color: var(--aside-bg);
    }
+   .the_marquee {
+      min-width: 300px;
+   }
 }
 
 @media (max-width: 470px) {
-   .card {background-image: url('arts/bg_500.jpg'); background-size: auto;}
+   .card {background-image: url('arts/bg_500.jpg');}
    .the_signature_ab, .stats__column, .build__list {width: auto;}
    .stats {flex-direction: column; row-gap: 20px;}
    .supp_card {width: 100%;}
