@@ -50,6 +50,7 @@ list = `
          <li onclick="epic_sax()">Эпик сакс гай</li>
          <li onclick="heavy_metal()">Хэви-метал</li>
          <li onclick="dream_band()">Звёздный состав</li>
+         <li onclick="" class="empty">Медный разбойник</li>
       </ul></li>
    <li><span>Чёрный Георгин</span>
       <ul type="none">
@@ -65,6 +66,7 @@ list = `
          <li onclick="()" class="empty">Невозмутимость</li>
          <li onclick="fur_monger()">Меховик войны</li>
          <li onclick="unholy_host()">Носитель нечисти</li>
+         <li onclick="" class="empty">Ведьмовский калибр</li>
       </ul></li>
    <li><span>Церебелла</span>
       <ul type="none">
@@ -110,6 +112,7 @@ list = `
          <li onclick="lapis_luxury()">Роскошный лазурит</li>
          <li onclick="bloodbath()">Кровавая баня</li>
          <li onclick="diva_intervention()">Партия дивы</li>
+         <li onclick="" class="empty">Знатный магнат</li>
          <li onclick="()" class="empty">Одна такая</li>
          <li onclick="()" class="empty">Драгоценная мумия</li>
       </ul></li>
@@ -122,6 +125,7 @@ list = `
          <li onclick="rock_star()">Звезда вселенной</li>
          <li onclick="parasite_weave()">Паразит</li>
          <li onclick="()" class="empty">Звёздная угроза</li>
+         <li onclick="" class="empty">Кудрявый скаут</li>
          <li onclick="windswept()">Волосы на ветру</li>
          <li onclick="dreadlocks()">Локоны-убийцы</li>
          <li onclick="djinn_frizz()">Кудряшка-джинн</li>
@@ -153,6 +157,7 @@ list = `
          <li onclick="maid_of_honor()">Рыцарь-горничная</li>
          <li onclick="()" class="empty">Октоплазма</li>
          <li onclick="()" class="empty">Охотница с пылесосом</li>
+         <li onclick="()" class="empty">Скалящийся жнец</li>
          <li onclick="()" class="empty">Тёмная лошадка</li>
          <li onclick="()" class="empty">Гробокопательница</li>
          <li onclick="megalomaniac()">Мегаломаньяк</li>
@@ -220,6 +225,7 @@ list = `
          <li onclick="ultraviolent()">Ультрафиолет</li>
          <li onclick="taf()">Вот и всё</li>
          <li onclick="()" class="empty">Животный дар</li>
+         <li onclick="()" class="empty">Сделка отменяется</li>
          <li onclick="freeze_frame()">Стоп-кадр</li>
          <li onclick="dream_catcher()">Ловец снов</li>
       </ul></li>
