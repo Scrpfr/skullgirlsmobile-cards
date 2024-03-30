@@ -1,7 +1,6 @@
 :root {
    --main-theme: #e7c3e7;
-   --box-color: rgb(239 223 120 / 70%);
-   --box-hover-color: rgb(239 223 120 / 90%);
+   --highlight: #b5abe5;
    --aside-list-color: #f5daf5;
    --aside-list-active: #18a5db;
    --aside-list-click: rgba(245, 219, 245, 0.5);
@@ -53,11 +52,7 @@ a {
    right: 0;
    padding-left: 6px;
    font-family: Bahnschrift;
-   /* background-color: var(--main-theme); */
-   background-image: url('arts/marie_sg.jpg');
-   background-attachment: fixed;
-   background-size: cover;
-   background-position: center;
+   /* background-color: #c3c3c3; */
 }
 
 .aside h2 {
@@ -150,7 +145,7 @@ a {
    flex-direction: column;
    flex-wrap: wrap;
    justify-content: flex-start;
-   align-items: stretch;
+   align-items: flex-start;
 }
 .char__list li span:hover {cursor: pointer; color: var(--aside-list-active);}
 .char__list li span:active {color: var(--version-red);}
@@ -166,6 +161,8 @@ a {
 .center {
    text-align: center;
 }
+
+.the_description h3, .the_signature_ab h3 {background-color: var(--highlight);}
 
 .the_marquee p:last-child {margin-top: 10px;}
 
@@ -225,6 +222,7 @@ a {
 
 .card_desc {
    padding-left: 11px;
+   color: black;
 }
 
 .frame {
@@ -312,8 +310,9 @@ a {
 .empty {color: white;}
 .empty:hover {color: white !important;}
 .box {
-   background-color: var(--box-color);
-   border-radius: 10px;
+   background-color: #eee3f9;
+   border: 1px #5f57c7 solid;
+   border-radius: 2px;
    padding: 6px;
 }
 /* .box:hover {background-color: var(--box-hover-color);} */
@@ -375,7 +374,6 @@ a {
 }
 
 @media (max-width: 734px) {
-   .card {background-image: url('arts/bg_750.jpg'); background-position: inherit;}
    .stats {flex-direction: column;}
 }
 
@@ -407,10 +405,12 @@ a {
       overflow: overlay;
       background-color: var(--aside-bg);
    }
+   .char__list {
+      min-width: 300px;
+   }
 }
 
 @media (max-width: 470px) {
-   .card {background-image: url('arts/bg_500.jpg');}
    .the_signature_ab, .stats__column, .build__list {width: auto;}
    .stats {flex-direction: column; row-gap: 20px;}
    .supp_card {width: 100%;}
