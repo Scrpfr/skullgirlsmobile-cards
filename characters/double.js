@@ -29,6 +29,7 @@ function nunsense() {
    person.build_4_desc = 'Наложит порчу.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 function sundae_school() {
    person.card_name = 'Мороженные мощи';
@@ -130,6 +131,7 @@ function doublicious() {
    person.build_4_desc = 'Наложит порчу.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 
 function evergreen_evil() {
@@ -156,6 +158,7 @@ function evergreen_evil() {
    person.build_4_desc = 'Резкая атака, накладывающая рандомный дебафф.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function immoral_fiber() {
    person.card_name = 'Аморальные устои';
@@ -181,6 +184,7 @@ function immoral_fiber() {
    person.build_4_desc = 'Резкая атака, накладывающая рандомный дебафф.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function xenomorph() {
    person.card_name = 'Ксеноморф';
@@ -206,6 +210,7 @@ function xenomorph() {
    person.build_4_desc = 'Наложит порчу.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 function rainbow_blight() {
    person.card_name = 'Радужный мор';
@@ -233,6 +238,7 @@ function rainbow_blight() {
    skullgirls.replaceChildren();
    pageGenerator();
    addition();
+   highlight(m1);
 }
 
 function creature_of_habit() {
@@ -259,6 +265,7 @@ function creature_of_habit() {
    person.build_4_desc = 'Шанс ввести ос и призыв противника в кд.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 function heart_of_darkness() {
    person.card_name = 'Сердце тьмы';
@@ -311,6 +318,7 @@ function jawbreaker() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m1);
 }
 function altar_ego() {
    person.card_name = 'Алтарное эго';
