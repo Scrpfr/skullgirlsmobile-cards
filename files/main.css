@@ -162,7 +162,7 @@ a {
    text-align: center;
 }
 
-.the_description h3, .the_signature_ab h3 {background-color: var(--highlight);}
+.highlight {background-color: var(--highlight);}
 
 .the_marquee p:last-child {margin-top: 10px;}
 
