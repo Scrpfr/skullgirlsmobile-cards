@@ -842,11 +842,11 @@ function pageGenerator() {
       <ul class="menu__char" type="none">
          <li class="card_name"><h2 class="head">${person.card_name} <span class="aka">a.k.a. ${person.aka}</span></h2></li>
          <li class="the_description indent box">
-           <h3 class="center">Описание</h3>
+           <h3 class="center highlight">Описание</h3>
            <p>${person.description}</p>
          </li>
          <li class="the_signature_ab indent box">
-           <h3 class="center">Ключевое умение</h3>
+           <h3 class="center highlight">Ключевое умение</h3>
            <p>${person.ability}</p>
          </li>
          <li class="the_marquee box">
@@ -924,6 +924,16 @@ function closer() {
       aside.classList.remove('btn_active');
    }
 }
+
+function highlight(mq) {
+   if (mq == m1) {
+      document.querySelector('#m1').classList.add('highlight');
+   } else if (mq == m2) {
+      document.querySelector('#m2').classList.add('highlight');
+   }
+   
+}
+
 function supports() {
    let p = `<p style="text-align: center;"><span">Подходящие саппорты</span></p><div id="supp_ntfc"></div>`;
    const supprs = document.getElementById('supp_ntfc');
