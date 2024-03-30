@@ -840,7 +840,7 @@ function defList() {return person.def_stats.map(item => `<li>${item}</li>`)}
 function pageGenerator() {
    const page = `
       <ul class="menu__char" type="none">
-         <li class="card_name"><h2 class="head box">${person.card_name} <span class="aka">a.k.a. ${person.aka}</span></h2></li>
+         <li class="card_name"><h2 class="head">${person.card_name} <span class="aka">a.k.a. ${person.aka}</span></h2></li>
          <li class="the_description indent box">
            <h3 class="center">Описание</h3>
            <p>${person.description}</p>
@@ -899,7 +899,7 @@ function pageGenerator() {
          </li>
       </div>
       </ul>
-      <h2 class="head box">Дополнительная информация</h2>
+      <h2 class="head">Дополнительная информация</h2>
    `;
    skullgirls.insertAdjacentHTML('beforeend', page);
    closer();
@@ -907,7 +907,7 @@ function pageGenerator() {
 
 supports_all()
 function supports_all() {
-   let a = `<p style="text-align: center;"><span class="box-sup">Все саппорты в игре</span></p><div id="supp_ntfc"></div>`;
+   let a = `<p style="text-align: center;"><span>Все саппорты в игре</span></p><div id="supp_ntfc"></div>`;
    skullgirls.insertAdjacentHTML('beforeend', a);
    supports_all_fncn()
 }
@@ -925,7 +925,7 @@ function closer() {
    }
 }
 function supports() {
-   let p = `<p style="text-align: center;"><span class="box-sup">Подходящие саппорты</span></p><div id="supp_ntfc"></div>`;
+   let p = `<p style="text-align: center;"><span">Подходящие саппорты</span></p><div id="supp_ntfc"></div>`;
    const supprs = document.getElementById('supp_ntfc');
    skullgirls.insertAdjacentHTML('beforeend', p);
    supports_fncn()
