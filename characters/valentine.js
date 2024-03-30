@@ -11,7 +11,7 @@ function scrub() {
    person.card_src = 'Scrub.png';
    person.description = 'К сожалению, очень плохой саппорт, прокачивать не рекомендуется. Алмазить только шайни в основном для красивой аватарки, и максимум для подстраховки в виде неотложки.';
    person.ability = 'При смене с Валентайн или на неё, текущий персонаж восстанавливает 15% здоровья. А союзники в запасе восстанавливают предварительный урон и шкалу блокбастеров в 2 раза быстрее.';
-   person.marquee1 = `${valentine.marquee1} ЛУЧШЕЕ.`;
+   person.marquee1 = `${valentine.marquee1}.`;
    person.marquee2 = `${valentine.marquee2}`;
    person.prestige_description = `${valentine.prestige}`;
    person.prestige_activation = `${valentine.p_active}`;
@@ -29,6 +29,7 @@ function scrub() {
    person.build_4_desc = 'Сменить противника.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 function icy_hot() {
    person.card_name = 'Горячий лёд';
@@ -36,7 +37,7 @@ function icy_hot() {
    person.card_src = 'Icy_Hot.png';
    person.description = 'Отличная вариация для новичка для ознакомления с Валентайн. Саппорт, но также хороша в атаке в бронзе и серебро рангах. Алмазить на своё усмотрение, но до золота точно стоит прокачивать.';
    person.ability = 'При смене персонажа, выходящий получает регенерацию на 15 сек и шкалу блокбастера 15%.';
-   person.marquee1 = `${valentine.marquee1} ЛУЧШЕЕ.`;
+   person.marquee1 = `${valentine.marquee1}`;
    person.marquee2 = `${valentine.marquee2}`;
    person.prestige_description = `${valentine.prestige}`;
    person.prestige_activation = `${valentine.p_active}`;
@@ -54,6 +55,7 @@ function icy_hot() {
    person.build_4_desc = 'Сменить противника.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 
 function oh_mai() {
@@ -80,6 +82,7 @@ function oh_mai() {
    person.build_4_desc = 'Сменить противника.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function graveyard_shift() {
    person.card_name = 'В морге';
@@ -105,6 +108,7 @@ function graveyard_shift() {
    person.build_4_desc = 'Сменить противника.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 function kill_joy() {
    person.card_name = 'Смерть джой';
@@ -130,6 +134,7 @@ function kill_joy() {
    person.build_4_desc = 'Сменить противника.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 
 function pyro_technique() {
@@ -156,6 +161,7 @@ function pyro_technique() {
    person.build_4_desc = 'Бросок с шансом оглушить, если на вас активна регенерация.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function silent_kill() {
    person.card_name = 'Сайлент Килл';
@@ -181,6 +187,7 @@ function silent_kill() {
    person.build_4_desc = 'Бросок с шансом оглушить, если на вас активна регенерация.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function last_hope() {
    person.card_name = 'Последняя надежда';
@@ -208,6 +215,7 @@ function last_hope() {
    skullgirls.replaceChildren();
    pageGenerator();
    addition();
+   highlight(m1);
 }
 function surgeon_general() {
    person.card_name = 'Генерал-хирург';
@@ -233,6 +241,7 @@ function surgeon_general() {
    person.build_4_desc = 'Сменить противника.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 function final_fang() {
    person.card_name = 'Последний клык';
@@ -258,6 +267,7 @@ function final_fang() {
    person.build_4_desc = 'Снимает часть шкалы бб.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 
 function seraph_soldier() {
@@ -284,6 +294,7 @@ function seraph_soldier() {
    person.build_4_desc = 'Сменить противника.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 function wetwork() {
    person.card_name = 'Мокрое дело';
@@ -309,6 +320,7 @@ function wetwork() {
    person.build_4_desc = 'Снимает часть шкалы бб.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function tres_chic() {
    person.card_name = 'Инкогнито';
@@ -334,6 +346,7 @@ function tres_chic() {
    person.build_4_desc = 'Снимает часть шкалы бб.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function assassin_greed() {
    person.card_name = 'Жадность убийцы';
@@ -359,4 +372,5 @@ function assassin_greed() {
    person.build_4_desc = 'Сбивает атаку противника и накладывает кровотечение.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
