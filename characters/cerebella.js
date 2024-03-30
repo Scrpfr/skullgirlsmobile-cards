@@ -31,6 +31,7 @@ function understudy() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m1);
 }
 function headstrong() {
    person.card_name = 'Сила мысли';
@@ -58,6 +59,7 @@ function headstrong() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m1);
 }
 
 function toad_warrior() {
@@ -86,6 +88,7 @@ function toad_warrior() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m1);
 }
 function gray_matter() {
    person.card_name = 'Мозг';
@@ -164,6 +167,7 @@ function harlequin() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m1);
 }
 function brain_freeze() {
    person.card_name = 'Отмороженная';
@@ -223,7 +227,7 @@ function criminal_mind() {
    person.card_name = 'Преступный умысел';
    person.aka = 'Кумыс';
    person.card_src = 'Criminal_Mind.png';
-   person.description = 'Весьма сильная карточка из церебелл в плане урона, прокачивают с упором на шанс крита, а из-за него не стоит играть против пейнвил и далий. Хорошо себя чувствует в быстрых играх до 40 рядов, также может быть на защите из-за хорошего запаса здоровья и шипов. Не для новичков, так как требует высоких, прокачанных статов.';
+   person.description = 'Достойный для прокачки универсал. В атаке, огромный урон за счёт метки смерти и критов, кровотечения. В защите, шипы и кровотечение, однако танк из неё так себе. Не для новичков, так как требует высоких характеристик шанса: 80-100%, из-за чего боится Пэйнвил с отражением урона или Далий с регенерациями.';
    person.ability = 'Когда любой персонаж отнимает не менее 10% макс здоровья одним ударом, дает вам шипы на 10 сек и метку смерти на противника, а также накладывает им кровотечение на 5 секунд при отскоке под действием метки смерти.';
    person.marquee1 = `${cerebella.marquee1} Основной выбор.`;
    person.marquee2 = `${cerebella.marquee2}`;
@@ -274,6 +278,7 @@ function scare_giver() {
    person.build_4_desc = 'Поймать подброшенного противника и дать кровотечение.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 function blitz_glamour() {
    person.card_name = 'Сила денег';
@@ -301,6 +306,7 @@ function blitz_glamour() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m1);
 }
 
 function heavy_handed() {
