@@ -851,8 +851,8 @@ function pageGenerator() {
          </li>
          <li class="the_marquee box">
             <h3 class="center">Уникальная способность</h3>
-            <p>${person.marquee1}</p>
-            <p>${person.marquee2}</p>
+            <p id="m1">${person.marquee1}</p>
+            <p id="m2">${person.marquee2}</p>
          </li>
          <li class="the_prestige box">
             <p style="font-weight: bold; text-align: center;">Престиж</p>
