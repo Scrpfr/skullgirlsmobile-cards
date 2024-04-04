@@ -31,6 +31,7 @@ function rusty() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m2);
 }
 function twisted_mettle() {
    person.card_name = 'Металлопрокат';
@@ -56,6 +57,7 @@ function twisted_mettle() {
    person.build_4_desc = 'Может наложить метку смерти.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 
 function blood_drive() {
@@ -82,6 +84,7 @@ function blood_drive() {
    person.build_4_desc = 'Может наложить метку смерти.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function rage_appropriate() {
    person.card_name = 'Подростковый';
@@ -107,6 +110,7 @@ function rage_appropriate() {
    person.build_4_desc = 'Может наложить метку смерти.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 function freaky_friday() {
    person.card_name = 'Жуткая пятница';
@@ -132,13 +136,14 @@ function freaky_friday() {
    person.build_4_desc = 'Может наложить метку смерти.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 
 function firefly() {
    person.card_name = 'Светлячок';
    person.aka = 'Светляк';
    person.card_src = 'Firefly.png';
-   person.description = 'В золотом ранге - хороший универсал, обладающий хорошей атакой и приёмами с кровотечением, может быть играбельна в золоте. В защите тоже может постоять, особенно в рифтах под катализатором "Не буди спящего Буэра". Алмазить не стоит, слабая. Если алмазить, то найдет своё место лишь в рифтах под буэрами как посредственный дэф; лучше оставить в золоте.';
+   person.description = 'Очень хорошая идея с регенерацией в блоке, но бесполезная из-за ограничения в 50% здоровья. Может постоять в защите в рифтах под катализатором "Не буди спящего Буэра", но как посредственный дэф. Не стоит качать.';
    person.ability = 'В блоке при менее 50% здоровья восстанавливает 8% здоровья и 8% шкалы бб в секунду.';
    person.marquee1 = `${painwheel.marquee1} ТОЛЬКО Кровь.`;
    person.marquee2 = `${painwheel.marquee2}`;
@@ -158,6 +163,7 @@ function firefly() {
    person.build_4_desc = 'Может наложить метку смерти.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 function biting_cold() {
    person.card_name = 'Кусачий мороз';
@@ -183,6 +189,7 @@ function biting_cold() {
    person.build_4_desc = 'Может наложить метку смерти.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 function buzzkill() {
    person.card_name = 'Пчёлы-убийцы';
@@ -210,6 +217,7 @@ function buzzkill() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m2);
 }
 function raw_nerv() {
    person.card_name = 'Оголённый нерв';
@@ -235,6 +243,7 @@ function raw_nerv() {
    person.build_4_desc = 'Может наложить метку смерти.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 function grim_fan() {
    person.card_name = 'Мрачное фанданго';
@@ -260,6 +269,7 @@ function grim_fan() {
    person.build_4_desc = 'Может наложить метку смерти.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 
 function web_crawler() {
@@ -311,6 +321,7 @@ function fly_trap() {
    person.build_4_desc = 'Может наложить метку смерти.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 function neuromancer() {
    person.card_name = 'Нейромант';
@@ -336,6 +347,7 @@ function neuromancer() {
    person.build_4_desc = 'Может наложить метку смерти.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 
 function true_ovagva() {
