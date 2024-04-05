@@ -136,7 +136,7 @@ function virtuoso() {
    person.build_2_desc = 'Шанс оглушить и часть комбо.';
    person.build_3_desc = 'Мета приём.';
    person.build_4_desc = 'Увеличенный урон по оглушённому противнику.';
-   person.supps = ['honormaid', 'evergreen', 'martial_outlaw'];
+   person.supps = ['octoplasm', 'evergreen', 'seraph'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
@@ -270,7 +270,7 @@ function epic_sax() {
    person.build_2_desc = 'Шанс оглушить.';
    person.build_3_desc = 'Шанс оглушить.';
    person.build_4_desc = 'Увеличенный урон по оглушённому противнику.';
-   person.supps = ['honormaid', 'evergreen', 'martial_outlaw'];
+   person.supps = ['honormaid', 'evergreen', 'mogul'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
