@@ -711,6 +711,41 @@ let supports_list = [
         </div>
      </div>
    `},
+   {name: 'octoplasm', body: `
+      <div class="supp_card" style="background: var(--water-theme);">
+        <div class="gold water">
+           <div class="avatar">
+              <div class="frame">
+                 <div class="backdrop">
+                    <img src="files//icons/mCorpse.png" class="portrait">
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="card_desc">
+            <h3>Октоплазма</h3>
+            <p>+5 секунд времени дебаффам врага, исключая противников стихии воды и эффект оглушения</p>
+        </div>
+     </div>
+   `},
+   {name: 'mogul', body: `
+      <div class="supp_card" style="background: var(--light-theme);">
+        <div class="gold light">
+           <div class="avatar">
+              <div class="frame">
+                 <div class="backdrop">
+                    <img src="files//icons/dNaire.png" class="portrait">
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="card_desc">
+            <h3>Знатный магнат</h3>
+            <p>Каждые 20 сек даёт барьер</p>
+            <p>+15% к урону светлому персонажу за каждый его бафф барьера</p>
+        </div>
+     </div>
+   `},
    {name: 'inner', body: `
       <div class="supp_card" style="background: var(--neutral-theme);">
         <div class="gold neutral">
