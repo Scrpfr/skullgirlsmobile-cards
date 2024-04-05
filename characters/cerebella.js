@@ -302,7 +302,7 @@ function blitz_glamour() {
    person.build_2_desc = 'Наложит раскол защиты.';
    person.build_3_desc = 'Не используется вплотную, нужно небольшое расстояние.';
    person.build_4_desc = 'Поймать подброшенного противника и дать кровотечение.';
-   person.supps = ['honormaid', 'martial_outlaw', 'persona'];
+   person.supps = ['honormaid', 'martial_outlaw', 'mogul'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
