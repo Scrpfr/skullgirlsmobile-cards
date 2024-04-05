@@ -184,6 +184,108 @@ function thrill_shrieker() {
    skullgirls.replaceChildren();
    pageGenerator();
 }
+function dead_of_winter() {
+   person.card_name = 'Холодная смерть';
+   person.aka = 'Холод';
+   person.card_src = 'Dead_of_Winter.png';
+   person.description = 'Привлекает к себе внимание из-за постоянной брони и бусту урона, но имеет и недостатки: броню можно получить только после 30 секунд смерти, и она ломается с удара. Можно прокачать, больше как фановую вариацию, можно поставить в рифты под ледянки, но и там она не сильна.';
+   person.ability = 'Воскрешается через 30 секунд после смерти с 25% здоровьем и 5 стаками брони. Броня безвременная, но снимается при получении удара. Бонус 100% к урону под действием брони.';
+   person.marquee1 = `${squigly.marquee1}`;
+   person.marquee2 = `${squigly.marquee2} Основной выбор.`;
+   person.prestige_description = `${squigly.prestige}`;
+   person.prestige_activation = `${squigly.p_active}`;
+   person.at = '7,527';
+   person.hp = '75,476';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Сопрот криту'];
+   person.build_1_img = 'squigly/Inferno_of_Leviathan.png';
+   person.build_2_img = 'squigly/Battle_Opera.png';
+   person.build_3_img = 'squigly/Draugen_Punch.png';
+   person.build_4_img = 'squigly/The_Silver_Chord.png';
+   person.build_1_desc = 'Накладывает иссушение, применяется к подброшенному противнику.';
+   person.build_2_desc = 'Накладывает иссушение, применяется к противнику на дистанции.';
+   person.build_3_desc = 'Накладывает проклятье и подбрасывает.';
+   person.build_4_desc = 'Притягивает и может забрать 1 бафф.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function poltergust() {
+   person.card_name = 'Призрачный порыв';
+   person.aka = 'Порыв';
+   person.card_src = 'Poltergust.png';
+   person.description = 'Быстро заряжает блокбастеры и наносит больше урона, если условия совпадают. Довольно хорошая вариация, стоит прокачивать.';
+   person.ability = 'Бонус 100% к урону, если у противника есть заряженный блокбастер. Когда положительный эффект Сквигли или противника истекает, получает 25% к шкале всех блокбастеров.';
+   person.marquee1 = `${squigly.marquee1}`;
+   person.marquee2 = `${squigly.marquee2} Основной выбор.`;
+   person.prestige_description = `${squigly.prestige}`;
+   person.prestige_activation = `${squigly.p_active}`;
+   person.at = '10,157';
+   person.hp = '61,767';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'squigly/Inferno_of_Leviathan.png';
+   person.build_2_img = 'squigly/Battle_Opera.png';
+   person.build_3_img = 'squigly/Draugen_Punch.png';
+   person.build_4_img = 'squigly/The_Silver_Chord.png';
+   person.build_1_desc = 'Накладывает иссушение, применяется к подброшенному противнику.';
+   person.build_2_desc = 'Накладывает иссушение, применяется к противнику на дистанции.';
+   person.build_3_desc = 'Накладывает проклятье и подбрасывает.';
+   person.build_4_desc = 'Притягивает и может забрать 1 бафф.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function bio_exorcist() {
+   person.card_name = 'Биоэкзорцист';
+   person.aka = 'Био';
+   person.card_src = 'Bio-Exorcist.png';
+   person.description = 'Хорошая вариация для новичков для игры в золотом ранге. При получении смертельного удара, воскрешается за счёт заряда хвоста и здоровья союзников, что полезно в некоторых ситуациях. Также во время комбо будет вампирить 2% НР у противника, тоже хороший бонус. Можно также поставить в защиту в золоте. Алмазить не стоит, для алмаза слаба.';
+   person.ability = 'Стоя вплотную к противнику не в блоке и с заряженным хвостом, вампирит 2% его НР в секунду. Если хвост заряжен, при получении смертельного удара, вампирит 25% НР у каждого союзника и снимает заряд.';
+   person.marquee1 = `${squigly.marquee1}`;
+   person.marquee2 = `${squigly.marquee2} Основной выбор.`;
+   person.prestige_description = `${squigly.prestige}`;
+   person.prestige_activation = `${squigly.p_active}`;
+   person.at = '8,852';
+   person.hp = '68,602';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Сопрот криту'];
+   person.build_1_img = 'squigly/Inferno_of_Leviathan.png';
+   person.build_2_img = 'squigly/Battle_Opera.png';
+   person.build_3_img = 'squigly/Draugen_Punch.png';
+   person.build_4_img = 'squigly/The_Silver_Chord.png';
+   person.build_1_desc = 'Накладывает иссушение, применяется к подброшенному противнику.';
+   person.build_2_desc = 'Накладывает иссушение, применяется к противнику на дистанции.';
+   person.build_3_desc = 'Накладывает проклятье и подбрасывает.';
+   person.build_4_desc = 'Притягивает и может забрать 1 бафф.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+function demon_artist() {
+   person.card_name = 'Арт-демонесса';
+   person.aka = 'Демонесса';
+   person.card_src = 'Demon_Artist.png';
+   person.description = 'В золоте, очень хорошая вариация; в алмазе, что-то среднее. Прокачивать стоит.';
+   person.ability = 'Когда заряжена, накладывает кровотечение на 10 сек за каждые потерянные 15% НР любым из персонажей. Когда у противника кровотечение, активация блокбастера даёт бешенство и регенерацию на 12 сек.';
+   person.marquee1 = `${squigly.marquee1}`;
+   person.marquee2 = `${squigly.marquee2} Основной выбор.`;
+   person.prestige_description = `${squigly.prestige}`;
+   person.prestige_activation = `${squigly.p_active}`;
+   person.at = '10,157';
+   person.hp = '61,767';
+   person.atk_stats = ['Атака', 'Проницание', 'Точность'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'squigly/Inferno_of_Leviathan.png';
+   person.build_2_img = 'squigly/Battle_Opera.png';
+   person.build_3_img = 'squigly/Draugen_Punch.png';
+   person.build_4_img = 'squigly/The_Silver_Chord.png';
+   person.build_1_desc = 'Накладывает иссушение, применяется к подброшенному противнику.';
+   person.build_2_desc = 'Накладывает иссушение, применяется к противнику на дистанции.';
+   person.build_3_desc = 'Накладывает проклятье и подбрасывает.';
+   person.build_4_desc = 'Притягивает и может забрать 1 бафф.';
+   person.supps = ['octoplasm', 'evergreen', 'martial_outlaw'];
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+}
 
 function love_crafted() {
    person.card_name = 'Лав и крафт';
