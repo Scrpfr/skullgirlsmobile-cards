@@ -272,3 +272,28 @@ function diva_intervention() {
    pageGenerator();
    supports();
 }
+function noble_mogul() {
+   person.card_name = 'Знатный магнат';
+   person.aka = 'Магнат';
+   person.card_src = 'Noble_Mogul.png';
+   person.description = 'Барьер каждые 20 секунд это очень скудно. Бонус урона 15% это мало, хотя при 5 стаках получается 75%, играть с 5 стаками врядли выйдет, в добавок бонус только для светлых. В общем, слабо.';
+   person.ability = 'Пока жива, все союзники получают барьер каждые 20 сек. Под барьером, получает иммунитет для себя, а другой светлый персонаж получает бонус 15% к урону за каждый барьер на нём.';
+   person.marquee1 = `${eliza.marquee1}`;
+   person.marquee2 = `${eliza.marquee2}`;
+   person.prestige_description = `${eliza.prestige}`;
+   person.prestige_activation = `${eliza.p_active}`;
+   person.at = '8,564';
+   person.hp = '75,476';
+   person.atk_stats = ['Только саппорт'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'eliza/Weight_Of_Anubis.png';
+   person.build_2_img = 'eliza/Upper_Khat.png';
+   person.build_3_img = 'eliza/Sekhmets_Bite.png';
+   person.build_4_img = 'eliza/Chaos_Banish.png';
+   person.build_1_desc = 'Подкинуть противника к себе.';
+   person.build_2_desc = 'Может оглушить при ударе.';
+   person.build_3_desc = 'Сехмет с шансом дать проклятье.';
+   person.build_4_desc = 'Снимает все положительные эффекты врага.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
