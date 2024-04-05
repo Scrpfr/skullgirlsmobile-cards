@@ -112,7 +112,7 @@ list = `
          <li onclick="lapis_luxury()">Роскошный лазурит</li>
          <li onclick="bloodbath()">Кровавая баня</li>
          <li onclick="diva_intervention()">Партия дивы</li>
-         <li onclick="" class="empty">Знатный магнат</li>
+         <li onclick="noble_mogul()">Знатный магнат</li>
          <li onclick="()" class="empty">Одна такая</li>
          <li onclick="()" class="empty">Драгоценная мумия</li>
       </ul></li>
@@ -255,10 +255,10 @@ list = `
          <li onclick="nearly_departed()">Почти ушедшая</li>
          <li onclick="necrobreaker()">Некробрейкер</li>
          <li onclick="thrill_shrieker()">Героиня триллера</li>
-         <li onclick="()" class="empty">Холодная смерть</li>
-         <li onclick="()" class="empty">Призрачный порыв</li>
-         <li onclick="()" class="empty">Биоэкзорцист</li>
-         <li onclick="()" class="empty">Арт-демонесса</li>
+         <li onclick="dead_of_winter()">Холодная смерть</li>
+         <li onclick="poltergust()">Призрачный порыв</li>
+         <li onclick="bio_exorcist()">Биоэкзорцист</li>
+         <li onclick="demon_artist()">Арт-демонесса</li>
          <li onclick="plot_twisted()">Сюжетный поворот</li>
          <li onclick="love_crafted()">Лав и крафт</li>
       </ul></li>
