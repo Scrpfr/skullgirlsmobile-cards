@@ -12,7 +12,7 @@ function sheltered() {
    person.description = 'Шикарный персонаж для новичков, очень сильная карточка. Однозначно стоит алмазить, даже в алмазе можно часто играть за неё.';
    person.ability = 'При критическом ударе получает бешенство на 7 секунд. Повышает шанс крита на 20% для всех союзников.';
    person.marquee1 = `${parasoul.marquee1}`;
-   person.marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   person.marquee2 = `${parasoul.marquee2}`;
    person.prestige_description = `${parasoul.prestige}`;
    person.prestige_activation = `${parasoul.p_active}`;
    person.at = '7,392';
@@ -31,6 +31,7 @@ function sheltered() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m2);
 }
 function heavy_reign() {
    person.card_name = 'Осадки замка';
@@ -39,7 +40,7 @@ function heavy_reign() {
    person.description = 'Не для новичков, требует очень высокие статы. Основной геймплей замков: быстро накопить ульту и использовать. Несмотря на очень низкую атаку, довольно неплохая карточка, можно использовать в параллельных мирах, включая беспощадку. Прокачивать не стоит, больше фановый персонаж, как нейромант на минималках, только при этом намного дешевле.';
    person.ability = 'При нанесении или получении критического урона шанс 50% получить 15% шкалы для всех блокбастеров.';
    person.marquee1 = `${parasoul.marquee1}`;
-   person.marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   person.marquee2 = `${parasoul.marquee2}`;
    person.prestige_description = `${parasoul.prestige}`;
    person.prestige_activation = `${parasoul.p_active}`;
    person.at = '6,951';
@@ -63,6 +64,7 @@ function heavy_reign() {
    pageGenerator();
    supports();
    buildLoad();
+   highlight(m2);
 }
 
 function no_egrets() {
@@ -72,7 +74,7 @@ function no_egrets() {
    person.description = 'Очень хороший серебрянный персонаж. Но нужно хорошо прокачать шанс крита для неё, уникальное умение при это массу. Можно прокачивать, но до золота: в алмазе слабовата как уроном, так и абилкой.';
    person.ability = 'Критический удар блокирует блокбастеры и ос приёмы противника на 4 секунды.';
    person.marquee1 = `${parasoul.marquee1}`;
-   person.marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   person.marquee2 = `${parasoul.marquee2}`;
    person.prestige_description = `${parasoul.prestige}`;
    person.prestige_activation = `${parasoul.p_active}`;
    person.at = '8,640';
@@ -89,6 +91,7 @@ function no_egrets() {
    person.build_4_desc = 'Дальняя атака, вызывает кровотечение.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function ivy_league() {
    person.card_name = 'Лига плюща';
@@ -223,7 +226,7 @@ function primed() {
    person.description = 'Очень сильная карточка, которую также можно получить из быстрой игры в золоте (набрав 10 миллионов очков) и в алмазе (за 30 миллионов). Рекомендуется качать, даже в алмазе очень достойная.';
    person.ability = 'При выбросе слезы, активирует бешенство на 10 секунд. Взорванные слёзы накладывают кровотечение на 5 секунд.';
    person.marquee1 = `${parasoul.marquee1}`;
-   person.marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   person.marquee2 = `${parasoul.marquee2}`;
    person.prestige_description = `${parasoul.prestige}`;
    person.prestige_activation = `${parasoul.p_active}`;
    person.at = '11,616';
@@ -240,6 +243,7 @@ function primed() {
    person.build_4_desc = 'Выбросить 3 слезы.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function princess_pride() {
    person.card_name = 'Принцесса';
@@ -296,7 +300,7 @@ function bombshell() {
    person.card_name = 'Бомба';
    person.aka = 'Барби';
    person.card_src = 'Bombshell.png';
-   person.description = 'Новая и не понятная карточка, бесстихийная и меняет наряд при взрыве слёз, что ей ничего не даёт кроме внешности. Пока недоступна.';
+   person.description = 'Подойдёт, если научиться спамить от трёх слёз и взрывать их под противником, чтобы атаки были неблокируемыми, а реализовать это проще у стены. Может получать бешенства для увеличения урона, но это больше рандом из-за регенерации и барьера, да и 5 стаков бешенства не выйдет сделать.';
    person.ability = 'При появлении слезы, получает бешенство, барьер или регенерацию на 15 сек. При взрыве не менее 3 слёз, взрыв неблокируемый и меняет палитру Парасоул. Взрыв 5 слёз даст оглушение на 2 сек.';
    person.marquee1 = `${parasoul.marquee1}`;
    person.marquee2 = `${parasoul.marquee2} Основной выбор.`;
