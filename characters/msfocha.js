@@ -29,6 +29,7 @@ function just_kitten() {
    person.build_4_desc = 'Доп урон от комбо.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function hellcat() {
    person.card_name = 'Адская кошка';
@@ -54,6 +55,7 @@ function hellcat() {
    person.build_4_desc = 'Доп урон от комбо.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 
 function purrfect_dark() {
@@ -63,7 +65,7 @@ function purrfect_dark() {
    person.description = 'Одна из лучших кошек в игре, и персонажей в целом. Огромный урон, постоянное проклятье и шанс моментального убийства, ещё и дешевизна, просто имба! Качайте и наслаждайтесь.';
    person.ability = 'Находясь рядом с противником в течении 10 сек, накладывает на него безвременные метку смерти и проклятье. Если здоровье противника меньше 50% и наложена метка смерти, удары головой имеют шанс 10% сразу убить его.';
    person.marquee1 = `${msfocha.marquee1}`;
-   person.marquee2 = `${msfocha.marquee2} Основной выбор.`;
+   person.marquee2 = `${msfocha.marquee2}`;
    person.prestige_description = `${msfocha.prestige}`;
    person.prestige_activation = `${msfocha.p_active}`;
    person.at = '12,327';
@@ -82,6 +84,7 @@ function purrfect_dark() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m2);
 }
 function ms_trial() {
    person.card_name = 'Мисс адвокат';
@@ -109,6 +112,7 @@ function ms_trial() {
    skullgirls.replaceChildren();
    pageGenerator();
    addition();
+   highlight(m2);
 }
 function feline_lucky() {
    person.card_name = 'Трёхцветная удача';
@@ -134,6 +138,7 @@ function feline_lucky() {
    person.build_4_desc = 'Доп урон от комбо.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 
 function time_thief() {
@@ -160,6 +165,7 @@ function time_thief() {
    person.build_4_desc = 'Доп урон от комбо.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function hack_n_splash() {
    person.card_name = 'Рвать и поливать';
@@ -185,6 +191,7 @@ function hack_n_splash() {
    person.build_4_desc = 'Доп урон от комбо.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function claw_order() {
    person.card_name = 'Когти и порядок';
@@ -210,6 +217,7 @@ function claw_order() {
    person.build_4_desc = 'Доп урон от комбо.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function rogue_agent() {
    person.card_name = 'Вор-одиночка';
@@ -233,8 +241,11 @@ function rogue_agent() {
    person.build_2_desc = 'Критический удар может оглушить противника.';
    person.build_3_desc = 'Доп урон если у оппонента есть дебафф.';
    person.build_4_desc = 'Доп урон от комбо.';
+   person.supps = ['martial_outlaw', 'horse', 'octoplasm'];
    skullgirls.replaceChildren();
    pageGenerator();
+   supports();
+   highlight(m2);
 }
 function meow_furever() {
    person.card_name = 'Сейчёс и мяувсегда';
@@ -260,6 +271,7 @@ function meow_furever() {
    person.build_4_desc = 'Доп урон от комбо.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 
 function furry_fury() {
@@ -268,7 +280,7 @@ function furry_fury() {
    person.card_src = 'Furry_Fury.png';
    person.description = 'Имба Форчун, гигантский урон, бешенства, кровотоки, обязательно качаем. Довольно проста в использовании при этом.';
    person.ability = 'Если ваше здоровье выше чем у противника, шанс 20% при ударе на 10 сек вызвать кровотечение врагу и активировать бешенство. При не менее 3 бешенства, через каждую секунду снимает бафф у противника.';
-   person.marquee1 = `${msfocha.marquee1} Основной выбор.`;
+   person.marquee1 = `${msfocha.marquee1}`;
    person.marquee2 = `${msfocha.marquee2}`;
    person.prestige_description = `${msfocha.prestige}`;
    person.prestige_activation = `${msfocha.p_active}`;
@@ -284,8 +296,11 @@ function furry_fury() {
    person.build_2_desc = 'Критический удар может оглушить противника.';
    person.build_3_desc = 'Доп урон если у оппонента есть дебафф.';
    person.build_4_desc = 'Доп урон от комбо.';
+   person.supps = ['evergreen', 'octoplasm', 'seraph'];
    skullgirls.replaceChildren();
    pageGenerator();
+   supports();
+   highlight(m1);
 }
 function wind_stalker() {
    person.card_name = 'Ветреный сталкер';
@@ -311,6 +326,7 @@ function wind_stalker() {
    person.build_4_desc = 'Доп урон от комбо.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function foot_soldier() {
    person.card_name = 'Рядовой';
