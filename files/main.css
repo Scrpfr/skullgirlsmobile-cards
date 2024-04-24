@@ -40,8 +40,8 @@ a {
 .version {
    margin-left: 6px;
    color: var(--aside-list-color);
+   span {color: var(--version-red);}
 }
-.version span {color: var(--version-red);}
 
 .card {
    min-height: 100vh;
