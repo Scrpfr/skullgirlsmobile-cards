@@ -194,7 +194,7 @@ function private_dick() {
    person.build_2_desc = 'Шанс оглушить.';
    person.build_3_desc = 'Шанс при ударе наложить сильное кровотечение.';
    person.build_4_desc = 'Снимает все баффы врага и блокирует ос приёмы.';
-   person.supps = ['joy', 'rosetin', 'martial_outlaw'];
+   person.supps = ['seraph', 'honormaid', 'evergreen'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
