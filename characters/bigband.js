@@ -108,14 +108,15 @@ function treble_maker() {
    person.build_2_img = 'bigband/Cymbal_Clash.png';
    person.build_3_img = 'bigband/Sweet_Clarinet.png';
    person.build_4_img = 'bigband/Big_Band_Burst.png';
-   person.build_1_desc = 'Имеет шанс оглушить.';
+   person.build_1_desc = 'Шанс снять бафф с каждым ударом, последний удар оглушает.';
    person.build_2_desc = 'Шанс оглушить и отскок назад.';
-   person.build_3_desc = 'Хороший зашитный приём.';
+   person.build_3_desc = 'Снижает шкалу бб врага каждым ударом.';
    person.build_4_desc = 'Прервать атаку противника.';
    person.supps = ['starlight', 'rosetin', 'model'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m2);
 }
 function virtuoso() {
    person.card_name = 'Классика виртуоза';
@@ -135,14 +136,15 @@ function virtuoso() {
    person.build_2_img = 'bigband/Cymbal_Clash.png';
    person.build_3_img = 'bigband/Super-Sonic_Jazz.png';
    person.build_4_img = 'bigband/Tympani_Drive.png';
-   person.build_1_desc = 'Мета приём.';
-   person.build_2_desc = 'Шанс оглушить и часть комбо.';
-   person.build_3_desc = 'Мета приём.';
-   person.build_4_desc = 'Увеличенный урон по оглушённому противнику.';
+   person.build_1_desc = 'Бонус к урону за комбо удар.';
+   person.build_2_desc = 'Шанс оглушить.';
+   person.build_3_desc = 'Шанс при ударе наложить сильное кровотечение.';
+   person.build_4_desc = 'Шанс дать раскол брони.';
    person.supps = ['octoplasm', 'evergreen', 'seraph'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m1);
 }
 function robocopy() {
    person.card_name = 'Робокопия';
@@ -162,10 +164,10 @@ function robocopy() {
    person.build_2_img = 'bigband/Cymbal_Clash.png';
    person.build_3_img = 'bigband/Super-Sonic_Jazz.png';
    person.build_4_img = 'bigband/Tympani_Drive.png';
-   person.build_1_desc = 'Мета приём.';
-   person.build_2_desc = 'Шанс оглушить и часть комбо.';
-   person.build_3_desc = 'Мета приём.';
-   person.build_4_desc = 'Увеличенный урон по оглушённому противнику.';
+   person.build_1_desc = 'Бонус к урону за комбо удар.';
+   person.build_2_desc = 'Шанс оглушить.';
+   person.build_3_desc = 'Шанс при ударе наложить сильное кровотечение.';
+   person.build_4_desc = 'Шанс дать раскол брони.';
    skullgirls.replaceChildren();
    pageGenerator();
 }
@@ -183,19 +185,20 @@ function private_dick() {
    person.at = '8,852';
    person.hp = '76,205';
    person.atk_stats = ['Атака', 'Проницание', 'Прирост шкалы', 'Точность'];
-   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Точность'];
+   person.def_stats = ['Не защитник'];
    person.build_1_img = 'bigband/Beat_Extend.png';
    person.build_2_img = 'bigband/Cymbal_Clash.png';
    person.build_3_img = 'bigband/Super-Sonic_Jazz.png';
-   person.build_4_img = 'bigband/Tympani_Drive.png';
-   person.build_1_desc = 'Мета приём.';
-   person.build_2_desc = 'Шанс оглушить и часть комбо.';
-   person.build_3_desc = 'Мета приём.';
-   person.build_4_desc = 'Увеличенный урон по оглушённому противнику.';
+   person.build_4_img = 'bigband/Giant_Step.png';
+   person.build_1_desc = 'Бонус к урону за комбо удар.';
+   person.build_2_desc = 'Шанс оглушить.';
+   person.build_3_desc = 'Шанс при ударе наложить сильное кровотечение.';
+   person.build_4_desc = 'Снимает все баффы врага и блокирует ос приёмы.';
    person.supps = ['joy', 'rosetin', 'martial_outlaw'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m1);
 }
 function jazz() {
    person.card_name = 'Солдат джаз';
@@ -213,16 +216,17 @@ function jazz() {
    person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Сопрот криту'];
    person.build_1_img = 'bigband/Tuba_Tuba.png';
    person.build_2_img = 'bigband/Cymbal_Clash.png';
-   person.build_3_img = 'bigband/A_Train.png';
+   person.build_3_img = 'bigband/Sweet_Clarinet.png';
    person.build_4_img = 'bigband/Big_Band_Burst.png';
-   person.build_1_desc = 'Имеет шанс оглушить.';
+   person.build_1_desc = 'Шанс снять бафф с каждым ударом, последний удар оглушает.';
    person.build_2_desc = 'Шанс оглушить и отскок назад.';
-   person.build_3_desc = 'Может дать брони.';
+   person.build_3_desc = 'Снижает шкалу бб врага каждым ударом.';
    person.build_4_desc = 'Прервать атаку противника.';
    person.supps = ['starlight', 'rosetin', 'model'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m2);
 }
 function megasonic() {
    person.card_name = 'Мегасоник';
@@ -241,15 +245,16 @@ function megasonic() {
    person.build_1_img = 'bigband/Beat_Extend.png';
    person.build_2_img = 'bigband/Cymbal_Clash.png';
    person.build_3_img = 'bigband/Super-Sonic_Jazz.png';
-   person.build_4_img = 'bigband/Tympani_Drive.png';
-   person.build_1_desc = 'Мета приём.';
-   person.build_2_desc = 'Шанс оглушить и часть комбо.';
-   person.build_3_desc = 'Мета приём.';
-   person.build_4_desc = 'Увеличенный урон по оглушённому противнику.';
+   person.build_4_img = 'bigband/Giant_Step.png';
+   person.build_1_desc = 'Бонус к урону за комбо удар.';
+   person.build_2_desc = 'Шанс оглушить.';
+   person.build_3_desc = 'Шанс при ударе наложить сильное кровотечение.';
+   person.build_4_desc = 'Снимает все баффы врага и блокирует ос приёмы.';
    person.supps = ['honormaid', 'inner', 'martial_outlaw'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m1);
 }
 function epic_sax() {
    person.card_name = 'Эпик Сакс Гай';
@@ -268,15 +273,16 @@ function epic_sax() {
    person.build_1_img = 'bigband/Beat_Extend.png';
    person.build_2_img = 'bigband/Cymbal_Clash.png';
    person.build_3_img = 'bigband/Super-Sonic_Jazz.png';
-   person.build_4_img = 'bigband/Tympani_Drive.png';
-   person.build_1_desc = 'Доп урон в комбо.';
+   person.build_4_img = 'bigband/Giant_Step.png';
+   person.build_1_desc = 'Бонус к урону за комбо удар.';
    person.build_2_desc = 'Шанс оглушить.';
-   person.build_3_desc = 'Шанс оглушить.';
-   person.build_4_desc = 'Увеличенный урон по оглушённому противнику.';
+   person.build_3_desc = 'Шанс при ударе наложить сильное кровотечение.';
+   person.build_4_desc = 'Снимает все баффы врага и блокирует ос приёмы.';
    person.supps = ['honormaid', 'evergreen', 'mogul'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m1);
 }
 
 function heavy_metal() {
@@ -297,9 +303,9 @@ function heavy_metal() {
    person.build_2_img = 'bigband/Cymbal_Clash.png';
    person.build_3_img = 'bigband/Super-Sonic_Jazz.png';
    person.build_4_img = 'bigband/Bagpipe_Blues.png';
-   person.build_1_desc = 'Доп урон в комбо.';
+   person.build_1_desc = 'Бонус к урону за комбо удар.';
    person.build_2_desc = 'Шанс оглушить.';
-   person.build_3_desc = 'Шанс оглушить.';
+   person.build_3_desc = 'Шанс при ударе наложить сильное кровотечение.';
    person.build_4_desc = 'Получить броню.';
    skullgirls.replaceChildren();
    pageGenerator();
@@ -318,16 +324,17 @@ function dream_band() {
    person.hp = '97,805';
    person.atk_stats = ['Не атакующий'];
    person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Сопрот криту'];
-   person.build_1_img = 'bigband/Super-Sonic_Jazz.png';
-   person.build_2_img = 'bigband/Tympani_Drive.png';
-   person.build_3_img = 'bigband/Cymbal_Clash.png';
-   person.build_4_img = 'bigband/Tuba_Tuba.png';
-   person.build_1_desc = 'Шанс оглушить.';
-   person.build_2_desc = 'Резкий прыжок, иногда может подловить.';
-   person.build_3_desc = 'Шанс оглушить.';
-   person.build_4_desc = 'Шанс оглушить.';
+   person.build_1_img = 'bigband/Tuba_Tuba.png';
+   person.build_2_img = 'bigband/Cymbal_Clash.png';
+   person.build_3_img = 'bigband/Sweet_Clarinet.png';
+   person.build_4_img = 'bigband/Big_Band_Burst.png';
+   person.build_1_desc = 'Шанс снять бафф с каждым ударом, последний удар оглушает.';
+   person.build_2_desc = 'Шанс оглушить и отскок назад.';
+   person.build_3_desc = 'Снижает шкалу бб врага каждым ударом.';
+   person.build_4_desc = 'Прервать атаку противника.';
    person.supps = ['model', 'surgeon', 'rosetin'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m2);
 }
