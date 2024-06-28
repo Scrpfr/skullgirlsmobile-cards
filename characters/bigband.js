@@ -23,14 +23,15 @@ function bassline() {
    person.build_2_img = 'bigband/Cymbal_Clash.png';
    person.build_3_img = 'bigband/Beat_Extend.png';
    person.build_4_img = 'bigband/Big_Band_Burst.png';
-   person.build_1_desc = 'Имеет шанс оглушить.';
+   person.build_1_desc = 'Шанс снять бафф с каждым ударом, последний удар оглушает.';
    person.build_2_desc = 'Шанс оглушить и отскок назад.';
-   person.build_3_desc = 'Мета приём.';
+   person.build_3_desc = 'Бонус к урону за комбо удар.';
    person.build_4_desc = 'Прервать атаку противника.';
    person.supps = ['joy', 'rosetin', 'sketchy'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m2);
 }
 function beat_box() {
    person.card_name = 'Бит-бокс';
@@ -50,14 +51,15 @@ function beat_box() {
    person.build_2_img = 'bigband/Cymbal_Clash.png';
    person.build_3_img = 'bigband/Super-Sonic_Jazz.png';
    person.build_4_img = 'bigband/Strike_Up_the_Band.png';
-   person.build_1_desc = 'Мета приём.';
-   person.build_2_desc = 'Шанс оглушить и часть комбо.';
-   person.build_3_desc = 'Мета приём.';
-   person.build_4_desc = 'Восстановит часть шкалы бб при убийстве.';
+   person.build_1_desc = 'Бонус к урону за комбо удар.';
+   person.build_2_desc = 'Шанс оглушить.';
+   person.build_3_desc = 'Шанс при ударе наложить сильное кровотечение.';
+   person.build_4_desc = 'Даёт 3 регенерации.';
    person.supps = ['evergreen', 'peashooter', 'prisma'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m1);
 }
 
 function resonant_evil() {
@@ -76,16 +78,17 @@ function resonant_evil() {
    person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Сопрот криту'];
    person.build_1_img = 'bigband/Tuba_Tuba.png';
    person.build_2_img = 'bigband/Cymbal_Clash.png';
-   person.build_3_img = 'bigband/A_Train.png';
+   person.build_3_img = 'bigband/Sweet_Clarinet.png';
    person.build_4_img = 'bigband/Big_Band_Burst.png';
-   person.build_1_desc = 'Имеет шанс оглушить.';
+   person.build_1_desc = 'Шанс снять бафф с каждым ударом, последний удар оглушает.';
    person.build_2_desc = 'Шанс оглушить и отскок назад.';
-   person.build_3_desc = 'Может дать брони.';
+   person.build_3_desc = 'Снижает шкалу бб врага каждым ударом.';
    person.build_4_desc = 'Прервать атаку противника.';
    person.supps = ['starlight', 'rosetin', 'model'];
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m2);
 }
 function treble_maker() {
    person.card_name = 'Бравурный бит';
