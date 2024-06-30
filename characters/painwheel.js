@@ -231,8 +231,8 @@ function raw_nerv() {
    person.prestige_activation = `${painwheel.p_active}`;
    person.at = '12,480';
    person.hp = '45,716';
-   person.atk_stats = ['Только саппорт'];
-   person.def_stats = ['Только саппорт'];
+   person.atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
+   person.def_stats = ['Здоровье', 'Защита', 'Точность', 'Сопротивление'];
    person.build_1_img = 'painwheel/Buer_Overdrive.png';
    person.build_2_img = 'painwheel/Pinion_Dash.png';
    person.build_3_img = 'painwheel/Buer_Thresher.png';
