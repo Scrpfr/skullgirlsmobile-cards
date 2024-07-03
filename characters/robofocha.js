@@ -298,3 +298,29 @@ function buffer_zone() {
    skullgirls.replaceChildren();
    pageGenerator();
 }
+
+function reimaged() {
+   person.card_name = 'Новый образ';
+   person.aka = 'Образ';
+   person.card_src = 'Blue_Screen.png';
+   person.description = 'Не смотря на то, что абилка сочетается с престижем, тоесть может заполнять престиж, слабовата.';
+   person.ability = 'Первый полученный комбо удар даёт броню на 5 сек и преобразует бафф врага в дебафф. Детонация или смерть уменьшает шкалу блокбастера врага на 100%. Раз за бой, воскрешается с 15% НР с постоянными регенерацией и бешенством.';
+   person.marquee1 = `${robofocha.marquee1} Основной выбор.`;
+   person.marquee2 = `${robofocha.marquee2}`;
+   person.prestige_description = `${robofocha.prestige}`;
+   person.prestige_activation = `${robofocha.p_active}`;
+   person.at = '10,004';
+   person.hp = '88,052';
+   person.atk_stats = ['Не атакующий'];
+   person.def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Сопрот криту'];
+   person.build_1_img = 'robofocha/CATASTROPHE_CANNON_OMEGA_B.png';
+   person.build_2_img = 'robofocha/CATASTROPHE_CANNON_ALPHA_B.png';
+   person.build_3_img = 'robofocha/Burst_B.png';
+   person.build_4_img = 'robofocha/Theonite_Beam_B.png';
+   person.build_1_desc = 'Снимает баффы, при убийстве блокирует воскрешение.';
+   person.build_2_desc = 'Накладывает иссушение.';
+   person.build_3_desc = 'Прерывает атаку врага.';
+   person.build_4_desc = 'Мета приём.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
