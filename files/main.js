@@ -81,6 +81,7 @@ list = `
          <li onclick="criminal_mind()">Преступный умысел</li>
          <li onclick="scare_giver()">Страшила</li>
          <li onclick="blitz_glamour()">Сила денег</li>
+         <li onclick="" class="empty">Мехазвезда</li>
          <li onclick="heavy_handed()">Тяжёлая рука</li>
          <li onclick="star_spangled()">Звёзды и полосы</li>
       </ul></li>
@@ -139,6 +140,7 @@ list = `
          <li onclick="souls_sister()">Сестра по духу</li>
          <li onclick="rain_shadow()">Грозовая тень</li>
          <li onclick="chameleon_twist()">Ящерица спок</li>
+         <li onclick="hell_belle()">Адская девица</li>
          <li onclick="feathered_edges()">Соколиные крылья</li>
          <li onclick="vaporwave_vixen()">Милая меломанка</li>
          <li onclick="night_terror()">Ночной кошмар</li>
@@ -175,6 +177,7 @@ list = `
          <li onclick="claw_order()">Когти и порядок</li>
          <li onclick="rogue_agent()">Вор-одиночка</li>
          <li onclick="meow_furever()">Сейчёс и мяувсегда</li>
+         <li onclick="" class="empty">Котомощь</li>
          <li onclick="furry_fury()">Лохматая ярость</li>
          <li onclick="wind_stalker()">Ветреный сталкер</li>
          <li onclick="foot_soldier()">Рядовой</li>
@@ -244,6 +247,7 @@ list = `
          <li onclick="persona_assistant()">Персона-бот</li>
          <li onclick="buffer_zone()">Буферная зона</li>
          <li onclick="()" class="empty">В разгоне</li>
+         <li onclick="()" class="empty">Новый образ</li>
          <li onclick="()" class="empty">Икс-бот</li>
       </ul></li>
    <li><span>Сквигли</span>
@@ -260,6 +264,7 @@ list = `
          <li onclick="bio_exorcist()">Биоэкзорцист</li>
          <li onclick="demon_artist()">Арт-демонесса</li>
          <li onclick="plot_twisted()">Сюжетный поворот</li>
+         <li onclick="" class="empty">Смертельная опасность</li>
          <li onclick="love_crafted()">Лав и крафт</li>
       </ul></li>
    <li><span>Амбрелла</span>
@@ -272,6 +277,7 @@ list = `
          <li onclick="wild_child()">Сорвиголова</li>
          <li onclick="wunderkind()">Вундеркинд</li>
          <li onclick="tidal_traveler()">Верхом на волне</li>
+         <li onclick="palace_plunderer()">Расхитительница дворцов</li>
          <li onclick="space_case()">Ты просто космос</li>
          <li onclick="psykid()">Юный телепат</li>
          <li onclick="()" class="empty">Прыткая пройдоха</li>
