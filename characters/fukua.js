@@ -235,6 +235,32 @@ function phantom_threads() {
    supports();
 }
 
+function hell_belle() {
+   person.card_name = 'Адская девица';
+   person.aka = 'Девица';
+   person.card_src = 'Hell_Belle.png';
+   person.description = 'Сомнительная вариация из-за своей второй абилки. дд-полусаппорт выходит.';
+   person.ability = 'Когда здоровье противника выше 50%, при ударе есть шанс 10% наложить кровотечение и рандом дебафф на 5 сек. Пока Фукуа активна, каждые 10 сек она накладывает на союзников миазмы на 15 сек и уклонение.';
+   person.marquee1 = `${fukua.marquee1} Только ярость.`;
+   person.marquee2 = `${fukua.marquee2}`;
+   person.prestige_description = `${fukua.prestige}`;
+   person.prestige_activation = `${fukua.p_active}`;
+   person.at = '10,100';
+   person.hp = '53,357';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'fukua/Drill_of_My_Dreams.png';
+   person.build_2_img = 'fukua/Lobs_of_Love.png';
+   person.build_3_img = 'fukua/Best_Friends_Forever.png';
+   person.build_4_img = 'fukua/Fukua_Drillationship.png';
+   person.build_1_desc = 'Используется в комбинации.';
+   person.build_2_desc = 'Используется в комбинации.';
+   person.build_3_desc = 'Может передать дебаффы и забрать баффы.';
+   person.build_4_desc = 'Может дать метку смерти, раскол брони и увечье.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+
 function splitting_image() {
    person.card_name = 'Зазеркалье';
    person.aka = 'Зеркало';
