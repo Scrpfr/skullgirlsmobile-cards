@@ -258,6 +258,32 @@ function psykid() {
    pageGenerator();
 }
 
+function palace_plunderer() {
+   person.card_name = 'Расхитительница дворцов';
+   person.aka = 'Расхитительница';
+   person.card_src = 'Palace_Plunderer.png';
+   person.description = 'Полу-саппорт, основанная на том, чтобы выйти из запасных, сделать 50+ комбо и замениться на сильного основного персонажа, на котором будут 5 бешенств.';
+   person.ability = 'Когда не получает удары (включая блок), каждые 5 сек получает уклонение на 7 сек и восстанавливает 3% НР всем союзникам. Под действием баффа, каждые 10 комбо забирает 1 бафф с противника себе и даёт союзникам бешенство на 30 сек.';
+   person.marquee1 = `${umbrella.marquee1}`;
+   person.marquee2 = `${umbrella.marquee2} Основной выбор.`;
+   person.prestige_description = `${umbrella.prestige}`;
+   person.prestige_activation = `${umbrella.p_active}`;
+   person.at = '11,271';
+   person.hp = '53,357';
+   person.atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   person.def_stats = ['Не защитник'];
+   person.build_1_img = 'umbrella/Tongue_Twister.png';
+   person.build_2_img = 'umbrella/Acid_Reflux.png';
+   person.build_3_img = 'umbrella/Bobblin_Bubble.png';
+   person.build_4_img = 'umbrella/Wish_Maker.png';
+   person.build_1_desc = 'Неблокируемая атака, восстановит здоровье.';
+   person.build_2_desc = 'Может наложить слизь.';
+   person.build_3_desc = 'Пузырь, накладывает слизь.';
+   person.build_4_desc = 'Пузырь, блокирует призыв, ос и бб противника.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+
 function raining_champ() {
    person.card_name = 'Чемпионка дождя';
    person.aka = 'Чемпионка';
