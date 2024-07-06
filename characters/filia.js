@@ -1,0 +1,373 @@
+const filia = {
+   marquee1: 'Пиявка - восстанавливает 35% здоровья от наносимого урона.',
+   marquee2: 'Первая рана - каждый удар имеет шанс 15% превратить эффект кровотечения в постоянное кровотечение.',
+   prestige: 'Уклон от снарядов при рывке и шанс наложить метку смерти на атакующего противника.',
+   p_active: '20% за удар по атакующему противнику.'
+}
+
+function bad_hair() {
+   card_name = 'Голова-трава';
+   aka = 'Травка';
+   card_src = 'Bad_Hair_Day.png';
+   description = 'Для новичков, позволяет познакомиться с Филией лучше всего: наносит врагу кровотечение любыми ударами. С раной очень эффективна, кровотоки станут постоянными и складываться с временными. Прокачать стоит только до золота, далее можно пересесть на Паразит или МК. Актуальности не теряет, ведь раз любые удары дают кровоток, то и прокачивать билд ей не нужно, что существенно экономит монеты.';
+   ability = 'Шанс 10% дать кровотечение при ударе, 15% бонус к шансу крита если у врага кровотечение';
+   marquee1 = `${filia.marquee1}`;
+   marquee2 = `${filia.marquee2}`;
+   prestige_description = `${filia.prestige}`;
+   prestige_activation = `${filia.p_active}`;
+   at = '7,392';
+   hp = '39,188';
+   atk_stats = ['Атака', 'Проницание', 'Точность', 'Уровень блока'];
+   def_stats = ['Не защитник'];
+   build_1_img = 'filia/Drill_Tempered.png';
+   build_2_img = 'filia/Widows_Peak.png';
+   build_3_img = 'filia/Ringlet_Spike.png';
+   build_4_img = 'filia/Filia_Burst.png';
+   build_1_desc = 'Шанс снять все положительные эффекты.';
+   build_2_desc = 'Подбрасывает и наносит раскол брони.';
+   build_3_desc = 'Мета приём.';
+   build_4_desc = 'Сбивает атаку врага и накладывает кровотечение.';
+   build_form_name1 = 'Финальный билд для Филии, к которому стоит стремиться';
+   build_form_path1 = '<img src="files/moves/filia/build1_class_cutter.jpg">';
+   build_form_name2 = 'Видеоурок как пользоваться шипами';
+   build_form_path2 = '<iframe width="560" height="315" src="https://www.youtube.com/embed/Gucp2ss3YSE?si=1Z2nqpn9sNPfQoVj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   buildLoad();
+   highlight(m2);
+}
+function frayed_ends() {
+   card_name = 'Концы секутся';
+   aka = 'Концы';
+   card_src = 'Frayed_Ends.png';
+   description = 'Для новичков это универсальный персонаж, так как можно ставить её на защиту в быстрых играх, а можно и играть за нее, основной урон будет от кровотоков. Новичкам прокачивать не рекомендуется; из-за буста урона умения она сильнее травы, но ресурсы лучше вложить в другую Филию.';
+   ability = 'Шанс 20% вызвать кровотечение на 7 сек при получении удара, 50% бонус к урону против врага с кровотечением.';
+   marquee1 = `${filia.marquee1}`;
+   marquee2 = `${filia.marquee2}`;
+   prestige_description = `${filia.prestige}`;
+   prestige_activation = `${filia.p_active}`;
+   at = '6,951';
+   hp = '47,482';
+   atk_stats = ['Атака', 'Проницание', 'Криты', 'Уровень блока'];
+   def_stats = ['Здоровье', 'Защита', 'Точность', 'Сопрот криту'];
+   build_1_img = 'filia/Drill_Tempered.png';
+   build_2_img = 'filia/Drillationship.png';
+   build_3_img = 'filia/Ringlet_Spike.png';
+   build_4_img = 'filia/Filia_Burst.png';
+   build_1_desc = 'Шанс снять все положительные эффекты.';
+   build_2_desc = 'Защитный приём.';
+   build_3_desc = 'Мета приём.';
+   build_4_desc = 'Сбивает атаку врага и накладывает кровотечение.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+}
+
+function ms_frosty() {
+   card_name = 'Снеговичок';
+   aka = 'Снег';
+   card_src = 'Bad_Ms_Frosty.png';
+   description = 'Хорошая Филия для новичков. Применяется в основном против модов на броню. Не особо пригодится, можно не прокачивать.';
+   ability = 'Критический удар с шансом 50% отключает блокбастеры врага и даёт раскол брони на 4 сек.';
+   marquee1 = `${filia.marquee1}`;
+   marquee2 = `${filia.marquee2}`;
+   prestige_description = `${filia.prestige}`;
+   prestige_activation = `${filia.p_active}`;
+   at = '8,640';
+   hp = '45,716';
+   atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
+   def_stats = ['Не защитник'];
+   build_1_img = 'filia/Drill_Tempered.png';
+   build_2_img = 'filia/Gregor_Samson.png';
+   build_3_img = 'filia/Ringlet_Spike.png';
+   build_4_img = 'filia/Lash_Out.png';
+   build_1_desc = 'Шанс снять все положительные эффекты.';
+   build_2_desc = 'Шанс вызвать кровотечение.';
+   build_3_desc = 'Мета приём.';
+   build_4_desc = 'Сменить противника.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   highlight(m1);
+}
+function hair_apparent() {
+   card_name = 'Локон медичи';
+   aka = 'Локон';
+   card_src = 'Hair_Apparent.png';
+   description = 'Хорошая вариация для новичков для серебра, но можно и не качать: есть персонажи лучше.';
+   ability = 'При использовании особого приёма, получает ускорение на 15 сек. При использовании блокбастера, сбрасывает кд всех особых приёмов.';
+   marquee1 = `${filia.marquee1}`;
+   marquee2 = `${filia.marquee2}`;
+   prestige_description = `${filia.prestige}`;
+   prestige_activation = `${filia.p_active}`;
+   at = '9,946';
+   hp = '41,127';
+   atk_stats = ['Атака', 'Проницание', 'Точность', 'Криты'];
+   def_stats = ['Не защитник'];
+   build_1_img = 'filia/Drill_Tempered.png';
+   build_2_img = 'filia/Gregor_Samson.png';
+   build_3_img = 'filia/Ringlet_Spike.png';
+   build_4_img = 'filia/Born_With_It.png';
+   build_1_desc = 'Шанс снять все положительные эффекты.';
+   build_2_desc = 'Шанс вызвать кровотечение.';
+   build_3_desc = 'Мета приём.';
+   build_4_desc = 'Получить бешенство.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   highlight(m1);
+}
+function rock_star() {
+   card_name = 'Звезда вселенной';
+   aka = 'Рок стар';
+   card_src = 'Rock_Star.png';
+   description = 'Не особо полезный саппорт, можно не качать. Скорее полу-саппорт, ведь сама по себе неплохой боец, поэтому играют периодическими сменами персонажей с основного на неё а потом обратно.';
+   ability = 'Если жива, смена персонажа даёт 3 барьера на 10 сек, а после истечения его времени, даст неупал на 10 сек и 20% к шкале блокбастера.';
+   marquee1 = `${filia.marquee1}`;
+   marquee2 = `${filia.marquee2}`;
+   prestige_description = `${filia.prestige}`;
+   prestige_activation = `${filia.p_active}`;
+   at = '7,335';
+   hp = '50,324';
+   atk_stats = ['Только саппорт'];
+   def_stats = ['Не защитник'];
+   build_1_img = 'filia/Drill_Tempered.png';
+   build_2_img = 'filia/Gregor_Samson.png';
+   build_3_img = 'filia/Ringlet_Spike.png';
+   build_4_img = 'filia/Lash_Out.png';
+   build_1_desc = 'Шанс снять все положительные эффекты.';
+   build_2_desc = 'Шанс вызвать кровотечение.';
+   build_3_desc = 'Мета приём.';
+   build_4_desc = 'Сменить противника.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   highlight(m1);
+}
+
+function parasite_weave() {
+   card_name = 'Паразит';
+   aka = 'Паразитка';
+   card_src = 'Parasite_Weave.png';
+   description = 'Требует хорошо прокачанный билд с шипами для игры, высокий шанс крита. В таком случае, получается хороший боец с оглушениями и кровотечениями. Можно прокачать рану для превращения Паразита в дебаффера и усиленную Траву, но выгоднее качать пиявку. Вторая абилка бесполезна, не обращайте внимания на неё, выгоднее всего играть шипами.';
+   ability = 'Критический удар с шансом 50% наложит противнику замедление на 10 сек и оглушение на 3 сек, если еще нет замедления. По оглушённому врагу удар с шансом 15% наложит кровотечение на 5 сек.';
+   marquee1 = `${filia.marquee1}`;
+   marquee2 = `${filia.marquee2}`;
+   prestige_description = `${filia.prestige}`;
+   prestige_activation = `${filia.p_active}`;
+   at = '10,100';
+   hp = '53,357';
+   atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   def_stats = ['Не защитник'];
+   build_1_img = 'filia/Drill_Tempered.png';
+   build_2_img = 'filia/Widows_Peak.png';
+   build_3_img = 'filia/Ringlet_Spike.png';
+   build_4_img = 'filia/Gregor_Samson.png';
+   build_1_desc = 'Шанс снять все положительные эффекты.';
+   build_2_desc = 'Подбрасывает и наносит раскол брони.';
+   build_3_desc = 'Мета приём.';
+   build_4_desc = 'Шанс вызвать кровотечение.';
+   element = 'fire';
+   supps = ['peashooter', 'harlequin', 'seraph'];
+   build_form_name1 = '<span class="box-sup">Финальный билд для Филии, к которому стоит стремиться</span>';
+   build_form_path1 = '<img src="files/moves/filia/build1_class_cutter.jpg">';
+   build_form_name2 = '<span class="box-sup">Видеоурок как пользоваться шипами</span>';
+   build_form_path2 = '<iframe width="560" height="315" src="https://www.youtube.com/embed/Gucp2ss3YSE?si=1Z2nqpn9sNPfQoVj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+   buildLoad();
+}
+function idol_threat() {
+   card_name = 'Звёздная угроза';
+   aka = 'Мику Хацуне';
+   card_src = 'Idol_Threat.png';
+   description = 'Получить можно только из ивентовых реликвий воды. Хорошо лечится, но на этом её плюсы заканчиваются. Не особо полезная, больше фановая, можно не качать.';
+   ability = 'Уклонение от атаки даёт неупал и броню на 10 сек. Удар по движущемуся противнику накладывает ему раскол брони на 5 сек и восстанавливает здоровье 200% от нанесённого урона.';
+   marquee1 = `${filia.marquee1}`;
+   marquee2 = `${filia.marquee2}`;
+   prestige_description = `${filia.prestige}`;
+   prestige_activation = `${filia.p_active}`;
+   at = '11,616';
+   hp = '48,039';
+   atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   def_stats = ['Не защитник'];
+   build_1_img = 'filia/Drill_Tempered.png';
+   build_2_img = 'filia/Widows_Peak.png';
+   build_3_img = 'filia/Ringlet_Spike.png';
+   build_4_img = 'filia/Gregor_Samson.png';
+   build_1_desc = 'Шанс снять все положительные эффекты.';
+   build_2_desc = 'Подбрасывает и наносит раскол брони.';
+   build_3_desc = 'Мета приём.';
+   build_4_desc = 'Шанс вызвать кровотечение.';
+   element = 'water';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   highlight(m1);
+}
+function curl_scout() {
+   card_name = 'Кудрявый скаут';
+   aka = 'Скаут';
+   card_src = 'Curl_Scout.png';
+   description = 'Хорошая защитная Филия, которая лечится и снижает урон бронёй, также убирая с себя отрицательные эффекты и заряжая шкалу блокбастеров. Контрится в основном порчей.';
+   ability = 'Каждые 5 полученные комбо, снимает 2 дебаффа и получает 2 брони на 15 сек и 30% к шкале блокбастера. Под действием положительного эффекта, каждые 4 секунды получает 10% к НР и накладывает оппоненту иссушение на 6 сек.';
+   marquee1 = `${filia.marquee1}`;
+   marquee2 = `${filia.marquee2}`;
+   prestige_description = `${filia.prestige}`;
+   prestige_activation = `${filia.p_active}`;
+   at = '8,564';
+   hp = '58,676';
+   atk_stats = ['Не атакующий'];
+   def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Сопрот криту'];
+   build_1_img = 'filia/Blowout.png';
+   build_2_img = 'filia/Widows_Peak.png';
+   build_3_img = 'filia/Drillationship.png';
+   build_4_img = 'filia/Filia_Burst.png';
+   build_1_desc = 'Снижает шкалу блобастера.';
+   build_2_desc = 'Достаточно резкая атака.';
+   build_3_desc = 'Хороший защитный приём.';
+   build_4_desc = 'Сбивает атаку врага и накладывает кровотечение.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   highlight(m1);
+}
+function windswept() {
+   card_name = 'Волосы на ветру';
+   aka = 'Волосы';
+   card_src = 'Windswept.png';
+   description = 'Метовый поломанный персонаж из-за уклонений и постоянной точности, которая не просто даёт 100% шанса крита, но и не позволяет срабатывать абилке противника, что делает большинство дэф персонажей ничем против неё. Добавьте сюда хилл от уника, кровотоки от шипов и снятия всех баффов от сверла. Играют также через шипы, но не требует прокачку шанса крита из-за точности.';
+   ability = 'При ударе атакующего противника, получает бешенство на 10 сек и уклонение. Успешное уклонение даёт постоянную точность, снимается при поражении любого из персонажей.';
+   marquee1 = `${filia.marquee1}`;
+   marquee2 = `${filia.marquee2}`;
+   prestige_description = `${filia.prestige}`;
+   prestige_activation = `${filia.p_active}`;
+   at = '11,616';
+   hp = '48,039';
+   atk_stats = ['Атака', 'Проницание', 'Точность', 'Урон крита'];
+   def_stats = ['Не защитник'];
+   build_1_img = 'filia/Drill_Tempered.png';
+   build_2_img = 'filia/Widows_Peak.png';
+   build_3_img = 'filia/Ringlet_Spike.png';
+   build_4_img = 'filia/Gregor_Samson.png';
+   build_1_desc = 'Шанс снять все положительные эффекты.';
+   build_2_desc = 'Подбрасывает и наносит раскол брони.';
+   build_3_desc = 'Мета приём.';
+   build_4_desc = 'Шанс вызвать кровотечение.';
+   element = 'wind';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   highlight(m1);
+}
+function dreadlocks() {
+   card_name = 'Локоны-убийцы';
+   aka = 'Дрэд';
+   card_src = 'Dread_Locks.png';
+   description = 'Это защитный персонаж, основанный на отражении урона. В рифтах стоит поставить под катализаторы "Светлое начало" и "Последнее слово". Не рекомендуют прокачивать: достаточно низкий запас здоровья и контрится любой Валей с битом.';
+   ability = 'Отражает 35% урона. Если противник совершает критический удар, то получает сильное кровотечение на 10 сек.';
+   marquee1 = `${filia.marquee1}`;
+   marquee2 = `${filia.marquee2}`;
+   prestige_description = `${filia.prestige}`;
+   prestige_activation = `${filia.p_active}`;
+   at = '8,564';
+   hp = '58,676';
+   atk_stats = ['Не атакующий'];
+   def_stats = ['Здоровье', 'Защита', 'Атака', 'Прирост шкалы'];
+   build_1_img = 'filia/Fenrir_Drive.png';
+   build_2_img = 'filia/Widows_Peak.png';
+   build_3_img = 'filia/Drillationship.png';
+   build_4_img = 'filia/Filia_Burst.png';
+   build_1_desc = 'Больше урона по кровоточащему врагу.';
+   build_2_desc = 'Достаточно резкая атака.';
+   build_3_desc = 'Хороший защитный приём.';
+   build_4_desc = 'Сбивает атаку врага и накладывает кровотечение.';
+   element = 'light';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   highlight(m1);
+}
+
+function djinn_frizz() {
+   card_name = 'Кудряшка-Джинн';
+   aka = 'Кудря';
+   card_src = 'Djinn_Frizz.png';
+   description = 'Очень сильный персонаж, но рандомный - не всегда получается сделать 5 стаков бешенства. Но её бешенство нельзя снять или забрать, поэтому если повезло - это будет очень сильно. Популярно прокачивать её без критов в статах, чтобы противостоять дэф пейнвилам и далиям, а урона и без критов достаточно.';
+   ability = 'Каждые 10 сек получает 3 рандом баффа на 5 сек. При использовании блокбастера шанс 33% превратить 3 баффа в перманентное бешенство.';
+   marquee1 = `${filia.marquee1}`;
+   marquee2 = `${filia.marquee2}`;
+   prestige_description = `${filia.prestige}`;
+   prestige_activation = `${filia.p_active}`;
+   at = '15,591';
+   hp = '50,439';
+   atk_stats = ['Атака', 'Проницание', 'Точность', 'Прирост шкалы'];
+   def_stats = ['Не защитник'];
+   build_1_img = 'filia/Drill_Tempered.png';
+   build_2_img = 'filia/Widows_Peak.png';
+   build_3_img = 'filia/Ringlet_Spike.png';
+   build_4_img = 'filia/Trichobezoar.png';
+   build_1_desc = 'Шанс снять все положительные эффекты.';
+   build_2_desc = 'Подбрасывает и наносит раскол брони.';
+   build_3_desc = 'Мета приём.';
+   build_4_desc = 'Мощный урон под яростью.';
+   element = 'fire';
+   supps = ['evergreen', 'prisma', 'seraph'];
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+   highlight(m1);
+}
+function class_cutter() {
+   card_name = 'Мастер-класс';
+   aka = 'МК';
+   card_src = 'Class_Cutter.png';
+   description = 'Очень сильный и популярный вариант Филии. Используется и в быстрых играх, и в рифтах. Можно поставить на защиту из-за неблокируемых атак, но только при отсутствии нормальных деф персонажей.';
+   ability = 'При снятии не менее 5% НР противника с удара, накладывает сильное кровотечение и блок исцеления на 10 сек. Блокбастеры и ос приёмы с шансом 10% неблокируемы и при этом накладывают метку смерти на 15 сек.';
+   marquee1 = `${filia.marquee1}`;
+   marquee2 = `${filia.marquee2}`;
+   prestige_description = `${filia.prestige}`;
+   prestige_activation = `${filia.p_active}`;
+   at = '13,556';
+   hp = '56,045';
+   atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   def_stats = ['С дд статами'];
+   build_1_img = 'filia/Drill_Tempered.png';
+   build_2_img = 'filia/Widows_Peak.png';
+   build_3_img = 'filia/Ringlet_Spike.png';
+   build_4_img = 'filia/Gregor_Samson.png';
+   build_1_desc = 'Шанс снять все положительные эффекты.';
+   build_2_desc = 'Подбрасывает и наносит раскол брони.';
+   build_3_desc = 'Мета приём.';
+   build_4_desc = 'Шанс вызвать кровотечение.';
+   element = 'dark';
+   supps = ['peashooter', 'harlequin', 'horse'];
+   build_form_name1 = 'Основной билд для МК';
+   build_form_path1 = '<img src="files/moves/filia/build1_class_cutter.jpg">';
+   build_form_name2 = 'Фановый билд для МК';
+   build_form_path2 = '<img src="files/moves/filia/build2_class_cutter.jpg">';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   supports();
+   buildLoad();
+   highlight(m1);
+}
+function blue_streak() {
+   card_name = 'Синяя молния';
+   aka = 'Соник';
+   card_src = 'Blue_Streak.png';
+   description = '';
+   ability = '';
+   marquee1 = `${filia.marquee1}`;
+   marquee2 = `${filia.marquee2}`;
+   prestige_description = `${filia.prestige}`;
+   prestige_activation = `${filia.p_active}`;
+   at = '13,556';
+   hp = '56,045';
+   atk_stats = [''];
+   def_stats = [''];
+   build_1_img = 'filia/Drill_Tempered.png';
+   build_2_img = 'filia/Widows_Peak.png';
+   build_3_img = 'filia/Ringlet_Spike.png';
+   build_4_img = 'filia/Gregor_Samson.png';
+   build_1_desc = 'Шанс снять все положительные эффекты.';
+   build_2_desc = 'Подбрасывает и наносит раскол брони.';
+   build_3_desc = 'Мета приём.';
+   build_4_desc = 'Шанс вызвать кровотечение.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   highlight(m1);
+}
