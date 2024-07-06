@@ -125,8 +125,8 @@ list = `
          <li onclick="hair_apparent()">Локон медичи</li>
          <li onclick="rock_star()">Звезда вселенной</li>
          <li onclick="parasite_weave()">Паразит</li>
-         <li onclick="()" class="empty">Звёздная угроза</li>
-         <li onclick="" class="empty">Кудрявый скаут</li>
+         <li onclick="idol_threat()">Звёздная угроза</li>
+         <li onclick="curl_scout()">Кудрявый скаут</li>
          <li onclick="windswept()">Волосы на ветру</li>
          <li onclick="dreadlocks()">Локоны-убийцы</li>
          <li onclick="djinn_frizz()">Кудряшка-джинн</li>
@@ -157,8 +157,8 @@ list = `
          <li onclick="phantom_wrangler()">Призрачная пастушка</li>
          <li onclick="snake_charmer()">Змея-заклинательница</li>
          <li onclick="maid_of_honor()">Рыцарь-горничная</li>
-         <li onclick="()" class="empty">Октоплазма</li>
-         <li onclick="()" class="empty">Охотница с пылесосом</li>
+         <li onclick="octoplasm()">Октоплазма</li>
+         <li onclick="gust_buster()">Охотница с пылесосом</li>
          <li onclick="()" class="empty">Скалящийся жнец</li>
          <li onclick="()" class="empty">Тёмная лошадка</li>
          <li onclick="()" class="empty">Гробокопательница</li>
@@ -875,44 +875,44 @@ let supports_list = [
      </div>
    `}
 ];
-function atkList() {return person.atk_stats.map(item => `<li>${item}</li>`)}
-function defList() {return person.def_stats.map(item => `<li>${item}</li>`)}
+function atkList() {return atk_stats.map(item => `<li>${item}</li>`)}
+function defList() {return def_stats.map(item => `<li>${item}</li>`)}
 
 function pageGenerator() {
    const page = `
       <ul class="menu__char" type="none">
-         <li class="card_name"><h2 class="head">${person.card_name} <span class="aka">a.k.a. ${person.aka}</span></h2></li>
+         <li class="card_name"><h2 class="head">${card_name} <span class="aka">a.k.a. ${aka}</span></h2></li>
          <li class="the_description indent box">
            <h3 class="center highlight">Описание</h3>
-           <p>${person.description}</p>
+           <p>${description}</p>
          </li>
          <li class="the_signature_ab indent box">
            <h3 class="center highlight">Ключевое умение</h3>
-           <p>${person.ability}</p>
+           <p>${ability}</p>
          </li>
          <li class="the_marquee box">
             <h3 class="center">Уникальная способность</h3>
-            <p id="m1">${person.marquee1}</p>
-            <p id="m2">${person.marquee2}</p>
+            <p id="m1">${marquee1}</p>
+            <p id="m2">${marquee2}</p>
          </li>
          <li class="the_prestige box">
             <p style="font-weight: bold; text-align: center;">Престиж</p>
-            <p>${person.prestige_description}</p>
-            <p>Активация престижа: ${person.prestige_activation}</p>
+            <p>${prestige_description}</p>
+            <p>Активация престижа: ${prestige_activation}</p>
          </li>
          <li class="the_base_stats">
            <table class="box" width="256px" height="100px">
              <tr>
                <th>Макс. атака</th>
-               <td>${person.at}</td>
+               <td>${at}</td>
             </tr>
             <tr>
                <th>Макс. здоровье</th>
-               <td>${person.hp}</td>
+               <td>${hp}</td>
             </tr>
            </table>
          </li>
-         <li class="card_img"><img src="files/cards/${person.card_src}" width="270px" height="356px"></li>
+         <li class="card_img"><img src="files/cards/${card_src}" width="270px" height="356px"></li>
          <li class="the_add_stats box">
             <div class="stats__column">
             <h2>Статы</h2>
@@ -931,10 +931,10 @@ function pageGenerator() {
             <div class="builds">
                <h2>Рекомендуемые приёмы</h2>
                <ul class="build__column" type="none">
-                  <li class="build__list"><img src="files/moves/${person.build_1_img}" height="100px"><span>${person.build_1_desc}</span></li>
-                  <li class="build__list"><img src="files/moves/${person.build_2_img}" height="100px"><span>${person.build_2_desc}</span></li>
-                  <li class="build__list"><img src="files/moves/${person.build_3_img}" height="100px"><span>${person.build_3_desc}</span></li>
-                  <li class="build__list"><img src="files/moves/${person.build_4_img}" height="100px"><span>${person.build_4_desc}</span></li>
+                  <li class="build__list"><img src="files/moves/${build_1_img}" height="100px"><span>${build_1_desc}</span></li>
+                  <li class="build__list"><img src="files/moves/${build_2_img}" height="100px"><span>${build_2_desc}</span></li>
+                  <li class="build__list"><img src="files/moves/${build_3_img}" height="100px"><span>${build_3_desc}</span></li>
+                  <li class="build__list"><img src="files/moves/${build_4_img}" height="100px"><span>${build_4_desc}</span></li>
                </ul>
             </div>
          </li>
@@ -983,23 +983,23 @@ function supports() {
 }
 function supports_fncn() {
    for (let user of supports_list) {
-      if (user.name == person.supps[0] ^ user.name == person.supps[1] ^ user.name == person.supps[2]) supp_ntfc.insertAdjacentHTML('beforeend', user.body);
+      if (user.name == supps[0] ^ user.name == supps[1] ^ user.name == supps[2]) supp_ntfc.insertAdjacentHTML('beforeend', user.body);
    }
 }
-function addition() {
-   let s = `<div style="padding-bottom: 16px;"><p style="margin: 0 10px; text-indent: 14px;">${person.addition}</p></div>`;
+function additions() {
+   let s = `<div style="padding-bottom: 16px;"><p style="margin: 0 10px; text-indent: 14px;">${addition}</p></div>`;
    skullgirls.insertAdjacentHTML('beforeend', s);
 }
 function buildLoad() {
    let l = `<div>
       <ul type="none" class="pop_build__list">
          <li>
-            <p>${person.build_form_name1}</p>
-            ${person.build_form_path1}
+            <p>${build_form_name1}</p>
+            ${build_form_path1}
          </li>
          <li>
-            <p>${person.build_form_name2}</p>
-            ${person.build_form_path2}
+            <p>${build_form_name2}</p>
+            ${build_form_path2}
          </li>
       </ul>
    </div>`;
