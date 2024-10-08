@@ -214,6 +214,32 @@ function xenomorph() {
    pageGenerator();
    highlight(m1);
 }
+function chaos_theory() {
+   card_name = 'Теория хаоса';
+   aka = 'Хаос';
+   card_src = 'Chaos_Theory.png';
+   description = '';
+   ability = '';
+   marquee1 = `${double.marquee1}`;
+   marquee2 = `${double.marquee2}`;
+   prestige_description = `${double.prestige}`;
+   prestige_activation = `${double.p_active}`;
+   at = '10,272';
+   hp = '50,285';
+   atk_stats = [''];
+   def_stats = [''];
+   build_1_img = 'double/Megalith_Array.png';
+   build_2_img = 'double/Double_Burst.png';
+   build_3_img = 'double/Cilia_Slide.png';
+   build_4_img = 'double/Luger_Replica.png';
+   build_1_desc = 'Снижает шкалу блокбастера врага при нанесении ударов.';
+   build_2_desc = 'Прерывает атаку противника.';
+   build_3_desc = 'Резкая атака, накладывает замедление.';
+   build_4_desc = 'Резкая атака, накладывающая рандомный дебафф.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   highlight(m2);
+}
 function rainbow_blight() {
    card_name = 'Радужный мор';
    aka = 'Мор';

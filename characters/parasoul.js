@@ -100,7 +100,7 @@ function ivy_league() {
    description = 'Хороший урон для серебра, но качать эту вариацию не стоит: слабая в алмазе и нет применения.';
    ability = 'При выбросе слезы, накладывает замедление на 10 секунд. При взрыве слёз наложит иссушение за каждую слезу на 10 сек.';
    marquee1 = `${parasoul.marquee1}`;
-   marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   marquee2 = `${parasoul.marquee2}`;
    prestige_description = `${parasoul.prestige}`;
    prestige_activation = `${parasoul.p_active}`;
    at = '9,946';
@@ -117,6 +117,7 @@ function ivy_league() {
    build_4_desc = 'Выпустить 1 слезу.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function shadow_ops() {
    card_name = 'Тайные операции';
@@ -125,7 +126,7 @@ function shadow_ops() {
    description = 'В основном, рифтовый персонаж для серебра и золота. Зажав противника у стены, он будет под вечным проклятьем, но управлять абилкой сложно. Не стоит алмазить.';
    ability = 'Себе накладывает шипы, противник получает проклятье. Срабатывает если персонаж стоит у слезы Парасоул 1 секунду, снимается отойдя от слезы.';
    marquee1 = `${parasoul.marquee1}`;
-   marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   marquee2 = `${parasoul.marquee2}`;
    prestige_description = `${parasoul.prestige}`;
    prestige_activation = `${parasoul.p_active}`;
    at = '7,335';
@@ -142,6 +143,7 @@ function shadow_ops() {
    build_4_desc = 'Дальняя атака, вызывает кровотечение.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 
 function indomitable() {
@@ -151,7 +153,7 @@ function indomitable() {
    description = 'Новая карточка, но выглядит впечатляюще из-за постоянного меткого глаза, воровства баффов и миазм.';
    ability = 'Когда здоровье противника падает ниже 80%, получает меткий глаз и даёт блок исцеления. Эффекты постоянные, но снимаются при нокдауне Парасоул. Под метким глазом и на стороне противника, каждые 3 секунды забирает 1 бафф с врага и получает миазмы на 7 сек.';
    marquee1 = `${parasoul.marquee1}`;
-   marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   marquee2 = `${parasoul.marquee2}`;
    prestige_description = `${parasoul.prestige}`;
    prestige_activation = `${parasoul.p_active}`;
    at = '8,564';
@@ -168,6 +170,7 @@ function indomitable() {
    build_4_desc = 'Вызывает кровотечение.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function regally_blonde() {
    card_name = 'Белая королева';
@@ -176,7 +179,7 @@ function regally_blonde() {
    description = 'Универсальный вариант Парасоул, хороший урон и защитная абилка. Качать не рекомендуется, слаба и в атаке, и в защите.';
    ability = 'Стоя вплотную, не даст противнику использовать ос приёмы и получает автоблок каждые 2 сек (снимается отойдя от противника). Когда любой перс использует блокбастер, с шансом 50% противник получит увечье и потеряет 50% шкалы всех бб.';
    marquee1 = `${parasoul.marquee1}`;
-   marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   marquee2 = `${parasoul.marquee2}`;
    prestige_description = `${parasoul.prestige}`;
    prestige_activation = `${parasoul.p_active}`;
    at = '10,100';
@@ -193,6 +196,7 @@ function regally_blonde() {
    build_4_desc = 'Дальняя атака, вызывает кровотечение.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function star_crossed() {
    card_name = 'Незвёздный час';
@@ -201,7 +205,7 @@ function star_crossed() {
    description = 'Можно получить только из ивентовых реликвий ветра. Урона на высоких рядах в би не хватит, но качать можно, хорошая.';
    ability = 'Свовременный блок обычных атак с шансом 50% оглушает на 3 секунды. Блокбастеры наносят на 100% больше урона по оглушённым противникам.';
    marquee1 = `${parasoul.marquee1}`;
-   marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   marquee2 = `${parasoul.marquee2}`;
    prestige_description = `${parasoul.prestige}`;
    prestige_activation = `${parasoul.p_active}`;
    at = '10,100';
@@ -218,6 +222,7 @@ function star_crossed() {
    build_4_desc = 'Вызывает кровотечение.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function primed() {
    card_name = 'Высший сорт';
@@ -252,7 +257,7 @@ function princess_pride() {
    description = 'Атакующая рифтовая карточка. Урон низкий, но используют из-за восстановления здоровья. Уже потеряла актуальность, но всё ещё применима.';
    ability = 'При выпадении слезы получает регенерацию на 6 сек. При взрыве слёз восстанавливает 6% НР за каждую слезу.';
    marquee1 = `${parasoul.marquee1}`;
-   marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   marquee2 = `${parasoul.marquee2}`;
    prestige_description = `${parasoul.prestige}`;
    prestige_activation = `${parasoul.p_active}`;
    at = '8,564';
@@ -269,6 +274,7 @@ function princess_pride() {
    build_4_desc = 'Вызывает кровотечение.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function high_ruler() {
    card_name = 'Зельдомания';
@@ -277,7 +283,7 @@ function high_ruler() {
    description = 'Отличная рифтовая карточка, дающая сразу и порчу и проклятье. Урон низкий, но всё равно популярная.';
    ability = 'Если противник стоит близко со слезой, через 1 секунду у него блокируются блокбастеры и призыв. Удар от взрыва слёз накладывает проклятье и порчу на 10 сек, а тёмные персонажи также получают усталость на 5 сек.';
    marquee1 = `${parasoul.marquee1}`;
-   marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   marquee2 = `${parasoul.marquee2}`;
    prestige_description = `${parasoul.prestige}`;
    prestige_activation = `${parasoul.p_active}`;
    at = '8,564';
@@ -294,6 +300,7 @@ function high_ruler() {
    build_4_desc = 'Вызывает кровотечение.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 
 function bombshell() {
@@ -303,7 +310,7 @@ function bombshell() {
    description = 'Подойдёт, если научиться спамить от трёх слёз и взрывать их под противником, чтобы атаки были неблокируемыми, а реализовать это проще у стены. Может получать бешенства для увеличения урона, но это больше рандом из-за регенерации и барьера, да и 5 стаков бешенства не выйдет сделать.';
    ability = 'При появлении слезы, получает бешенство, барьер или регенерацию на 15 сек. При взрыве не менее 3 слёз, взрыв неблокируемый и меняет палитру Парасоул. Взрыв 5 слёз даст оглушение на 2 сек.';
    marquee1 = `${parasoul.marquee1}`;
-   marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   marquee2 = `${parasoul.marquee2}`;
    prestige_description = `${parasoul.prestige}`;
    prestige_activation = `${parasoul.p_active}`;
    at = '11,770';
@@ -320,6 +327,7 @@ function bombshell() {
    build_4_desc = 'Вызывает кровотечение.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function risky_ginger() {
    card_name = 'Рыжая авантюристка';
@@ -328,7 +336,7 @@ function risky_ginger() {
    description = 'Менее популярна чем Сорт, но более сильная, просто неудобная абилка, заставляющая атаковать противника в движении и не получать ударов в блок. Качайте по своему желанию.';
    ability = 'При ударе движущегося противника, даёт ему метку смерти на 15 сек и получает постоянное бешенство, которое снимается при получении ударов в блок. Блокбастеры неблокируемые при не менее 3 стаков бешенства.';
    marquee1 = `${parasoul.marquee1}`;
-   marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   marquee2 = `${parasoul.marquee2}`;
    prestige_description = `${parasoul.prestige}`;
    prestige_activation = `${parasoul.p_active}`;
    at = '11,770';
@@ -345,6 +353,7 @@ function risky_ginger() {
    build_4_desc = 'Вызывает кровотечение.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function summer_salt() {
    card_name = 'Соль дождя';
@@ -353,7 +362,7 @@ function summer_salt() {
    description = 'Имба. Огромный урон, снятие баффов, точность которая блокирует абилку противника. Всё это делает её одним из самых лучших персонажей в игре.';
    ability = 'Противники теряют 1 бафф и 3% здоровья каждые 2 сек находясь рядом со слезой. При взрыве не менее 3 слёз, снимает с себя все дебаффы и получает 5 ур точности, взорванные слёзы наносят 100% доп урона.';
    marquee1 = `${parasoul.marquee1}`;
-   marquee2 = `${parasoul.marquee2} Основной выбор.`;
+   marquee2 = `${parasoul.marquee2}`;
    prestige_description = `${parasoul.prestige}`;
    prestige_activation = `${parasoul.p_active}`;
    at = '13,556';
@@ -372,4 +381,31 @@ function summer_salt() {
    skullgirls.replaceChildren();
    pageGenerator();
    additions();
+   highlight(m2);
+}
+function locked_in() {
+   card_name = 'Бой-баба';
+   aka = 'Локхарт';
+   card_src = 'Locked_In.png';
+   description = '';
+   ability = '';
+   marquee1 = `${parasoul.marquee1}`;
+   marquee2 = `${parasoul.marquee2}`;
+   prestige_description = `${parasoul.prestige}`;
+   prestige_activation = `${parasoul.p_active}`;
+   at = '13,556';
+   hp = '64,032';
+   atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   def_stats = ['Не защитник'];
+   build_1_img = 'parasoul/Canopy_Bounce.png';
+   build_2_img = 'parasoul/Silent_Scope.png';
+   build_3_img = 'parasoul/Egret_Call.png';
+   build_4_img = 'parasoul/Napalm_Shot.png';
+   build_1_desc = 'Снимает положительные эффекты врага.';
+   build_2_desc = 'Дистанционный выстрел.';
+   build_3_desc = 'Получить точность.';
+   build_4_desc = 'Вызывает кровотечение.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   highlight(m2);
 }

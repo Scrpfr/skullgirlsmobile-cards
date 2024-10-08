@@ -261,6 +261,32 @@ function gravedigger() {
    pageGenerator();
    highlight(m1);
 }
+function spell_bent() {
+   card_name = 'Одержимость';
+   aka = 'Одержимая';
+   card_src = 'Spell_Bent.png';
+   description = '';
+   ability = '';
+   marquee1 = `${marie.marquee1}`;
+   marquee2 = `${marie.marquee2}`;
+   prestige_description = `${marie.prestige}`;
+   prestige_activation = `${marie.p_active}`;
+   at = '8,852';
+   hp = '68,602';
+   atk_stats = [''];
+   def_stats = [''];
+   build_1_img = 'marie/Weight_of_our_Will.png';
+   build_2_img = 'marie/Scrub_n_Smash.png';
+   build_3_img = 'marie/Suction_Obstruction.png';
+   build_4_img = 'marie/Marie_Burst.png';
+   build_1_desc = 'Каждый удар снимает часть шкалы блокбастера врага.';
+   build_2_desc = 'Шанс снять все баффы противника.';
+   build_3_desc = 'Неблокируемый захват.';
+   build_4_desc = 'Сбивает атаку противника.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   highlight(m1);
+}
 
 function megalomaniac() {
    card_name = 'Мегаломаньяк';

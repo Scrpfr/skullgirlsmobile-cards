@@ -276,7 +276,7 @@ function web_crawler() {
    card_name = 'Паутинник';
    aka = 'Паутина';
    card_src = 'Web_Crawler.png';
-   description = 'Ещё новая карточка и не особо проверенная, но абилка звучит слабовато и урона маловато.';
+   description = 'Не стоит прокачивать: мало урона. Другие Пыни эффективнее.';
    ability = 'При нахождении в режиме полёта в течении полторы секунды, получает меткий глаз на 10 сек и даёт раскол защиты на 8 сек. Если на противнике раскол защиты, удары вплотную с шансом 15% снимают бафф противника и дают вам уклонение на 10 сек.';
    marquee1 = `${painwheel.marquee1}`;
    marquee2 = `${painwheel.marquee2}`;
@@ -348,4 +348,29 @@ function neuromancer() {
    skullgirls.replaceChildren();
    pageGenerator();
    highlight(m1);
+}
+function masked_menace() {
+   card_name = 'Угроза в маске';
+   aka = 'Угроза';
+   card_src = 'Masked_Menace.png';
+   description = '';
+   ability = '';
+   marquee1 = `${painwheel.marquee1}`;
+   marquee2 = `${painwheel.marquee2}`;
+   prestige_description = `${painwheel.prestige}`;
+   prestige_activation = `${painwheel.p_active}`;
+   at = '12,384';
+   hp = '58,676';
+   atk_stats = ['Атака', 'Проницание', 'Шанс крита', 'Урон крита'];
+   def_stats = ['Не защитник'];
+   build_1_img = 'painwheel/Buer_Overdrive.png';
+   build_2_img = 'painwheel/Pinion_Dash.png';
+   build_3_img = 'painwheel/Gae_Bolga_Stinger.png';
+   build_4_img = 'painwheel/Fracture_Reaper.png';
+   build_1_desc = 'Снижает шкалу блокбастеров врага.';
+   build_2_desc = 'Мета приём.';
+   build_3_desc = 'Повышенный шанс крита.';
+   build_4_desc = 'Может наложить метку смерти.';
+   skullgirls.replaceChildren();
+   pageGenerator();
 }

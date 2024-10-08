@@ -150,15 +150,15 @@ function robocopy() {
    card_name = 'Робокопия';
    aka = 'Робокоп';
    card_src = 'Robocopy.png';
-   description = 'Интересный и неплохой вариант дд Биг Бенда, но слабее Виртуоза. Не рекомендуется прокачивать: нет применения.';
-   ability = 'Любой призыв отключает блокбастеры противника на 20 сек, но эффект снимается если противник использует особый приём. Пока блокбастеры противника отключены, каждые 3 сек получает бешенство и барьер на 10 сек.';
+   description = 'Интересный и неплохой вариант дд Биг Бенда, но слабее Виртуоза. Не рекомендуется прокачивать.';
+   ability = 'При получении смертельного удара, выживает с 3 стаками брони и барьерами на 10 сек. После победы над противником, получает 2 бешенства на 30 сек и 50% к шкале блокбастеров.';
    marquee1 = `${bigband.marquee1}`;
    marquee2 = `${bigband.marquee2}`;
    prestige_description = `${bigband.prestige}`;
    prestige_activation = `${bigband.p_active}`;
    at = '8,717';
    hp = '58,791';
-   atk_stats = ['Атака', 'Проницание', 'Прирост шкалы', 'Криты'];
+   atk_stats = ['Атака', 'Проницание', 'Криты'];
    def_stats = ['Не защитник'];
    build_1_img = 'bigband/Beat_Extend.png';
    build_2_img = 'bigband/Cymbal_Clash.png';
@@ -170,6 +170,7 @@ function robocopy() {
    build_4_desc = 'Шанс дать раскол брони.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m1);
 }
 
 function private_dick() {

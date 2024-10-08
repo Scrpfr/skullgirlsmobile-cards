@@ -12,7 +12,7 @@ function cold_stones() {
    description = 'Имба Беовульф с огромным уроном и постоянно оглушающий врага, качают ему обычно 3 вульфшота. Однозначно стоит алмазить, даже для алмаза уровень атаки вполне хороший. Можно также поставить на защиту, если нечего ставить больше.';
    ability = 'При броске шанс 20% оглушить врага на 6 сек. Оглушённые враги получают 50% дополнительного урона.';
    marquee1 = `${beowulf.marquee1}`;
-   marquee2 = `${beowulf.marquee2} Основной выбор.`;
+   marquee2 = `${beowulf.marquee2}`;
    prestige_description = `${beowulf.prestige}`;
    prestige_activation = `${beowulf.p_active}`;
    at = '10,522';
@@ -34,6 +34,7 @@ function cold_stones() {
    skullgirls.replaceChildren();
    pageGenerator();
    buildLoad();
+   highlight(m2);
 }
 function underdog() {
    card_name = 'Волк отпущения';
@@ -59,6 +60,7 @@ function underdog() {
    build_4_desc = 'Больше урона и ударов под хайпом.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 
 function number_one() {
@@ -68,7 +70,7 @@ function number_one() {
    description = 'Вполне хороший вариант для серебра. Играть можно от блокбастеров-захватов и комбо. Качать можно если вы фанат Беовульфа.';
    ability = 'При активации режима Хайпа, получает ускорение на 15 сек. При активном ускорении, шанс 20% при ударе активировать бешенство на 10 сек.';
    marquee1 = `${beowulf.marquee1}`;
-   marquee2 = `${beowulf.marquee2} Основной выбор.`;
+   marquee2 = `${beowulf.marquee2}`;
    prestige_description = `${beowulf.prestige}`;
    prestige_activation = `${beowulf.p_active}`;
    at = '8,218';
@@ -85,6 +87,7 @@ function number_one() {
    build_4_desc = 'Больше урона и ударов под хайпом.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function hype_man() {
    card_name = 'Показушник';
@@ -93,7 +96,7 @@ function hype_man() {
    description = 'Крутой полу-саппорт, отбирающий шкалу бб врага и дающий её себе и союзникам. Играть можно от блокбастеров-захватов. Вполне хайповый вариант, прокачивать стоит.';
    ability = 'При активации режима Хайпа, союзники в запасе получают +50% к шкале блокбастеров. В режиме хайпа, каждый нанесённый удар забирает 10% шкалы блокбастеров противника.';
    marquee1 = `${beowulf.marquee1}`;
-   marquee2 = `${beowulf.marquee2} Основной выбор.`;
+   marquee2 = `${beowulf.marquee2}`;
    prestige_description = `${beowulf.prestige}`;
    prestige_activation = `${beowulf.p_active}`;
    at = '9,639';
@@ -110,6 +113,7 @@ function hype_man() {
    build_4_desc = 'Больше урона и ударов под хайпом.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function wrestler() {
    card_name = 'Рестлер Х';
@@ -140,13 +144,14 @@ function wrestler() {
    skullgirls.replaceChildren();
    pageGenerator();
    buildLoad();
+   highlight(m2);
 }
 function fan_favorite() {
    card_name = 'Любимец публики';
    aka = 'Любимец';
    card_src = 'Fan_Favorite.png';
-   description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, expedita magnam voluptas distinctio ad voluptatum suscipit similique placeat atque earum itaque voluptate deleniti numquam esse quos eligendi porro quod quis.';
-   ability = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, expedita magnam voluptas distinctio ad voluptatum suscipit similique placeat atque earum itaque';
+   description = '';
+   ability = '';
    marquee1 = `${beowulf.marquee1}`;
    marquee2 = `${beowulf.marquee2}`;
    prestige_description = `${beowulf.prestige}`;
@@ -165,14 +170,67 @@ function fan_favorite() {
    build_4_desc = 'Больше урона и ударов под хайпом.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 
 function dragon_brawler() {
    card_name = 'Кулак дракона';
    aka = 'Кулак';
    card_src = 'Dragon_Brawler.png';
-   description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, expedita magnam voluptas distinctio ad voluptatum suscipit similique placeat atque earum itaque voluptate deleniti numquam esse quos eligendi porro quod quis.';
-   ability = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, expedita magnam voluptas distinctio ad voluptatum suscipit similique placeat atque earum itaque';
+   description = '';
+   ability = '';
+   marquee1 = `${beowulf.marquee1}`;
+   marquee2 = `${beowulf.marquee2}`;
+   prestige_description = `${beowulf.prestige}`;
+   prestige_activation = `${beowulf.p_active}`;
+   at = '11,271';
+   hp = '60,960';
+   atk_stats = [''];
+   def_stats = [''];
+   build_1_img = 'beowulf/WulfShoot.png';
+   build_2_img = 'beowulf/HurtingHurdle.png';
+   build_3_img = 'beowulf/LupinePummel.png';
+   build_4_img = 'beowulf/GeatishTrepak.png';
+   build_1_desc = 'Неотменяемый захват на пол экрана.';
+   build_2_desc = 'Повышенный шанс крита.';
+   build_3_desc = 'Шанс дать увечье и замедление.';
+   build_4_desc = 'Больше урона и ударов под хайпом.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   highlight(m2);
+}
+function freedom_fighter() {
+   card_name = 'Борец за свободу';
+   aka = 'Борец';
+   card_src = 'Freedom_Fighter.png';
+   description = 'Интересная абилка, которая легко контрится в защите. Можно было бы играть за него, оглушая противника просто стоя в блоке, но для Беовульфа это не надо, так как у него очень много неотменяемых захватов, и урона у этой вариации мало. Не рекомендуется прокачивать.';
+   ability = 'При получении удара (включая блок), шанс 10% получить автоблок и наложить раскол брони на 10 сек. Блок ударов блокбастера или особых приёмов оглушают противника на 4 сек и отключают ему блокбастеры на 15 сек.';
+   marquee1 = `${beowulf.marquee1}`;
+   marquee2 = `${beowulf.marquee2}`;
+   prestige_description = `${beowulf.prestige}`;
+   prestige_activation = `${beowulf.p_active}`;
+   at = '9,581';
+   hp = '67,047';
+   atk_stats = ['Не атакующий'];
+   def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Сопрот криту'];
+   build_1_img = 'beowulf/WulfShoot.png';
+   build_2_img = 'beowulf/BeoBurst.png';
+   build_3_img = 'beowulf/LupinePummel.png';
+   build_4_img = 'beowulf/GeatishTrepak.png';
+   build_1_desc = 'Неотменяемый захват на пол экрана.';
+   build_2_desc = 'Прервать атаку противника.';
+   build_3_desc = 'Шанс дать увечье и замедление.';
+   build_4_desc = 'Больше урона и ударов под хайпом.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   highlight(m1);
+}
+function pickle_baller() {
+   card_name = 'Пиклобист';
+   aka = 'Пик';
+   card_src = 'Pickle_Baller.png';
+   description = '';
+   ability = '';
    marquee1 = `${beowulf.marquee1}`;
    marquee2 = `${beowulf.marquee2}`;
    prestige_description = `${beowulf.prestige}`;
@@ -192,31 +250,6 @@ function dragon_brawler() {
    skullgirls.replaceChildren();
    pageGenerator();
 }
-function freedom_fighter() {
-   card_name = 'Борец за свободу';
-   aka = 'Борец';
-   card_src = 'Freedom_Fighter.png';
-   description = 'Интересная абилка, которая легко контрится в защите. Можно было бы играть за него, оглушая противника просто стоя в блоке, но для Беовульфа это не надо, так как у него очень много неотменяемых захватов, и урона у этой вариации мало. Не рекомендуется прокачивать.';
-   ability = 'При получении удара (включая блок), шанс 10% получить автоблок и наложить раскол брони на 10 сек. Блок ударов блокбастера или особых приёмов оглушают противника на 4 сек и отключают ему блокбастеры на 15 сек.';
-   marquee1 = `${beowulf.marquee1} Основной выбор.`;
-   marquee2 = `${beowulf.marquee2}`;
-   prestige_description = `${beowulf.prestige}`;
-   prestige_activation = `${beowulf.p_active}`;
-   at = '9,581';
-   hp = '67,047';
-   atk_stats = ['Не атакующий'];
-   def_stats = ['Здоровье', 'Защита', 'Сопротивление', 'Сопрот криту'];
-   build_1_img = 'beowulf/WulfShoot.png';
-   build_2_img = 'beowulf/BeoBurst.png';
-   build_3_img = 'beowulf/LupinePummel.png';
-   build_4_img = 'beowulf/GeatishTrepak.png';
-   build_1_desc = 'Неотменяемый захват на пол экрана.';
-   build_2_desc = 'Прервать атаку противника.';
-   build_3_desc = 'Шанс дать увечье и замедление.';
-   build_4_desc = 'Больше урона и ударов под хайпом.';
-   skullgirls.replaceChildren();
-   pageGenerator();
-}
 function wulfsbane() {
    card_name = 'Волкодав';
    aka = 'Волк';
@@ -224,7 +257,7 @@ function wulfsbane() {
    description = 'Сильный и популярный вариант Беовульфа, которого можно заполучить в золотой и алмазной быстрой игре Бео. Играют обычно с 3 вульфшотами, которые также дадут врагу блок исцеления, что полезно против Далий, Валентайн (особенно жадной убийце), также броски не могут нанести критический урон, поэтому играют против Пэйнвил. Криты не качают вообще, они не работают на бросках. Рекомендуется алмазить.';
    ability = 'При броске шанс 50% дать увечье и блок исцеления на 10 секунд. 50% дополнительного урона противнику под отрицательными эффектами.';
    marquee1 = `${beowulf.marquee1}`;
-   marquee2 = `${beowulf.marquee2} Основной выбор.`;
+   marquee2 = `${beowulf.marquee2}`;
    prestige_description = `${beowulf.prestige}`;
    prestige_activation = `${beowulf.p_active}`;
    at = '12,960';
@@ -243,6 +276,7 @@ function wulfsbane() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m2);
 }
 function weekend_warrior() {
    card_name = 'Воин на час';
@@ -251,7 +285,7 @@ function weekend_warrior() {
    description = 'Возможно задуманный как деф вариант, очень легко контрится в защите. Но его вторая абилка очень хорошая, поэтому им пользуются в атаке в рифтах. Прокачивать рекомендуется игрокам рифтов. Может использовать как крит билд, чтобы вносить больше урона, можно безкрит для контра Пэйнвилам. Первая абилка тоже неплохая как запасной вариант.';
    ability = 'Раз за матч при здоровье ниже 50%, получит ускорение на 10 секунд и максимальный заряд хайпа. При активации хайпа, снимает все дебаффы и получает иммунитет, неупал и мощную регенерацию на 15 сек.';
    marquee1 = `${beowulf.marquee1}`;
-   marquee2 = `${beowulf.marquee2} Основной выбор.`;
+   marquee2 = `${beowulf.marquee2}`;
    prestige_description = `${beowulf.prestige}`;
    prestige_activation = `${beowulf.p_active}`;
    at = '9,581';
@@ -268,6 +302,7 @@ function weekend_warrior() {
    build_4_desc = 'Больше урона и ударов под хайпом.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 
 function beast_king() {
@@ -277,7 +312,7 @@ function beast_king() {
    description = 'Мета, один из самых сильных персонажей в игре. Можно играть через билд вульфшотов, но в основном играют билдом со стульями, так как с них больше урон. Однозначно качать.';
    ability = 'При нанесении урона больше чем 10% максимальных НР противника, даёт иссушение и проклятье на 10 сек. Бонус 25% к урону за каждый стак дебаффов на любом из персонажей.';
    marquee1 = `${beowulf.marquee1}`;
-   marquee2 = `${beowulf.marquee2} ТОЛЬКО чемпион.`;
+   marquee2 = `${beowulf.marquee2}`;
    prestige_description = `${beowulf.prestige}`;
    prestige_activation = `${beowulf.p_active}`;
    at = '13,152';
@@ -296,13 +331,14 @@ function beast_king() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m2);
 }
 function snake_bite() {
    card_name = 'Укус змеи';
    aka = 'Укус';
    card_src = 'Snake_Bite.png';
-   description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, expedita magnam voluptas distinctio ad voluptatum suscipit similique placeat atque earum itaque voluptate deleniti numquam esse quos eligendi porro quod quis.';
-   ability = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, expedita magnam voluptas distinctio ad voluptatum suscipit similique placeat atque earum itaque';
+   description = '';
+   ability = '';
    marquee1 = `${beowulf.marquee1}`;
    marquee2 = `${beowulf.marquee2}`;
    prestige_description = `${beowulf.prestige}`;
@@ -321,14 +357,15 @@ function snake_bite() {
    build_4_desc = 'Больше урона и ударов под хайпом.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }
 function dark_might() {
    card_name = 'Тёмный навсегда';
    aka = 'Ватман';
    card_src = 'Dark_Might.png';
-   description = 'Можно играть в атаке, но ему нужна либо Тёмная лошадка, либо смерть союзника для реализации абилки, но на высоких рядах ему не хватает урона. Больше ставят в защиту, вторым номером или третьим. В защите также слабоват: не хватает здоровья и проходится персонажами, которые не играют от баффов. Посредственный вариант, качают только Бео мейнеры.';
+   description = 'Не стоит прокачивать: для дд мало атаки, а для деф мало здоровья. Обычно ставят в защиту третьим персонажем, чтобы игрок, убив 2х предшественников, получил неснимаемое проклятье. Но контрится легко: просто вытеснив противника чтобы выпал Тёмный, либо просто задавить всех уроном.';
    ability = 'Пока жив, снимает все баффы врага и накладывает перманентные проклятье и 3 стака всплеска энергии при поражении любого союзника. Если противник под проклятьем, атаки особыми приёмами и блокбастерами неблокируемые и дают непоколебимость на 10 сек.';
-   marquee1 = `${beowulf.marquee1} Основной выбор.`;
+   marquee1 = `${beowulf.marquee1}`;
    marquee2 = `${beowulf.marquee2}`;
    prestige_description = `${beowulf.prestige}`;
    prestige_activation = `${beowulf.p_active}`;
@@ -348,13 +385,14 @@ function dark_might() {
    skullgirls.replaceChildren();
    pageGenerator();
    supports();
+   highlight(m1);
 }
 function ogre_achiever() {
    card_name = 'Огряной зелёный';
    aka = 'Огр';
    card_src = 'Ogre_Achiever.png';
-   description = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, expedita magnam voluptas distinctio ad voluptatum suscipit similique placeat atque earum itaque voluptate deleniti numquam esse quos eligendi porro quod quis.';
-   ability = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, expedita magnam voluptas distinctio ad voluptatum suscipit similique placeat atque earum itaque';
+   description = '';
+   ability = '';
    marquee1 = `${beowulf.marquee1}`;
    marquee2 = `${beowulf.marquee2}`;
    prestige_description = `${beowulf.prestige}`;
@@ -373,4 +411,5 @@ function ogre_achiever() {
    build_4_desc = 'Больше урона и ударов под хайпом.';
    skullgirls.replaceChildren();
    pageGenerator();
+   highlight(m2);
 }

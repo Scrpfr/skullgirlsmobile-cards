@@ -374,3 +374,29 @@ function assassin_greed() {
    pageGenerator();
    highlight(m2);
 }
+function near_death() {
+   card_name = 'Спутница смерти';
+   aka = 'Спутница';
+   card_src = 'Near_Death.png';
+   description = '';
+   ability = '';
+   marquee1 = `${valentine.marquee1}`;
+   marquee2 = `${valentine.marquee2}`;
+   prestige_description = `${valentine.prestige}`;
+   prestige_activation = `${valentine.p_active}`;
+   at = '11,847';
+   hp = '64,032';
+   atk_stats = [''];
+   def_stats = [''];
+   build_1_img = 'valentine/Countervenom_Detox.png';
+   build_2_img = 'valentine/Countervenom_Paralysis.png';
+   build_3_img = 'valentine/Countervenom_Sedative.png';
+   build_4_img = 'valentine/Vial_Hazard_Type_A.png';
+   build_1_desc = 'Шанс снять все баффы.';
+   build_2_desc = 'Шанс оглушить.';
+   build_3_desc = 'Снимает часть шкалы бб.';
+   build_4_desc = 'Снимает часть шкалы бб.';
+   skullgirls.replaceChildren();
+   pageGenerator();
+   highlight(m2);
+}
